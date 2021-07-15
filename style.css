@@ -79,7 +79,7 @@ body {
             rgba(0, 0, 0, 0.95)
         ),
         url("resources/img/bg.jpg");
-    
+
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -130,7 +130,8 @@ body {
     background-color: #ff5f5f;
 }
 
-#news, #projects
+#news,
+#projects,
 #about {
     padding: 2.5% 10% 0% 10%;
 }
@@ -197,7 +198,8 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    #sections,
+    #news,
+    #projects,
     #about {
         padding: 1% 1.5% 0% 1.5%;
     }
