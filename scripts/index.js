@@ -13,7 +13,7 @@ const CARD = {
  * @param {string} imgPath - path to image file to be displayed on the card
  * @param {string} title - title of the card
  * @param {string} subtitle - subtitle to be displayed on the card
- * @param {string} description
+ * @param {string} description - description of the card
  * @param {boolean} showDescription - whether to show description on the card itself
  * @param {string} url - URL pointing to external resources
  * @param {string} urlText - text to display instead of the URL
@@ -76,7 +76,7 @@ function bindToCard(
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToModal(clone, title, subtitle, description);
+        bindToModal(clone, imgPath, title, subtitle, description);
         clone.classList.add("clickable", null);
     }
 
@@ -102,11 +102,12 @@ modal.addEventListener("click", function (e) {
 
 /**
  * @param {Node} element - element that triggers the modal
+ * @param {string} imgPath
  * @param {string} title
  * @param {string} subtitle
  * @param {string} description
  */
-function bindToModal(element, title, subtitle, description) {
+function bindToModal(element, imgPath, title, subtitle, description) {
     if (!element) return false;
 
     element.addEventListener("click", function (e) {
@@ -114,7 +115,9 @@ function bindToModal(element, title, subtitle, description) {
             return;
         }
 
-        modal.querySelector(".modal-header .modal-title").textContent =
+        modal.querySelector(".modal-content .modal-img").textContent =
+            imgPath || "No image";
+        modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
             subtitle || "N/A";
