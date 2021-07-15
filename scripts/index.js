@@ -133,7 +133,7 @@ function bindToModal(element, imgPath, title, subtitle, description) {
 function bindData() {
     const _news = document.querySelector("#news .section-content");
     const _projectsDone = document.querySelector(
-        "#projects-done .section-content"
+        "#projects .section-content"
     );
 
     // Clone the template `div` and populate it with necessary data
@@ -181,8 +181,19 @@ function bindData() {
 bindData();
 
 // Handles button clicks on header navigation
+var news_btn = document.getElementById("news-btn");
 var projects_btn = document.getElementById("projects-btn");
 var about_btn = document.getElementById("about-btn");
+
+news_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "news") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
 
 projects_btn.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
