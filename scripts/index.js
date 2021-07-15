@@ -181,9 +181,18 @@ function bindData() {
 bindData();
 
 // Handles button clicks on header navigation
-var details_btn = document.getElementById("details-btn");
+var projects_btn = document.getElementById("projects-btn");
 var about_btn = document.getElementById("about-btn");
-var return_btn = document.getElementById("return-btn");
+
+projects_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "projects") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
 
 about_btn.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
@@ -193,8 +202,4 @@ about_btn.addEventListener("click", function (e) {
             element.setAttribute("hidden", null);
         }
     });
-
-    return_btn.hidden = false;
-    details_btn.remove();
-    about_btn.remove();
 });
