@@ -58,6 +58,11 @@ body {
 .modal-close {
     width: 15px;
     height: 15px;
+    margin-left: auto;
+}
+
+.modal-img {
+    width: 100%;
 }
 
 .modal-title {
@@ -73,11 +78,14 @@ body {
             rgba(170, 130, 0, 0.05),
             rgba(0, 0, 0, 0.95)
         ),
-        url("resources/img/bg.png");
+        url("resources/img/bg.jpg");
+    
+    height: 100%;
     background-size: cover;
-
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    padding: 10%;
+    padding: 15%;
 }
 
 .header-img {

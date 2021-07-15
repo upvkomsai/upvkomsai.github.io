@@ -7,7 +7,7 @@ const news = [
     {
         title: "UPV Komsai.Org Website Launch",
         date: "July 2, 2021", // date object in string form, for now, contains a dummy string
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut suscipit velit, a vestibulum felis. Vestibulum vestibulum, turpis ut condimentum accumsan, mauris orci fringilla justo, et mattis nibh ipsum sed sem. Aenean ornare libero at lorem tempus ullamcorper. Nam ullamcorper cursus odio, vel consequat ligula sollicitudin quis. Phasellus quis erat sagittis risus bibendum aliquet id pretium nisi.`,
+        content: "Love this new website OMG!",
         img_path:
             "http://mediad.publicbroadcasting.net/p/vpr/files/styles/x_large/public/201808/stack-of-newspapers-istock-bernie_photo.jpg",
     },
@@ -15,9 +15,8 @@ const news = [
 
 const projectsDone = [
     {
-        name: "Zest",
-        date_started: "Oct 2020",
-        date_completed: "Jun 2021",
+        name: "Mockup Website",
+        date_shown: "July 15 2021",
         description: "An innovative approach to organizing your day.",
         img_path: "resources/img/projects/zest.png",
         url: "https://github.com/jvc1019/Zest",

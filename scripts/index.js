@@ -115,7 +115,7 @@ function bindToModal(element, imgPath, title, subtitle, description) {
             return;
         }
 
-        modal.querySelector(".modal-content .modal-img").textContent =
+        modal.querySelector(".modal-content .modal-img").src =
             imgPath || "No image";
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
@@ -165,7 +165,7 @@ function bindData() {
                 true,
                 e.img_path,
                 e.name,
-                `${e.date_started} - ${e.date_completed || "Present"}`,
+                e.date_shown,
                 e.description,
                 true,
                 e.url,
