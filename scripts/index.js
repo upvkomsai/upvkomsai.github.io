@@ -127,15 +127,16 @@ function bindToModal(element, imgPath, title, subtitle, description, url, urlTex
             description || "No description";
         modal.hidden = false;
 
-        if (url) {
-            var link = document.createElement("a");
+        // Bug please fix this. Ty
+        // if (url) {
+        //     var link = document.createElement("a");
             
-            link.class="modal-url";
-            link.href = url;
-            link.textContent = urlText;
+        //     link.class="modal-url";
+        //     link.href = url;
+        //     link.textContent = urlText;
     
-            modal.querySelector(`.modal-content`).appendChild(link);
-        }
+        //     element.querySelector(`.modal-content`).appendChild(link);
+        // }
     });
 }
 
