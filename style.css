@@ -1,15 +1,39 @@
+/* 
+Color Values
+To easily change colors across all uses, change colors here.
+To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
+*/
+:root {
+    --noScriptColor: cyan;
+    --headerColor: #53acdf;
+    --headerBackground: rgba(0, 0, 0, 0.75);
+    --cardColor: #5be9d6;
+    --cardbackground: #eeeeee;
+    --cardBorder: black;
+    --subtitleColor: dimgray;
+    --aboutColor: #434244;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #e6e6e6;
-    margin: 0;
+    background-image: linear-gradient(
+            rgba(170, 130, 0, 0.05),
+            rgba(0, 0, 0, 0.95)
+        ),
+        url("resources/img/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px 0px 10px 10px;
 }
 
 .noscript {
-    background-color: red;
-    color: #eeeeee;
+    background-color: var(--noScriptColor);
+    color: var(--cardbackground);
     font: 600 1em "Montserrat", sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -42,12 +66,14 @@ body {
 
 .modal-box {
     margin: 15% auto;
-    width: 50%;
-    padding: 10px 15px 10px 15px;
-    background-color: #eeeeee;
+    width: 35%;
+    padding: 10px 25px 10px 25px;
+    background-color: var(--cardbackground);
 
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     border-radius: 6px;
+    border-width: 10px;
+    border-color: var(--cardBorder);
 }
 
 .modal-header {
@@ -74,16 +100,9 @@ body {
 }
 
 #header {
-    background-image: linear-gradient(
-            rgba(170, 130, 0, 0.05),
-            rgba(0, 0, 0, 0.95)
-        ),
-        url("resources/img/bg.jpg");
-
-    height: 100%;
+    background-color: var(--headerBackground);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100%;
     text-align: center;
     padding: 15%;
 }
@@ -98,8 +117,8 @@ body {
 }
 
 .header-content {
-    color: #eeeeee;
-    font-family: "Montserrat", sans-serif;
+    color: var(--cardbackground);
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 .header-content > h1 {
@@ -115,19 +134,19 @@ body {
     margin: 5px;
     padding: 10px;
     border-radius: 6px;
-    border: 2px solid #ff5f5f;
+    border: 2px solid var(--cardColor);
 
     font-size: 1em;
     font-weight: 500;
-    color: #ff5f5f;
+    color: var(--cardColor);
 
     text-decoration-line: none;
 }
 
 .header-content a:hover {
     transition: all 0.4s ease;
-    color: #eeeeee;
-    background-color: #ff5f5f;
+    color: var(--cardbackground);
+    background-color: var(--cardColor);
 }
 
 #news,
@@ -138,20 +157,19 @@ body {
 
 .section {
     margin: 0 2.5% 2.5% 2.5%;
-    padding: 15px;
-    display: grid;
-    grid-template-columns: 25% 75%;
+    padding: 25px;
 }
 
 .section-heading {
     padding: 10px 0px 10px 0px;
-    background-color: #e6e6e6;
+    background-color: inherit;
     position: sticky;
     position: -webkit-sticky;
     z-index: 1;
     top: 0;
-    color: #df5353;
+    color: var(--headerColor);
     font: 700 1.5em "Montserrat", sans-serif;
+    font-size: xx-large;
     margin-top: 0;
 }
 
@@ -229,7 +247,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: #eeeeee;
+    background-color: var(--cardbackground);
 }
 
 .card:hover {
@@ -264,7 +282,7 @@ body {
 
 .card-v-img {
     margin: -10px -15px 0px -15px;
-    background-color: #ff5f5f;
+    background-color: var(--cardColor);
 }
 
 .card-h-img > img,
@@ -280,7 +298,7 @@ body {
 .card-h-title,
 .card-v-title,
 .card-sm-title {
-    color: #df5353;
+    color: var(--headerColor);
     font: 600 1.2em "Montserrat", sans-serif;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -295,14 +313,14 @@ body {
 .card-v-subtitle {
     font: 600 1em "Source Sans Pro", sans-serif;
     margin-top: 0;
-    color: dimgray;
+    color: var(--subtitleColor);
 }
 
 .modal-description,
 .card-h-description,
 .card-v-description {
     font: 400 1em "Source Sans Pro", sans-serif;
-    color: #434244;
+    color: var(--aboutColor);
 }
 
 .card-h-description,
@@ -319,28 +337,28 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    border: 1px solid #ff5f5f;
+    border: 1px solid var(--cardColor);
     border-radius: 6px;
 
     font: 600 1em "Source Sans Pro", sans-serif;
-    color: #ff5f5f;
+    color: var(--cardColor);
     text-decoration-line: none;
 }
 
 .modal-close:hover,
 .card a:hover {
     transition: all 0.4s ease;
-    color: #eeeeee;
-    background-color: #ff5f5f;
+    color: var(--cardbackground);
+    background-color: var(--cardColor);
 }
 
 #about p {
     font: 400 1em "Source Sans Pro", sans-serif;
-    color: #434244;
+    color: var(--aboutColor);
     text-align: justify;
 }
 
 #about a {
-    color: #434244;
+    color: var(--aboutColor);
     text-decoration-line: none;
 }
