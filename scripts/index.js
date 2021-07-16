@@ -76,7 +76,7 @@ function bindToCard(
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToModal(clone, imgPath, title, subtitle, description);
+        bindToModal(clone, imgPath, title, subtitle, description, url, urlText);
         clone.classList.add("clickable", null);
     }
 
@@ -106,8 +106,10 @@ modal.addEventListener("click", function (e) {
  * @param {string} title
  * @param {string} subtitle
  * @param {string} description
+ * @param {string} url
+ * @param {string} urlText
  */
-function bindToModal(element, imgPath, title, subtitle, description) {
+function bindToModal(element, imgPath, title, subtitle, description, url, urlText) {
     if (!element) return false;
 
     element.addEventListener("click", function (e) {
@@ -124,6 +126,16 @@ function bindToModal(element, imgPath, title, subtitle, description) {
         modal.querySelector(".modal-content .modal-description").textContent =
             description || "No description";
         modal.hidden = false;
+
+        if (url) {
+            var link = document.createElement("a");
+            
+            link.class="modal-url";
+            link.href = url;
+            link.textContent = urlText;
+    
+            modal.querySelector(`.modal-content`).appendChild(link);
+        }
     });
 }
 
@@ -149,7 +161,9 @@ function bindData() {
                 e.title,
                 e.date,
                 e.content,
-                true
+                true,
+                e.url,
+                e.urlText || "More Info"
             );
 
             _news.append(card);
@@ -169,7 +183,7 @@ function bindData() {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "Project link"
+                e.urlText || "More Info"
             );
             _projectsDone.append(card);
         });
