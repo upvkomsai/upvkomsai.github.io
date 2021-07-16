@@ -333,6 +333,7 @@ body {
 }
 
 .modal-close,
+.modal-url,
 .card a {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -346,6 +347,7 @@ body {
 }
 
 .modal-close:hover,
+.modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
     color: var(--cardbackground);
