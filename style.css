@@ -364,3 +364,14 @@ body {
     color: var(--aboutColor);
     text-decoration-line: none;
 }
+
+.footer-content{
+    font: 400 1em "Source Sans Pro", sans-serif;
+    color: var(--headerColor);
+    text-align: center;
+}
+
+.footer content .footer-links a{
+    display:inline-block;
+	line-height: 1.8;
+}
