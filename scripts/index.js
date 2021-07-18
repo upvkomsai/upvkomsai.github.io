@@ -39,7 +39,12 @@ function bindToCard(
     if (imgPath) {
         var img = document.createElement("img");
         img.src = imgPath;
-        img.alt = title || "No description provided.";
+        img.alt = title || "No image provided.";
+        clone.querySelector(`.${layout}-img`).appendChild(img);
+    } else {
+        var img = document.createElement("img");
+        img.src = imgPath || "resources/img/logo.png";
+        img.alt = title || "No image provided.";
         clone.querySelector(`.${layout}-img`).appendChild(img);
     }
 
@@ -118,7 +123,7 @@ function bindToModal(element, imgPath, title, subtitle, description, url, urlTex
         }
 
         modal.querySelector(".modal-content .modal-img").src =
-            imgPath || "No image";
+            imgPath || "resources/img/logo.png";
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
@@ -128,15 +133,17 @@ function bindToModal(element, imgPath, title, subtitle, description, url, urlTex
         modal.hidden = false;
 
         // Bug please fix this. Ty
-        // if (url) {
-        //     var link = document.createElement("a");
+        if (url) {
+            var link = document.createElement("a");
             
-        //     link.class="modal-url";
-        //     link.href = url;
-        //     link.textContent = urlText;
+            link.class="modal-url";
+            link.href = url;
+            link.textContent = urlText;
     
-        //     element.querySelector(`.modal-content`).appendChild(link);
-        // }
+            element.querySelector(`.modal-content`).appendChild(link);
+        } else {
+            
+        }
     });
 }
 
@@ -196,11 +203,26 @@ function bindData() {
 bindData();
 
 // Handles button clicks on header navigation
+// When adding new pages, create a new 'btn' for the header and a new 'link' for the footer, then duplicate the code below
 var news_btn = document.getElementById("news-btn");
 var projects_btn = document.getElementById("projects-btn");
 var about_btn = document.getElementById("about-btn");
 
+var news_link = document.getElementById("news-link");
+var projects_link = document.getElementById("projects-link");
+var about_link = document.getElementById("about-link");
+
 news_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "news") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+news_link.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
         if (element.id === "news") {
             element.removeAttribute("hidden");
@@ -220,7 +242,27 @@ projects_btn.addEventListener("click", function (e) {
     });
 });
 
+projects_link.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "projects") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
 about_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "about") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+about_link.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
         if (element.id === "about") {
             element.removeAttribute("hidden");
