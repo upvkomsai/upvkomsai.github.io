@@ -191,8 +191,8 @@ body {
 .section-heading {
     padding: 10px 0px 10px 0px;
     background-color: inherit;
-    position: sticky;
-    position: -webkit-sticky;
+    /* position: sticky;
+    position: -webkit-sticky; */
     z-index: 1;
     top: 0;
     color: var(--headerColor);
