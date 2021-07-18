@@ -8,13 +8,14 @@ const news = [
         title: "UPV Komsai.Org Website Launch",
         date: "July 30, 2021",
         content: "UPV Komsai.Org now has an official website. Love this new website OMG!",
-        img_path: "resources/img/logo.png",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
     },
     {
-        title: "UPV Komsai.Org Website Launch",
+        title: "CONGRATULATIONS UPV B.S. in Computer Science Passers!!!",
         date: "July 16, 2021",
         content: "CONGRATULATIONS UPV B.S. in Computer Science Passers!!! UPV Komsai.Org is here to welcome you to a community where interactions between Bits and Bytes are the norm! We fully support your journey towards becoming a future Computer Scientist, Software Engineer, Data Analyst, or any other professional. Choosing this course will be something you are not going to regret as it will aid you in gaining a better understanding of the different fields of computer knowledge. We hope to meet you this upcoming academic year KOMSAI FRESHIES!!! Stay safe!  We kindly ask you to fill out the form below so we can know you better.",
-        img_path: "resources/img/logo.png",
+        img_path: "resources/img/news/WelcomePassers.gif",
         url: "https://forms.gle/Eahpzh83uzHXgWBd6",
         urlText: "UPV BSCS Qualifiers Form",
     },
@@ -34,10 +35,11 @@ const news = [
 
 const projectsDone = [
     {
-        name: "Mockup Website",
+        name: "Official Website",
         date_shown: "July 15, 2021",
-        description: "An innovative approach to organizing your day.",
-        img_path: "resources/img/logo.png",
+        description: "UPV Komsai.Org now has an official website. It started as a plan years ago, and eventually the organization finally made it happen. With a website, the organization can finally spread its wings outside its limitations. Here's to a new way of communication.",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
     },
     {
         name: "Kom E-Con 2021",
