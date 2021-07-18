@@ -8,7 +8,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     --headerColor: #53acdf;
     --headerBackground: rgba(0, 0, 0, 0.75);
     --cardColor: #5be9d6;
-    --cardbackground: #eeeeee;
+    --cardBackground: #eeeeee;
     --cardBorder: black;
     --subtitleColor: dimgray;
     --aboutColor: #434244;
@@ -33,7 +33,7 @@ body {
 
 .noscript {
     background-color: var(--noScriptColor);
-    color: var(--cardbackground);
+    color: var(--cardBackground);
     font: 600 1em "Montserrat", sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -68,12 +68,40 @@ body {
     margin: 15% auto;
     width: 35%;
     padding: 10px 25px 10px 25px;
-    background-color: var(--cardbackground);
+    background-color: var(--cardBackground);
 
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     border-radius: 6px;
     border-width: 10px;
     border-color: var(--cardBorder);
+}
+
+@media screen and (max-width: 992px) {
+    .modal-box {
+        margin: 15% auto;
+        width: 50%;
+        padding: 10px 15px 10px 15px;
+        background-color: var(--cardBackground);
+    
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+        border-radius: 6px;
+        border-width: 10px;
+        border-color: var(--cardBorder);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal-box {
+        margin: 15% auto;
+        width: 80%;
+        padding: 10px 15px 10px 15px;
+        background-color: var(--cardBackground);
+    
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+        border-radius: 6px;
+        border-width: 5px;
+        border-color: var(--cardBorder);
+    }
 }
 
 .modal-header {
@@ -117,7 +145,7 @@ body {
 }
 
 .header-content {
-    color: var(--cardbackground);
+    color: var(--cardBackground);
     font-family: "Trebuchet MS", sans-serif;
 }
 
@@ -145,7 +173,7 @@ body {
 
 .header-content a:hover {
     transition: all 0.4s ease;
-    color: var(--cardbackground);
+    color: var(--cardBackground);
     background-color: var(--cardColor);
 }
 
@@ -247,7 +275,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: var(--cardbackground);
+    background-color: var(--cardBackground);
 }
 
 .card:hover {
@@ -333,8 +361,7 @@ body {
 }
 
 .modal-close,
-.modal-url,
-.card a {
+.modal-url {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
@@ -346,12 +373,30 @@ body {
     text-decoration-line: none;
 }
 
+.card a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid var(--cardBackground);
+    border-radius: 6px;
+
+    font: 600 1em "Source Sans Pro", sans-serif;
+    color: var(--cardBackground);
+    background-color: var(--headerColor);
+    text-decoration-line: none;
+}
+
 .modal-close:hover,
-.modal-url:hover,
+.modal-url:hover {
+    transition: all 0.4s ease;
+    color: var(--cardBackground);
+    background-color: var(--cardColor);
+}
+
 .card a:hover {
     transition: all 0.4s ease;
-    color: var(--cardbackground);
-    background-color: var(--cardColor);
+    color: var(--headerColor);
+    background-color: var(--cardBackground);
 }
 
 #about p {
@@ -367,11 +412,20 @@ body {
 
 .footer-content{
     font: 400 1em "Source Sans Pro", sans-serif;
-    color: var(--headerColor);
+    color: var(--cardColor);
     text-align: center;
 }
 
-.footer content .footer-links a{
+.footer content,
+.footer-links a{
     display:inline-block;
 	line-height: 1.8;
+    color: var(--cardColor);
+}
+
+.footer content,
+.footer-links a:hover{
+    display:inline-block;
+	line-height: 1.8;
+    color: var(--cardBackground);
 }
