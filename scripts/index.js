@@ -114,7 +114,15 @@ modal.addEventListener("click", function (e) {
  * @param {string} url
  * @param {string} urlText
  */
-function bindToModal(element, imgPath, title, subtitle, description, url, urlText) {
+function bindToModal(
+    element,
+    imgPath,
+    title,
+    subtitle,
+    description,
+    url,
+    urlText
+) {
     if (!element) return false;
 
     element.addEventListener("click", function (e) {
@@ -132,17 +140,18 @@ function bindToModal(element, imgPath, title, subtitle, description, url, urlTex
             description || "No description";
         modal.hidden = false;
 
-        // Bug please fix this. Ty
         if (url) {
-            var link = document.createElement("a");
-            
-            link.class="modal-url";
+            var link = modal.querySelector(".modal-url");
+
             link.href = url;
             link.textContent = urlText;
-    
-            element.querySelector(`.modal-content`).appendChild(link);
+            link.hidden = false;
         } else {
-            
+            var link = modal.querySelector(".modal-url");
+
+            link.href = "#";
+            link.textContent = "";
+            link.hidden = true;
         }
     });
 }
@@ -152,9 +161,7 @@ function bindToModal(element, imgPath, title, subtitle, description, url, urlTex
  */
 function bindData() {
     const _news = document.querySelector("#news .section-content");
-    const _projectsDone = document.querySelector(
-        "#projects .section-content"
-    );
+    const _projectsDone = document.querySelector("#projects .section-content");
 
     // Clone the template `div` and populate it with necessary data
 
