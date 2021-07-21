@@ -114,9 +114,6 @@ modal.addEventListener("click", function (e) {
  * @param {string} url
  * @param {string} urlText
  */
-<<<<<<< HEAD
-function bindToModal(element, imgPath, title, subtitle, description, url, urlText) {
-=======
 function bindToModal(
     element,
     imgPath,
@@ -126,7 +123,6 @@ function bindToModal(
     url,
     urlText
 ) {
->>>>>>> ddbd8469079d20eee3524d5748346c8c7cadbd9c
     if (!element) return false;
 
     element.addEventListener("click", function (e) {
@@ -144,19 +140,6 @@ function bindToModal(
             description || "No description";
         modal.hidden = false;
 
-<<<<<<< HEAD
-        // Bug please fix this. Ty
-        if (url) {
-            var link = document.createElement("a");
-            
-            link.class="modal-url";
-            link.href = url;
-            link.textContent = urlText;
-    
-            element.querySelector(`.modal-content`).appendChild(link);
-        } else {
-            
-=======
         if (url) {
             var link = modal.querySelector(".modal-url");
 
@@ -169,7 +152,6 @@ function bindToModal(
             link.href = "#";
             link.textContent = "";
             link.hidden = true;
->>>>>>> ddbd8469079d20eee3524d5748346c8c7cadbd9c
         }
     });
 }
