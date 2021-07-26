@@ -43,7 +43,7 @@ function bindToCard(
         clone.querySelector(`.${layout}-img`).appendChild(img);
     } else {
         var img = document.createElement("img");
-        img.src = imgPath || "resources/img/logo.png";
+        img.src = "resources/img/logo.png";
         img.alt = title || "No image provided.";
         clone.querySelector(`.${layout}-img`).appendChild(img);
     }

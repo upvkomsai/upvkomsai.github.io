@@ -4,12 +4,12 @@ To easily change colors across all uses, change colors here.
 To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
-    --noScriptColor: #6FFFE9;
+    --noScriptColor: #0B132B;
     --headerColor: #5BC0BE;
     --headerBackground:#0B132B;
     --cardColor: #3A506B;
-    --cardBackground: rgb(255, 255, 255);
-    --cardBorder: black;
+    --cardBackground: rgb(216, 229, 247);
+    --cardBorder: #6FFFE9;
     --subtitleColor: dimgray;
     --aboutColor: #434244;
 }
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #1C2541;
+    background-color: #0B132B;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -124,21 +124,20 @@ body {
 }
 
 .header-img {
-    overflow:auto;
+    overflow: auto;
     padding: 10px;
     background-color: var(--headerBackground);
 }
 
 .header-img img {
     float: left;
-    width: 70px;
-    height: 70px;
+    max-width: 100px;
 }
 
 .header-img h1 {
     position: relative;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     color: var(--cardBackground);
     font-family: "Montserrat", sans-serif;
 }
@@ -315,7 +314,7 @@ body {
 .card-h-title,
 .card-v-title,
 .card-sm-title {
-    color: var(--headerColor);
+    color: var(--cardColor);
     font: 600 1.2em "Montserrat", sans-serif;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -358,7 +357,8 @@ body {
     border-radius: 6px;
 
     font: 600 1em "Source Sans Pro", sans-serif;
-    color: var(--cardColor);
+    color: var(--cardBackground);
+    background-color: var(--cardColor);
     text-decoration-line: none;
 }
 
@@ -371,21 +371,23 @@ body {
 
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
-    background-color: var(--headerColor);
+    background-color: var(--cardColor);
     text-decoration-line: none;
 }
 
 .modal-close:hover,
 .modal-url:hover {
     transition: all 0.4s ease;
-    color: var(--cardBackground);
-    background-color: var(--cardColor);
+    color: var(--cardColor);
+    background-color: var(--cardBackground);
+    border-color: var(--cardColor);
 }
 
 .card a:hover {
     transition: all 0.4s ease;
-    color: var(--headerColor);
+    color: var(--cardColor);
     background-color: var(--cardBackground);
+    border-color: var(--cardColor);
 }
 
 #about p {
