@@ -6,9 +6,9 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 :root {
     --noScriptColor: cyan;
     --headerColor: #53acdf;
-    --headerBackground: rgba(0, 0, 0, 0.75);
+    --headerBackground:#0B132B;
     --cardColor: #5be9d6;
-    --cardBackground: black;
+    --cardBackground: rgb(255, 255, 255);
     --cardBorder: black;
     --subtitleColor: dimgray;
     --aboutColor: #434244;
@@ -19,11 +19,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(
-            rgba(170, 130, 0, 0.05),
-            rgba(0, 0, 0, 0.95)
-        ),
-        url("resources/img/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
+    background-color: #1C2541;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -127,35 +123,32 @@ body {
     white-space: pre-line;
 }
 
-#header {
-    background-color: var(--headerBackground);
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-    padding: 15%;
-}
-
 .header-img {
-    text-align: center;
+    overflow:auto;
+    padding: 10px;
+    background-color: var(--headerBackground);
 }
 
-.header-img > img {
-    max-width: 250px;
-    border-radius: 50%;
+.header-img img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.header-img h1 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: var(--cardBackground);
+    font-family: "Montserrat", sans-serif;
 }
 
 .header-content {
-    color: var(--cardBackground);
-    font-family: "Trebuchet MS", sans-serif;
-}
-
-.header-content > h1 {
-    font-size: 2em;
-    font-weight: 600;
+    padding: 20px;
 }
 
 .header-content > p {
-    font: 400 1.2em "Source Sans Pro", sans-serif;
+    font: 400 1.2em "Montserrat", sans-serif;
 }
 
 .header-content a {
