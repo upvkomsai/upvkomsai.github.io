@@ -3,11 +3,35 @@ const PLACEHOLDER_IMAGE = {
     PROJECTS_DONE: null,
 };
 
+const homeNews = [
+    {
+        title: "UPV Komsai.Org Website Launch",
+        date: "July 30, 2021",
+        content: "UPV Komsai.Org now has an official website. Love this new website OMG! Check it out!!!",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "CONGRATULATIONS UPV B.S. in Computer Science Passers!!!",
+        date: "July 16, 2021",
+        content: "CONGRATULATIONS UPV B.S. in Computer Science Passers!!! UPV Komsai.Org is here to welcome you to a community where interactions between Bits and Bytes are the norm! We fully support your journey towards becoming a future Computer Scientist, Software Engineer, Data Analyst, or any other professional. Choosing this course will be something you are not going to regret as it will aid you in gaining a better understanding of the different fields of computer knowledge. We hope to meet you this upcoming academic year KOMSAI FRESHIES!!! Stay safe!  We kindly ask you to fill out the form below so we can know you better.",
+        img_path: "resources/img/news/WelcomePassers.gif",
+        url: "https://forms.gle/Eahpzh83uzHXgWBd6",
+        urlText: "UPV BSCS Qualifiers Form",
+    },
+    {
+        title: "Congratulations on Finishing the Semester!",
+        date: "July 7, 2021",
+        content: "We would like to congratulate everyone (and we mean every single one) who has finally completed this 2nd semester of AY 2020 - 2021. It was not an easy feat, but still, you managed to exert 💪 a lot of effort and perseverance despite the challenges we have faced in these trying times. Despite the immediate shift to remote learning, you were able to finish your academic requirements with 🏆 Honor and Excellence 🏆 which is what a UP student should be. UPV Komsai.Org wishes all of you a big Congratulations!!! 🤝 . PADAYON 👊 mga Iskos and Iskas!!! 👏👏👏",
+        img_path: "resources/img/news/Congrats_2ndSem.png",
+    },
+];
+
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
         date: "July 30, 2021",
-        content: "UPV Komsai.Org now has an official website. Love this new website OMG!",
+        content: "UPV Komsai.Org now has an official website. Love this new website OMG! Check it out!!!",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -30,6 +54,28 @@ const news = [
         date: "July 7, 2021",
         content: "🏆 Congratulations 🏆 to all the CAS University and College Scholars for the 1st Semester of A.Y. 2020 - 2021!!! ❤️❤️❤️",
         img_path: "resources/img/news/CAS_Honorific_Scholars.png",
+    },
+];
+
+const homeProjects = [
+    {
+        name: "Official Website",
+        date_shown: "July 15, 2021",
+        description: "UPV Komsai.Org now has an official website. It started as a plan years ago, and eventually the organization finally made it happen. With a website, the organization can finally spread its wings outside its limitations. Here's to a new way of communication.",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        name: "Kom E-Con 2021",
+        date_shown: "May 7, 2021",
+        description: "Learning something new every day is never a bad thing! (unless it's something evil, please unlearn it /srs) Take your chances with Kom E-Con 2021 to learn awesome information about machine learning, telecommunications, cybersecurity, library and information science, and more. Join us on May 7, 2021 (Friday) from 9:00 AM - 5:00 PM, and experience new things with our amazing speakers. We will very much appreciate you joining us! See you there!",
+        img_path: "resources/img/projects/Kom_E-Con_2021.gif",
+    },
+    {
+        name: "Komsai Week 2021",
+        date_shown: "May 3-8, 2021",
+        description: "Tired of staring at your screen for the whole day just doing acads??? How about the idea of having a little break from schoolwork (just for a week) and make staring at your screen more fun!!! You can still work at night, right? It's time to stretch those fingers and rack up those remaining brain cells (or whatever is left of it) in this year's Komsai Week!!! Join us from May 3 - 8, 2021 for exciting games, activities, and more. We've got it all for you!!! Will it involve hacking NASA or the creation of your robot best friend? Who knows! Find that out yourself.",
+        img_path: "resources/img/projects/Komsai_Week_2021.gif",
     },
 ];
 

@@ -160,10 +160,32 @@ function bindToModal(
  * Binds the data to each subsection
  */
 function bindData() {
+    const _homeNews = document.querySelector("#home-news .section-content");
     const _news = document.querySelector("#news .section-content");
+    const _homeProjects= document.querySelector("#home-projects .section-content");
     const _projectsDone = document.querySelector("#projects .section-content");
 
     // Clone the template `div` and populate it with necessary data
+
+    if (homeNews.length) {
+        _homeNews.querySelector(".nodata").remove();
+
+        homeNews.forEach(function (e) {
+            var card = bindToCard(
+                CARD.VERTICAL,
+                true,
+                e.img_path,
+                e.title,
+                e.date,
+                e.content,
+                true,
+                e.url,
+                e.urlText || "More Info"
+            );
+
+            _homeNews.append(card);
+        });
+    }
 
     if (news.length) {
         _news.querySelector(".nodata").remove();
@@ -182,6 +204,25 @@ function bindData() {
             );
 
             _news.append(card);
+        });
+    }
+
+    if (homeProjects.length) {
+        _homeProjects.querySelector(".nodata").remove();
+
+        homeProjects.forEach(function (e) {
+            var card = bindToCard(
+                CARD.VERTICAL,
+                true,
+                e.img_path,
+                e.name,
+                e.date_shown,
+                e.description,
+                true,
+                e.url,
+                e.urlText || "More Info"
+            );
+            _homeProjects.append(card);
         });
     }
 
@@ -213,10 +254,12 @@ bindData();
 // When adding new pages, create a new 'btn' for the header and a new 'link' for the footer, then duplicate the code below
 var news_btn = document.getElementById("news-btn");
 var projects_btn = document.getElementById("projects-btn");
+var gallery_btn = document.getElementById("gallery-btn");
 var about_btn = document.getElementById("about-btn");
 
 var news_link = document.getElementById("news-link");
 var projects_link = document.getElementById("projects-link");
+var gallery_link = document.getElementById("gallery-link");
 var about_link = document.getElementById("about-link");
 
 news_btn.addEventListener("click", function (e) {
@@ -252,6 +295,26 @@ projects_btn.addEventListener("click", function (e) {
 projects_link.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
         if (element.id === "projects") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+gallery_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "gallery") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+gallery_link.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "gallery") {
             element.removeAttribute("hidden");
         } else {
             element.setAttribute("hidden", null);

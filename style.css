@@ -24,7 +24,6 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin: 0px 0px 10px 10px;
 }
 
 .noscript {
@@ -38,6 +37,7 @@ body {
 
 .nodata {
     font: 600 1em "Montserrat", sans-serif;
+    color: white;
 }
 
 @keyframes blur {
@@ -165,10 +165,16 @@ body {
     background-color: var(--cardColor);
 }
 
+#featured,
+#home-news,
+#home-projects,
+#home-gallery,
+#home-about,
 #news,
 #projects,
+#gallery,
 #about {
-    padding: 2.5% 10% 0% 10%;
+    padding: 2.5% 5% 0% 5%;
 }
 
 .section {
