@@ -4,10 +4,10 @@ To easily change colors across all uses, change colors here.
 To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
-    --noScriptColor: cyan;
-    --headerColor: #53acdf;
+    --noScriptColor: #6FFFE9;
+    --headerColor: #5BC0BE;
     --headerBackground:#0B132B;
-    --cardColor: #5be9d6;
+    --cardColor: #3A506B;
     --cardBackground: rgb(255, 255, 255);
     --cardBorder: black;
     --subtitleColor: dimgray;
@@ -144,18 +144,14 @@ body {
 }
 
 .header-content {
+    background-color: var(--headerColor);
     padding: 20px;
-}
-
-.header-content > p {
-    font: 400 1.2em "Montserrat", sans-serif;
+    font: 15px "Montserrat", sans-serif;
 }
 
 .header-content a {
     margin: 5px;
     padding: 10px;
-    border-radius: 6px;
-    border: 2px solid var(--cardColor);
 
     font-size: 1em;
     font-weight: 500;
