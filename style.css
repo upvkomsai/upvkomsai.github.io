@@ -4,14 +4,14 @@ To easily change colors across all uses, change colors here.
 To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
-    --noScriptColor: #0B132B;
+    --noScriptColor: #6FFFE9;
     --headerColor: #5BC0BE;
     --headerBackground:#0B132B;
-    --cardColor: #3A506B;
-    --cardBackground: rgb(216, 229, 247);
-    --cardBorder: #6FFFE9;
-    --subtitleColor: dimgray;
-    --aboutColor: #434244;
+    --cardColor: #0B132B;
+    --cardBackground: #0B132B;
+    --cardBorder: white;
+    --subtitleColor: #3A506B;
+    --aboutColor: white;
 }
 
 html {
@@ -19,11 +19,12 @@ html {
 }
 
 body {
-    background-color: #0B132B;
+    background-color: #1C2541;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .noscript {
@@ -54,9 +55,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-
     animation: blur 0.5s ease 0s 1 normal forwards;
-
     overflow: auto;
 }
 
@@ -65,7 +64,6 @@ body {
     width: 35%;
     padding: 10px 25px 10px 25px;
     background-color: var(--cardBackground);
-
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     border-radius: 6px;
     border-width: 10px;
@@ -78,7 +76,6 @@ body {
         width: 50%;
         padding: 10px 15px 10px 15px;
         background-color: var(--cardBackground);
-    
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
         border-radius: 6px;
         border-width: 10px;
@@ -92,7 +89,6 @@ body {
         width: 80%;
         padding: 10px 15px 10px 15px;
         background-color: var(--cardBackground);
-    
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
         border-radius: 6px;
         border-width: 5px;
@@ -123,46 +119,43 @@ body {
     white-space: pre-line;
 }
 
-.header-img {
-    overflow: auto;
-    padding: 10px;
-    background-color: var(--headerBackground);
+.header {
+    overflow: hidden;
+    width:  100%;
+    height:  75px;
+    background-color: #0b132b;
 }
 
-.header-img img {
-    float: left;
-    max-width: 100px;
+.header img {
+    float:  left;
+    width: 50px;
+    padding:  15px 10px;
 }
 
-.header-img h1 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    color: var(--cardBackground);
-    font-family: "Montserrat", sans-serif;
+.header h1 {
+    float:  left;
+    font-family: "Courier New", sans-serif;
+    font-size:  1.3em; 
+    line-height: 50px;
+    color: white;
 }
 
-.header-content {
-    background-color: var(--headerColor);
-    padding: 20px;
-    font: 15px "Montserrat", sans-serif;
-}
-
-.header-content a {
-    margin: 5px;
-    padding: 10px;
-
-    font-size: 1em;
-    font-weight: 500;
-    color: var(--cardColor);
-
+.header a {
+    float:  right;
+    padding: 0 25px;
+    line-height: 75.5px;
+    color: white;
     text-decoration-line: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:  1.15em;
+    font-weight: 300;
 }
 
-.header-content a:hover {
-    transition: all 0.4s ease;
-    color: var(--cardBackground);
-    background-color: var(--cardColor);
+.header a:hover {
+    color: #0b132b;
+    background-color: #5BC0BE;
+    transition: 0.5s;
+    font-weight: normal;
 }
 
 #featured,
@@ -266,7 +259,6 @@ body {
 .card {
     margin: 10px;
     padding: 10px 15px 10px 15px;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 3px;
     border-radius: 6px;
     overflow: hidden;
     background-color: var(--cardBackground);
@@ -275,7 +267,6 @@ body {
 .card:hover {
     transition: all 0.4s ease;
     transform: scale(1.02);
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .card-h {
@@ -320,7 +311,7 @@ body {
 .card-h-title,
 .card-v-title,
 .card-sm-title {
-    color: var(--cardColor);
+    color: var(--headerColor);
     font: 600 1.2em "Montserrat", sans-serif;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -374,10 +365,9 @@ body {
     padding: 5px;
     border: 1px solid var(--cardBackground);
     border-radius: 6px;
-
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
-    background-color: var(--cardColor);
+    background-color: var(--headerColor);
     text-decoration-line: none;
 }
 
@@ -391,9 +381,8 @@ body {
 
 .card a:hover {
     transition: all 0.4s ease;
-    color: var(--cardColor);
-    background-color: var(--cardBackground);
-    border-color: var(--cardColor);
+    color: #5BC0BE;
+    background-color: #1C2541;
 }
 
 #about p {
