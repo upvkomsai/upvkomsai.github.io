@@ -439,7 +439,7 @@ body {
     
     .r-footer {
         font-family: "Roboto Condensed", sans-serif;
-        font-size: 1em;
+        font-size: 0.9em;
         margin-right: 2em;
         color: var(--headerColor);
         display: flex;
@@ -450,7 +450,7 @@ body {
         flex: 1 50%;
         margin-right: 1.25em;
     }
-    
+
     .box a {
         font-family: "Roboto Condensed", sans-serif;
         color: var(--cardColor);
