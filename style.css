@@ -407,7 +407,7 @@ body {
     .footer {
         display: flex;
         flex-flow: row wrap;
-        padding: 5px 50px 5px 20px;
+        padding: 5px 50px 10px 5px;
         color: var(--cardColor);
         background-color: var(--headerBackground);
     }
@@ -426,15 +426,21 @@ body {
     }
     
     .l-footer {
-        margin-left: 3em;
+        text-align: center;
+        line-height: 0em;
     }
 
     .l-footer img{
-        max-width: 110px;
+        max-width: 80px;
     }
 
-    .l-footer h4 {
+    .l-footer > h4 {
         font-family: "Courier New", sans-serif;
+    }
+
+    .socials img{
+        margin: 0px 5px 0px 5px;
+        max-width: 25px;
     }
     
     .r-footer {
@@ -470,7 +476,7 @@ body {
         }
         
         .r-footer {
-            flex: 4 0px;
+            flex: 3 0px;
         }
 
         .r-footer p {
