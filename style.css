@@ -472,5 +472,9 @@ body {
         .r-footer {
             flex: 2 0px;
         }
+
+        .r-footer p {
+            flex: 4 0px;
+        }
     }
     
