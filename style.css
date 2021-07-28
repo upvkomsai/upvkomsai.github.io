@@ -385,6 +385,7 @@ body {
     -webkit-line-clamp: 2;
 }
 
+.about-a,
 .modal-url {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -419,13 +420,8 @@ body {
 }
 
 .modal-close:hover,
-.modal-url:hover {
-    transition: all 0.4s ease;
-    color: var(--cardColor);
-    background-color: var(--cardBackground);
-    border-color: var(--cardColor);
-}
-
+.about-a:hover,
+.modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
@@ -433,13 +429,38 @@ body {
     border-color: var(--cardColor);
 }
 
-#about p,
+/* About Page */
+.about-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 6px;
+
+    font: 600 1em "Source Sans Pro", sans-serif;
+    text-decoration-line: none;
+    text-align: center;
+    background-color: var(--cardBackground);
+}
+
+.about-img{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.about-header {
+    color: var(--headerColor);
+    font: 600 1.2em "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.about-p,
 #contact p {
     color: var(--aboutColor);
     text-align: justify;
+    padding: 15px;
 }
 
-#about a,
 #contact a {
     color: var(--aboutColor);
     text-decoration-line: none;
@@ -500,10 +521,6 @@ body {
     .r-footer > * {
         flex: 1 50%;
         margin-right: 1.25em;
-    }
-
-    .box {
-        text-align: center;
     }
 
     .box a {
