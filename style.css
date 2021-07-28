@@ -409,8 +409,9 @@ body {
         box-sizing: border-box;
 }
 
-#news-link,
-#projects-link {
+#news-more,
+#gallery-more,
+#projects-more {
     display: block;
     margin: 10px;
     padding: 15px 0;
@@ -423,8 +424,9 @@ body {
     text-decoration: none;
 }
 
-#news-link:hover,
-#projects-link:hover {
+#news-more:hover,
+#gallery-more:hover,
+#projects-more:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
     background-color: var(--cardBorder);
