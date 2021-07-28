@@ -418,8 +418,9 @@ body {
 .modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
-    color: var(--headerColor);
-    background-color: var(--cardBackground);
+    color: var(--cardColor);
+    background-color: var(--cardBorder);
+    border-color: var(--cardColor);
 }
 
 /* About Page */
@@ -469,9 +470,12 @@ body {
         box-sizing: border-box;
 }
 
+#home-more,
 #news-more,
 #gallery-more,
-#projects-more {
+#projects-more,
+#about-more,
+#contact-more {
     display: block;
     margin: 10px;
     padding: 15px 0;
@@ -484,9 +488,12 @@ body {
     text-decoration: none;
 }
 
+#home-more:hover,
 #news-more:hover,
 #gallery-more:hover,
-#projects-more:hover {
+#projects-more:hover,
+#about-more:hover,
+#contact-more:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
     background-color: var(--cardBorder);
