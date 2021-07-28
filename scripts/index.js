@@ -19,7 +19,7 @@ const CARD = {
  * @param {string} urlText - text to display instead of the URL
  * @returns {Node} A preformatted `<div>` element that can be attached to the DOM
  */
-function bindToCard(
+const bindToCard = (
     layout,
     includeModal,
     imgPath,
@@ -29,20 +29,20 @@ function bindToCard(
     showDescription,
     url,
     urlText = "More details"
-) {
+) => {
     layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
 
-    var clone = document
+    const clone = document
         .querySelector(`#templates .card.${layout}.template`)
         .cloneNode(true);
 
     if (imgPath) {
-        var img = document.createElement("img");
+        const img = document.createElement("img");
         img.src = imgPath;
         img.alt = title || "No image provided.";
         clone.querySelector(`.${layout}-img`).appendChild(img);
     } else {
-        var img = document.createElement("img");
+        const img = document.createElement("img");
         img.src = "resources/img/logo.png";
         img.alt = title || "No image provided.";
         clone.querySelector(`.${layout}-img`).appendChild(img);
@@ -70,7 +70,7 @@ function bindToCard(
     }
 
     if (url) {
-        var link = document.createElement("a");
+        const link = document.createElement("a");
 
         link.href = url;
         link.textContent = urlText;
@@ -86,18 +86,18 @@ function bindToCard(
     }
 
     return clone;
-}
+};
 
 /**
  * Modal
  */
-var modal = document.getElementById("modal");
+const modal = document.getElementById("modal");
 
-var modalClose = modal.querySelector(".modal-header .modal-close");
+const modalClose = modal.querySelector(".modal-header .modal-close");
 modalClose.classList.add("clickable");
 modalClose.addEventListener("click", () => (modal.hidden = true));
 
-modal.addEventListener("click", function (e) {
+modal.addEventListener("click", (e) => {
     if (e.target !== modal) {
         return;
     } else {
@@ -114,7 +114,7 @@ modal.addEventListener("click", function (e) {
  * @param {string} url
  * @param {string} urlText
  */
-function bindToModal(
+const bindToModal = (
     element,
     imgPath,
     title,
@@ -122,10 +122,10 @@ function bindToModal(
     description,
     url,
     urlText
-) {
+) => {
     if (!element) return false;
 
-    element.addEventListener("click", function (e) {
+    element.addEventListener("click", (e) => {
         if (e.target === element.querySelector("a")) {
             return;
         }
@@ -141,28 +141,30 @@ function bindToModal(
         modal.hidden = false;
 
         if (url) {
-            var link = modal.querySelector(".modal-url");
+            const link = modal.querySelector(".modal-url");
 
             link.href = url;
             link.textContent = urlText;
             link.hidden = false;
         } else {
-            var link = modal.querySelector(".modal-url");
+            const link = modal.querySelector(".modal-url");
 
             link.href = "#";
             link.textContent = "";
             link.hidden = true;
         }
     });
-}
+};
 
 /**
  * Binds the data to each subsection
  */
-function bindData() {
+const bindData = () => {
     const _homeNews = document.querySelector("#home-news .section-content");
     const _news = document.querySelector("#news .section-content");
-    const _homeProjects= document.querySelector("#home-projects .section-content");
+    const _homeProjects = document.querySelector(
+        "#home-projects .section-content"
+    );
     const _projectsDone = document.querySelector("#projects .section-content");
 
     // Clone the template `div` and populate it with necessary data
@@ -170,8 +172,8 @@ function bindData() {
     if (homeNews.length) {
         _homeNews.querySelector(".nodata").remove();
 
-        homeNews.forEach(function (e) {
-            var card = bindToCard(
+        homeNews.forEach((e) => {
+            const card = bindToCard(
                 CARD.VERTICAL,
                 true,
                 e.img_path,
@@ -190,8 +192,8 @@ function bindData() {
     if (news.length) {
         _news.querySelector(".nodata").remove();
 
-        news.forEach(function (e) {
-            var card = bindToCard(
+        news.forEach((e) => {
+            const card = bindToCard(
                 CARD.VERTICAL,
                 true,
                 e.img_path,
@@ -210,8 +212,8 @@ function bindData() {
     if (homeProjects.length) {
         _homeProjects.querySelector(".nodata").remove();
 
-        homeProjects.forEach(function (e) {
-            var card = bindToCard(
+        homeProjects.forEach((e) => {
+            const card = bindToCard(
                 CARD.VERTICAL,
                 true,
                 e.img_path,
@@ -229,8 +231,8 @@ function bindData() {
     if (projectsDone.length) {
         _projectsDone.querySelector(".nodata").remove();
 
-        projectsDone.forEach(function (e) {
-            var card = bindToCard(
+        projectsDone.forEach((e) => {
+            const card = bindToCard(
                 CARD.VERTICAL,
                 true,
                 e.img_path,
@@ -246,24 +248,24 @@ function bindData() {
     }
 
     document.querySelector("#templates").remove();
-}
+};
 
 bindData();
 
 // Handles button clicks on header navigation
 // When adding new pages, create a new 'btn' for the header and a new 'link' for the footer, then duplicate the code below
-var news_btn = document.getElementById("news-btn");
-var projects_btn = document.getElementById("projects-btn");
-var gallery_btn = document.getElementById("gallery-btn");
-var about_btn = document.getElementById("about-btn");
+const news_btn = document.getElementById("news-btn");
+const projects_btn = document.getElementById("projects-btn");
+const gallery_btn = document.getElementById("gallery-btn");
+const about_btn = document.getElementById("about-btn");
 
-var news_link = document.getElementById("news-link");
-var projects_link = document.getElementById("projects-link");
-var gallery_link = document.getElementById("gallery-link");
-var about_link = document.getElementById("about-link");
+const news_link = document.getElementById("news-link");
+const projects_link = document.getElementById("projects-link");
+const gallery_link = document.getElementById("gallery-link");
+const about_link = document.getElementById("about-link");
 
-news_btn.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+news_btn.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "news") {
             element.removeAttribute("hidden");
         } else {
@@ -272,8 +274,8 @@ news_btn.addEventListener("click", function (e) {
     });
 });
 
-news_link.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+news_link.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "news") {
             element.removeAttribute("hidden");
         } else {
@@ -282,8 +284,8 @@ news_link.addEventListener("click", function (e) {
     });
 });
 
-projects_btn.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+projects_btn.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "projects") {
             element.removeAttribute("hidden");
         } else {
@@ -292,8 +294,8 @@ projects_btn.addEventListener("click", function (e) {
     });
 });
 
-projects_link.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+projects_link.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "projects") {
             element.removeAttribute("hidden");
         } else {
@@ -302,8 +304,8 @@ projects_link.addEventListener("click", function (e) {
     });
 });
 
-gallery_btn.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+gallery_btn.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "gallery") {
             element.removeAttribute("hidden");
         } else {
@@ -312,8 +314,8 @@ gallery_btn.addEventListener("click", function (e) {
     });
 });
 
-gallery_link.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+gallery_link.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "gallery") {
             element.removeAttribute("hidden");
         } else {
@@ -322,8 +324,8 @@ gallery_link.addEventListener("click", function (e) {
     });
 });
 
-about_btn.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+about_btn.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "about") {
             element.removeAttribute("hidden");
         } else {
@@ -332,8 +334,8 @@ about_btn.addEventListener("click", function (e) {
     });
 });
 
-about_link.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
+about_link.addEventListener("click", (e) => {
+    document.querySelectorAll("body > div").forEach((element) => {
         if (element.id === "about") {
             element.removeAttribute("hidden");
         } else {
