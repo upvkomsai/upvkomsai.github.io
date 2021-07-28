@@ -17,9 +17,9 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 /* Error 404 Page */
 .error {
     max-width:  100%;
-    max-height:  700px;
+    max-height:  750px;
     background-color: var(--headerBackground);
-    padding:  25px 50px;
+    padding:  30px 50px;
     margin: 100px 500px;
     text-align: center;
     border-radius: 10px;
@@ -138,6 +138,7 @@ body {
 
 .modal-close:hover {
     color: var(--cardColor);
+    transition: all 0.4s ease;
 }
 
 .modal-img {
@@ -340,7 +341,7 @@ body {
 
 .card {
     margin: 10px;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 25px 15px;
     border-radius: 10px;
     overflow: hidden;
     background-color: var(--cardBackground);
@@ -439,8 +440,6 @@ body {
 
 .modal-url,
 .card a {
-    display: inline-block;
-    margin-bottom: 10px;
     padding: 10px 15px;
     border: 1px solid var(--headerColor);
     border-radius: 50px;
