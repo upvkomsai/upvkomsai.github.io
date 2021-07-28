@@ -50,6 +50,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    backdrop-filter: blur(2.5px);
     margin: 0;
 }
 
@@ -218,7 +219,7 @@ body {
     z-index: 1;
     top: 0;
     color: var(--headerColor);
-    font: 700 2.5em "Roboto Condensed", sans-serif;
+    font: 700 3em "Roboto Condensed", sans-serif;
     margin-top: 0;
     line-height: 0.5em;
 }
