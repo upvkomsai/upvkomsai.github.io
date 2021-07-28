@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #1C2541;
+    background-image: url("resources/img/david-jorre-oQbLeq4nOek-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -121,6 +121,9 @@ body {
 
 .header {
     overflow: hidden;
+    position: fixed;
+    position: -webkit-fixed;
+    z-index: 5;
     width:  100%;
     height:  75px;
     background-color: var(--headerBackground);
@@ -166,7 +169,8 @@ body {
 #news,
 #projects,
 #gallery,
-#about {
+#about,
+#contact {
     padding: 2.5% 5% 0% 5%;
 }
 
@@ -178,8 +182,6 @@ body {
 .section-heading {
     padding: 10px 0px 10px 0px;
     background-color: inherit;
-    /* position: sticky;
-    position: -webkit-sticky; */
     z-index: 1;
     top: 0;
     color: var(--headerColor);
@@ -231,9 +233,16 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #featured,
+    #home-news,
+    #home-projects,
+    #home-gallery,
+    #home-about,
     #news,
     #projects,
-    #about {
+    #gallery,
+    #about,
+    #contact {
         padding: 1% 1.5% 0% 1.5%;
     }
 
@@ -342,6 +351,7 @@ body {
 .card-v-description {
     font: 400 1em "Source Sans Pro", sans-serif;
     color: var(--aboutColor);
+    text-align: justify;
 }
 
 .card-h-description,
@@ -353,18 +363,24 @@ body {
     -webkit-line-clamp: 2;
 }
 
-.modal-close,
 .modal-url {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    border: 1px solid var(--cardColor);
+    border: 1px solid var(--cardBackground);
     border-radius: 6px;
-
+    
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
-    background-color: var(--cardColor);
+    background-color: var(--headerColor);
     text-decoration-line: none;
+}
+
+.modal-close{
+    margin-top: 1px;
+    margin-right: 1px;
+    padding: 5px;
+    color: var(--headerColor);
 }
 
 .card a {
@@ -373,6 +389,7 @@ body {
     padding: 5px;
     border: 1px solid var(--cardBackground);
     border-radius: 6px;
+
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
@@ -389,16 +406,19 @@ body {
 
 .card a:hover {
     transition: all 0.4s ease;
-    color: #5BC0BE;
-    background-color: #1C2541;
+    color: var(--cardColor);
+    background-color: var(--cardBackground);
+    border-color: var(--cardColor);
 }
 
-#about p {
+#about p,
+#contact p {
     color: var(--aboutColor);
     text-align: justify;
 }
 
-#about a {
+#about a,
+#contact a {
     color: var(--aboutColor);
     text-decoration-line: none;
 }
