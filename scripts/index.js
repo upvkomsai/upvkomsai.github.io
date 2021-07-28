@@ -253,12 +253,21 @@ bindData();
 
 // Handles button clicks on header navigation
 // When adding new pages, create a new 'btn' for the header and a new 'link' for the footer, then duplicate the code below
+const home_btn = document.getElementById("home-btn");
 const news_btn = document.getElementById("news-btn");
 const projects_btn = document.getElementById("projects-btn");
 const gallery_btn = document.getElementById("gallery-btn");
 const about_btn = document.getElementById("about-btn");
 const contact_btn = document.getElementById("contact-btn");
 
+const home_more = document.getElementById("home-more");
+const news_more = document.getElementById("news-more");
+const projects_more = document.getElementById("projects-more");
+const gallery_more = document.getElementById("gallery-more");
+const about_more = document.getElementById("about-more");
+const contact_more = document.getElementById("contact-more");
+
+const home_link = document.getElementById("home-link");
 const news_link = document.getElementById("news-link");
 const projects_link = document.getElementById("projects-link");
 const gallery_link = document.getElementById("gallery-link");
@@ -266,6 +275,10 @@ const about_link = document.getElementById("about-link");
 const contact_link = document.getElementById("contact-link");
 
 const buttons = [
+    {
+        btn: home_btn,
+        target: "home",
+    },
     {
         btn: news_btn,
         target: "news",
@@ -283,6 +296,38 @@ const buttons = [
         target: "about",
     },
     {
+        btn: contact_btn,
+        target: "contact",
+    },
+    {
+        btn: home_more,
+        target: "home",
+    },
+    {
+        btn: news_more,
+        target: "news",
+    },
+    {
+        btn: projects_more,
+        target: "projects",
+    },
+    {
+        btn: gallery_more,
+        target: "gallery",
+    },
+    {
+        btn: about_more,
+        target: "about",
+    },
+    {
+        btn: contact_more,
+        target: "contact",
+    },
+    {
+        btn: home_link,
+        target: "home",
+    },
+    {
         btn: news_link,
         target: "news",
     },
@@ -297,10 +342,6 @@ const buttons = [
     {
         btn: about_link,
         target: "about",
-    },
-    {
-        btn: contact_btn,
-        target: "contact",
     },
     {
         btn: contact_link,
