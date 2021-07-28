@@ -128,7 +128,12 @@ body {
     height: 15px;
     margin-left: auto;
     margin-right: 4px;
-    color: var(--cardBorder);
+    color: var(--headerColor);
+}
+
+
+.modal-close:hover {
+    color: var(--cardColor);
 }
 
 .modal-img {
@@ -225,6 +230,38 @@ body {
     color: var(--aboutColor);
 }
 
+
+#home-contact {
+    margin: 0 9%;
+    background-color: #5BC0BE;
+    border-radius: 10px;
+}
+
+#home-contact h2{
+    color: #1C2541;
+    text-align: center;
+}
+
+.section-contact {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin:  20px 0;
+    text-align: center;
+}
+
+.section-contact img{
+    width: 150px;
+}
+
+.section-contact img:hover {
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+}
+
+.section-contact p {
+    font: 700 1.2em "Roboto", sans-serif;
+    color: var(--cardBorder);
+}
 
 .col-6 {
     display: grid;
@@ -396,13 +433,12 @@ body {
     -webkit-line-clamp: 2;
 }
 
-.section-about a,
 .modal-url,
 .card a {
     display: inline-block;
     margin-bottom: 10px;
     padding: 10px 15px;
-    border: 1px solid var(--cardBackground);
+    border: 1px solid var(--headerColor);
     border-radius: 50px;
     font: 700 1em "Roboto Condensed", sans-serif;
     color: var(--cardBackground);
@@ -410,7 +446,6 @@ body {
     text-decoration-line: none;
 }
 
-.modal-close:hover,
 .modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
@@ -473,11 +508,11 @@ body {
     display: block;
     margin: 10px;
     padding: 15px 0;
-    border: 1px solid var(--cardBackground);
+    border: 1px solid var(--headerColor);
     border-radius: 10px;
     text-align: center;
     font: 700 1.5em "Roboto Condensed", sans-serif;
-    color: var(--cardBorder);
+    color: var(--cardBackground);
     background-color: var(--headerColor);
     text-decoration: none;
 }
@@ -489,7 +524,7 @@ body {
 #contact-more:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
-    background-color: var(--cardBorder);
+    background-color: var(--cardBackground);
     border-color: var(--cardColor);
 }
     
