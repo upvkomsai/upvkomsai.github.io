@@ -367,12 +367,12 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    border: 1px solid var(--cardColor);
+    border: 1px solid var(--cardBackground);
     border-radius: 6px;
-
+    
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
-    background-color: var(--cardColor);
+    background-color: var(--headerColor);
     text-decoration-line: none;
 }
 
@@ -382,6 +382,7 @@ body {
     padding: 5px;
     border: 1px solid var(--cardBackground);
     border-radius: 6px;
+
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
@@ -398,8 +399,9 @@ body {
 
 .card a:hover {
     transition: all 0.4s ease;
-    color: #5BC0BE;
-    background-color: #1C2541;
+    color: var(--cardColor);
+    background-color: var(--cardBackground);
+    border-color: var(--cardColor);
 }
 
 #about p,
