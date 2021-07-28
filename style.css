@@ -1,7 +1,7 @@
-/* Color Values */
-/*
-    To easily change colors across all uses, change colors here.
-    To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
+/* 
+Color Values
+To easily change colors across all uses, change colors here.
+To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
     --noScriptColor: #6FFFE9;
@@ -9,8 +9,8 @@
     --headerBackground:#0B132B;
     --cardColor: #ffffff;
     --cardBackground: #0B132B;
-    --cardBorder: white;
-    --cardSubtitle: #3A506B;
+    --cardBorder: #1C2541;
+    --subtitleColor: #3A506B;
     --aboutColor: white;
 }
 
@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    background-image: url("resources/img/david-jorre-oQbLeq4nOek-unsplash.jpg");
+    background-color: #1C2541;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -52,14 +52,14 @@ body {
 .noscript {
     background-color: var(--noScriptColor);
     color: var(--cardBackground);
-    font: 600 1em "Montserrat", sans-serif;
+    font: 700 1em "Roboto", sans-serif;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .nodata {
-    font: 600 1em "Montserrat", sans-serif;
+    font: 700 1em "Roboto", sans-serif;
     color: white;
 }
 
@@ -87,7 +87,7 @@ body {
     padding: 10px 25px 25px 25px;
     background-color: var(--cardBackground);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-    border-radius: 6px;
+    border-radius: 10px;
     border-width: 10px;
     border-color: var(--cardBorder);
 }
@@ -99,7 +99,7 @@ body {
         padding: 10px 15px 15px 15px;
         background-color: var(--cardBackground);
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-        border-radius: 6px;
+        border-radius: 10px;
         border-width: 10px;
         border-color: var(--cardBorder);
     }
@@ -112,7 +112,7 @@ body {
         padding: 10px 15px 15px 15px;
         background-color: var(--cardBackground);
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-        border-radius: 6px;
+        border-radius: 10px;
         border-width: 5px;
         border-color: var(--cardBorder);
     }
@@ -143,9 +143,6 @@ body {
 
 .header {
     overflow: hidden;
-    position: fixed;
-    position: -webkit-fixed;
-    z-index: 5;
     width:  100%;
     height:  75px;
     background-color: var(--headerBackground);
@@ -179,8 +176,7 @@ body {
 .header a:hover {
     color: var(--headerBackground);
     background-color: var(--headerColor);
-    transition: 0.5s;
-    font-weight: normal;
+    transition: all 0.4s ease;
 }
 
 #featured,
@@ -191,8 +187,7 @@ body {
 #news,
 #projects,
 #gallery,
-#about,
-#contact {
+#about {
     padding: 2.5% 5% 0% 5%;
 }
 
@@ -204,17 +199,28 @@ body {
 .section-heading {
     padding: 10px 0px 10px 0px;
     background-color: inherit;
+    /* position: sticky;
+    position: -webkit-sticky; */
     z-index: 1;
     top: 0;
     color: var(--headerColor);
-    font: 700 1.5em "Montserrat", sans-serif;
-    font-size: xx-large;
+    font: 700 2.5em "Roboto Condensed", sans-serif;
     margin-top: 0;
+    line-height: 0.5em;
 }
 
 .section-content {
     width: 100%;
 }
+
+.section-about p {
+    width: 100%;
+    font: 400 1em "Roboto", sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    color: var(--aboutColor);
+}
+
 
 .col-6 {
     display: grid;
@@ -255,16 +261,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    #featured,
-    #home-news,
-    #home-projects,
-    #home-gallery,
-    #home-about,
     #news,
     #projects,
-    #gallery,
-    #about,
-    #contact {
+    #about {
         padding: 1% 1.5% 0% 1.5%;
     }
 
@@ -290,7 +289,7 @@ body {
 .card {
     margin: 10px;
     padding: 10px 15px 10px 15px;
-    border-radius: 6px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: var(--cardBackground);
 }
@@ -310,7 +309,8 @@ body {
 }
 
 .card-h-content {
-    font: 400 1em "Source Sans Pro", sans-serif;
+    font: 300 1.1em "Roboto", sans-serif;
+    line-height: 1.5em;
     color: var(--cardColor);
 }
 
@@ -331,7 +331,7 @@ body {
 
 .card-v-img {
     margin: -10px -15px 0px -15px;
-    background-color: var(--cardColor);
+    background-color: var(--cardBackground);
 }
 
 .card-h-img > img,
@@ -351,29 +351,29 @@ body {
 .card-v-title,
 .card-sm-title {
     color: var(--headerColor);
-    font: 600 1.2em "Montserrat", sans-serif;
+    font: 700 1.2em "Roboto", sans-serif;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .card-sm-title {
-    font: 600 1em "Montserrat", sans-serif;
+    font: 700 1em "Roboto", sans-serif;
 }
 
 .modal-subtitle,
 .card-h-subtitle,
 .card-v-subtitle {
-    font: 600 1em "Source Sans Pro", sans-serif;
+    font: 400 1em "Roboto Condensed", sans-serif;
     margin-top: 0;
-    color: var(--cardSubtitle);
+    color: var(--subtitleColor);
 }
 
 .modal-description,
 .card-h-description,
 .card-v-description {
-    font: 400 1em "Source Sans Pro", sans-serif;
+    font: 300 1em "Roboto", sans-serif;
+    line-height: 1.5em;
     color: var(--aboutColor);
-    text-align: justify;
 }
 
 .card-h-description,
@@ -399,21 +399,15 @@ body {
     text-decoration-line: none;
 }
 
-.modal-close{
-    margin-top: 1px;
-    margin-right: 1px;
-    padding: 5px;
-    color: var(--headerColor);
-}
-
+.section-about a,
+.modal-url,
 .card a {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
     border: 1px solid var(--cardBackground);
-    border-radius: 6px;
-
-    font: 600 1em "Source Sans Pro", sans-serif;
+    border-radius: 50px;
+    font: 700 1em "Roboto Condensed", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
     text-decoration-line: none;
@@ -424,9 +418,7 @@ body {
 .modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
-    color: var(--cardColor);
-    background-color: var(--cardBackground);
-    border-color: var(--cardColor);
+    color: var(--headerColor);
 }
 
 /* About Page */
@@ -468,85 +460,109 @@ body {
 
 *, *:before, *:after {
         box-sizing: border-box;
-    }
-    
-    .footer {
-        display: flex;
-        flex-flow: row wrap;
-        padding: 5px 50px 10px 5px;
-        color: var(--cardColor);
-        background-color: var(--headerBackground);
-    }
-    
-    .footer > * {
-        flex:  1 100%;
-    }
+}
 
-    .footer li,
-    .footer a,
-    .footer ul {
-        text-decoration: none;
-        line-height: 2em;
-        list-style: none;
-        padding-left: 0;
+#news-more,
+#gallery-more,
+#projects-more {
+    display: block;
+    margin: 10px;
+    padding: 15px 0;
+    border: 1px solid var(--cardBackground);
+    border-radius: 10px;
+    text-align: center;
+    font: 700 1.5em "Roboto Condensed", sans-serif;
+    color: var(--cardBorder);
+    background-color: var(--headerColor);
+    text-decoration: none;
+}
+
+#news-more:hover,
+#gallery-more:hover,
+#projects-more:hover {
+    transition: all 0.4s ease;
+    color: var(--cardColor);
+    background-color: var(--cardBorder);
+    border-color: var(--cardColor);
+}
+    
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px 50px 10px 5px;
+    color: var(--cardColor);
+    background-color: var(--headerBackground);
+}
+    
+.footer > * {
+    flex: 1 100%;
+}
+
+.footer li,
+.footer a,
+.footer ul {
+    text-decoration: none;
+    line-height: 2em;
+    list-style: none;
+    padding-left: 0;
+}
+    
+.l-footer {
+    text-align: center;
+    line-height: 0em;
+}
+
+.l-footer img{
+    max-width: 80px;
+}
+
+.l-footer > h4 {
+    font-family: "Courier New", sans-serif;
+}
+
+.socials img{
+    margin: 0px 5px 0px 5px;
+    max-width: 25px;
+}
+
+.r-footer {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.9em;
+    margin-right: 2em;
+    color: var(--headerColor);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--cardColor);
+}
+
+.box a:hover {
+    color: var(--headerColor);
+    transition: all 0.4s ease;
+}
+
+@media screen and (min-width: 600px) {
+    .r-footer > * {
+        flex: 1;
     }
     
     .l-footer {
-        text-align: center;
-        line-height: 0em;
-    }
-
-    .l-footer img{
-        max-width: 80px;
-    }
-
-    .l-footer > h4 {
-        font-family: "Courier New", sans-serif;
-    }
-
-    .socials img{
-        margin: 0px 5px 0px 5px;
-        max-width: 25px;
+        flex: 1 0px;
     }
     
     .r-footer {
-        font-family: "Roboto Condensed", sans-serif;
-        font-size: 0.9em;
-        margin-right: 2em;
-        color: var(--headerColor);
-        display: flex;
-        flex-flow: row wrap;
-    }
-    
-    .r-footer > * {
-        flex: 1 50%;
-        margin-right: 1.25em;
+        flex: 3 0px;
     }
 
-    .box a {
-        font-family: "Roboto Condensed", sans-serif;
-        color: var(--cardColor);
+    .r-footer p {
+        flex: 5 0px;
     }
-
-    .box a:hover {
-        color: var(--headerColor);
-    }
-    
-    @media screen and (min-width: 600px) {
-            .r-footer > * {
-            flex: 1;
-        }
-        
-        .l-footer {
-            flex: 1 0px;
-        }
-        
-        .r-footer {
-            flex: 3 0px;
-        }
-
-        .r-footer p {
-            flex: 5 0px;
-        }
-    }
-    
+}
