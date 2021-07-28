@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #1C2541;
+    background-image: url("resources/img/david-jorre-oQbLeq4nOek-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -166,7 +166,8 @@ body {
 #news,
 #projects,
 #gallery,
-#about {
+#about,
+#contact {
     padding: 2.5% 5% 0% 5%;
 }
 
@@ -231,9 +232,16 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #featured,
+    #home-news,
+    #home-projects,
+    #home-gallery,
+    #home-about,
     #news,
     #projects,
-    #about {
+    #gallery,
+    #about,
+    #contact {
         padding: 1% 1.5% 0% 1.5%;
     }
 
@@ -342,6 +350,7 @@ body {
 .card-v-description {
     font: 400 1em "Source Sans Pro", sans-serif;
     color: var(--aboutColor);
+    text-align: justify;
 }
 
 .card-h-description,
@@ -393,12 +402,14 @@ body {
     background-color: #1C2541;
 }
 
-#about p {
+#about p,
+#contact p {
     color: var(--aboutColor);
     text-align: justify;
 }
 
-#about a {
+#about a,
+#contact a {
     color: var(--aboutColor);
     text-decoration-line: none;
 }
