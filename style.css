@@ -22,16 +22,20 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     padding:  25px 50px;
     margin: 100px 500px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .error-img {
     width: 200px;
 }
 
-.error-content {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size:  1em;
-    font-weight: bold;
+.error-content h1 {
+    font: 700 2em "Roboto Condensed", sans-serif;
+    color: var(--headerColor);
+}
+
+.error-content p {
+    font: 400 1em "Roboto", sans-serif;
     color: var(--headerColor);
 }
 
