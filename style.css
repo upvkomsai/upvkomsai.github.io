@@ -127,10 +127,13 @@ body {
     width: 15px;
     height: 15px;
     margin-left: auto;
+    margin-right: 4px;
+    color: var(--cardBorder);
 }
 
 .modal-img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .modal-title {
@@ -386,19 +389,6 @@ body {
 }
 
 .about-a,
-.modal-url {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    border: 1px solid var(--cardBackground);
-    border-radius: 6px;
-    
-    font: 600 1em "Source Sans Pro", sans-serif;
-    color: var(--cardBackground);
-    background-color: var(--headerColor);
-    text-decoration-line: none;
-}
-
 .section-about a,
 .modal-url,
 .card a {
@@ -419,7 +409,7 @@ body {
 .card a:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
-    background-color: var(--cardBorder);
+    background-color: var(--cardBackground);
     border-color: var(--cardColor);
 }
 
@@ -428,9 +418,8 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    border-radius: 6px;
-
-    font: 600 1em "Source Sans Pro", sans-serif;
+    border-radius: 10px;
+    font: 400 1em "Roboto", sans-serif;
     text-decoration-line: none;
     text-align: center;
     background-color: var(--cardBackground);
