@@ -62,7 +62,7 @@ const bindToCard = (
     if (description && showDescription) {
         clone.querySelector(
             `.${layout}-content .${layout}-description`
-        ).textContent = description;
+        ).textContent = description || "No description.";;
     } else {
         clone
             .querySelector(`.${layout}-content .${layout}-description`)
@@ -136,9 +136,18 @@ const bindToModal = (
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
             subtitle || "N/A";
-        modal.querySelector(".modal-content .modal-description").textContent =
+        if (description){
+            for (var i = 0; i < description.length; i++) {
+                const desc = document.createElement("p");
+    
+                desc.textContent = description[i];
+    
+                modal.querySelector(".modal-content .modal-description").appendChild(desc);
+            }
+        } else {
+            modal.querySelector(".modal-content .modal-description").textContent =
             description || "No description";
-        modal.hidden = false;
+        }
 
         if (url) {
             const link = modal.querySelector(".modal-url");
@@ -153,6 +162,8 @@ const bindToModal = (
             link.textContent = "";
             link.hidden = true;
         }
+
+        modal.hidden = false;
     });
 };
 
@@ -162,9 +173,7 @@ const bindToModal = (
 const bindData = () => {
     const _homeNews = document.querySelector("#home-news .section-content");
     const _news = document.querySelector("#news .section-content");
-    const _homeProjects = document.querySelector(
-        "#home-projects .section-content"
-    );
+    const _homeProjects = document.querySelector("#home-projects .section-content");
     const _projectsDone = document.querySelector("#projects .section-content");
 
     // Clone the template `div` and populate it with necessary data
