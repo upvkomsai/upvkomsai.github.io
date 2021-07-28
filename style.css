@@ -389,7 +389,6 @@ body {
     padding: 5px;
     border: 1px solid var(--cardBackground);
     border-radius: 6px;
-
     font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
