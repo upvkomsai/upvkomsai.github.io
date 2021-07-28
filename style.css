@@ -480,6 +480,10 @@ body {
         margin-right: 1.25em;
     }
 
+    .box {
+        text-align: center;
+    }
+
     .box a {
         font-family: "Roboto Condensed", sans-serif;
         color: var(--cardColor);
