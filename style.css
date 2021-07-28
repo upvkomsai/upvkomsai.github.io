@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    background-color: #1C2541;
+    background-image: url("resources/img/david-jorre-oQbLeq4nOek-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -419,6 +419,7 @@ body {
 .card a:hover {
     transition: all 0.4s ease;
     color: var(--headerColor);
+    background-color: var(--cardBackground);
 }
 
 /* About Page */
@@ -446,11 +447,17 @@ body {
     margin-top: 5px;
 }
 
-.about-p,
-#contact p {
+.about-p {
     color: var(--aboutColor);
     text-align: justify;
     padding: 15px;
+}
+
+#contact p {
+    color: var(--aboutColor);
+    text-align: justify;
+    padding: 5px;
+    font-size: 16px;
 }
 
 #contact a {
