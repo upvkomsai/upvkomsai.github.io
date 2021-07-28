@@ -1,7 +1,7 @@
-/* 
-Color Values
-To easily change colors across all uses, change colors here.
-To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
+/* Color Values */
+/*
+    To easily change colors across all uses, change colors here.
+    To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
     --noScriptColor: #6FFFE9;
@@ -10,7 +10,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     --cardColor: #ffffff;
     --cardBackground: #0B132B;
     --cardBorder: white;
-    --subtitleColor: #3A506B;
+    --cardSubtitle: #3A506B;
     --aboutColor: white;
 }
 
@@ -343,7 +343,7 @@ body {
 .card-v-subtitle {
     font: 600 1em "Source Sans Pro", sans-serif;
     margin-top: 0;
-    color: var(--subtitleColor);
+    color: var(--cardSubtitle);
 }
 
 .modal-description,
@@ -477,6 +477,10 @@ body {
     .r-footer > * {
         flex: 1 50%;
         margin-right: 1.25em;
+    }
+
+    .box {
+        text-align: center;
     }
 
     .box a {
