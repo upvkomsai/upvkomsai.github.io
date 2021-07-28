@@ -62,7 +62,7 @@ const bindToCard = (
     if (description && showDescription) {
         clone.querySelector(
             `.${layout}-content .${layout}-description`
-        ).textContent = description || "No description.";;
+        ).textContent = description || "No description.";
     } else {
         clone
             .querySelector(`.${layout}-content .${layout}-description`)
@@ -126,28 +126,18 @@ const bindToModal = (
     if (!element) return false;
 
     element.addEventListener("click", (e) => {
-        if (e.target === element.querySelector("a")) {
-            return;
-        }
+        // if (e.target === element.querySelector("a")) {
+        //     return;
+        // }
 
-        modal.querySelector(".modal-content .modal-img").src =
-            imgPath || "resources/img/logo.png";
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
             subtitle || "N/A";
-        if (description){
-            for (var i = 0; i < description.length; i++) {
-                const desc = document.createElement("p");
-    
-                desc.textContent = description[i];
-    
-                modal.querySelector(".modal-content .modal-description").appendChild(desc);
-            }
-        } else {
-            modal.querySelector(".modal-content .modal-description").textContent =
+        modal.querySelector(".modal-content .modal-img").src =
+            imgPath || "resources/img/logo.png";
+        modal.querySelector(".modal-content .modal-description").textContent =
             description || "No description";
-        }
 
         if (url) {
             const link = modal.querySelector(".modal-url");
