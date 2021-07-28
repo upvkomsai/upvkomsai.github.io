@@ -256,11 +256,13 @@ var news_btn = document.getElementById("news-btn");
 var projects_btn = document.getElementById("projects-btn");
 var gallery_btn = document.getElementById("gallery-btn");
 var about_btn = document.getElementById("about-btn");
+var contact_btn = document.getElementById("contact-btn");
 
 var news_link = document.getElementById("news-link");
 var projects_link = document.getElementById("projects-link");
 var gallery_link = document.getElementById("gallery-link");
 var about_link = document.getElementById("about-link");
+var contact_link = document.getElementById("contact-link");
 
 news_btn.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
@@ -335,6 +337,26 @@ about_btn.addEventListener("click", function (e) {
 about_link.addEventListener("click", function (e) {
     document.querySelectorAll("body > div").forEach(function (element) {
         if (element.id === "about") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+contact_btn.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "contact") {
+            element.removeAttribute("hidden");
+        } else {
+            element.setAttribute("hidden", null);
+        }
+    });
+});
+
+contact_link.addEventListener("click", function (e) {
+    document.querySelectorAll("body > div").forEach(function (element) {
+        if (element.id === "contact") {
             element.removeAttribute("hidden");
         } else {
             element.setAttribute("hidden", null);
