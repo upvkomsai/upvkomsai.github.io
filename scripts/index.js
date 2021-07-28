@@ -266,102 +266,65 @@ const gallery_link = document.getElementById("gallery-link");
 const about_link = document.getElementById("about-link");
 const contact_link = document.getElementById("contact-link");
 
-news_btn.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "news") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
+const buttons = [
+    {
+        btn: news_btn,
+        target: "news",
+    },
+    {
+        btn: projects_btn,
+        target: "projects",
+    },
+    {
+        btn: gallery_btn,
+        target: "gallery",
+    },
+    {
+        btn: about_btn,
+        target: "about",
+    },
+    {
+        btn: news_link,
+        target: "news",
+    },
+    {
+        btn: projects_link,
+        target: "projects",
+    },
+    {
+        btn: gallery_link,
+        target: "gallery",
+    },
+    {
+        btn: about_link,
+        target: "about",
+    },
+    {
+        btn: contact_btn,
+        target: "contact",
+    },
+    {
+        btn: contact_link,
+        target: "contact",
+    },
+];
 
-news_link.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "news") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
+const bindButton = ({ btn, target }) => {
+    btn.addEventListener("click", (e) => {
+        document.querySelectorAll("body > div").forEach((element) => {
+            if (element.id === target) {
+                element.removeAttribute("hidden");
+            } else {
+                element.setAttribute("hidden", null);
+            }
+        });
     });
-});
+};
 
-projects_btn.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "projects") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
+const bindButtons = (buttons) => {
+    buttons.forEach((e) => {
+        bindButton(e);
     });
-});
+};
 
-projects_link.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "projects") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-gallery_btn.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "gallery") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-gallery_link.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "gallery") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-about_btn.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "about") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-about_link.addEventListener("click", (e) => {
-    document.querySelectorAll("body > div").forEach((element) => {
-        if (element.id === "about") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-contact_btn.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
-        if (element.id === "contact") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
-
-contact_link.addEventListener("click", function (e) {
-    document.querySelectorAll("body > div").forEach(function (element) {
-        if (element.id === "contact") {
-            element.removeAttribute("hidden");
-        } else {
-            element.setAttribute("hidden", null);
-        }
-    });
-});
+bindButtons(buttons);
