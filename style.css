@@ -154,7 +154,7 @@ body {
     padding:  15px 10px;
 }
 
-.header h1 {
+#home-more h1{
     float:  left;
     font-family: "Courier New", sans-serif;
     font-size:  1.3em; 
@@ -162,7 +162,7 @@ body {
     color: var(--cardColor);
 }
 
-.header a {
+.navbar {
     float:  right;
     padding: 0 25px;
     line-height: 75.5px;
@@ -173,7 +173,7 @@ body {
     font-weight: 300;
 }
 
-.header a:hover {
+.navbar:hover {
     color: var(--headerBackground);
     background-color: var(--headerColor);
     transition: all 0.4s ease;
@@ -187,7 +187,8 @@ body {
 #news,
 #projects,
 #gallery,
-#about {
+#about,
+#contact {
     padding: 2.5% 5% 0% 5%;
 }
 
@@ -261,9 +262,16 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #featured,
+    #home-news,
+    #home-projects,
+    #home-gallery,
+    #home-about,
     #news,
     #projects,
-    #about {
+    #gallery,
+    #about,
+    #contact {
         padding: 1% 1.5% 0% 1.5%;
     }
 
@@ -385,7 +393,6 @@ body {
     -webkit-line-clamp: 2;
 }
 
-.about-a,
 .modal-url {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -414,7 +421,6 @@ body {
 }
 
 .modal-close:hover,
-.about-a:hover,
 .modal-url:hover,
 .card a:hover {
     transition: all 0.4s ease;
@@ -470,7 +476,6 @@ body {
         box-sizing: border-box;
 }
 
-#home-more,
 #news-more,
 #gallery-more,
 #projects-more,
@@ -488,7 +493,6 @@ body {
     text-decoration: none;
 }
 
-#home-more:hover,
 #news-more:hover,
 #gallery-more:hover,
 #projects-more:hover,
