@@ -9,7 +9,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     --headerBackground:#0B132B;
     --cardColor: #ffffff;
     --cardBackground: #0B132B;
-    --cardBorder: #1C2541;
+    --cardBorder: white;
     --subtitleColor: #3A506B;
     --aboutColor: white;
 }
@@ -30,14 +30,14 @@ body {
 .noscript {
     background-color: var(--noScriptColor);
     color: var(--cardBackground);
-    font: 700 1em "Roboto", sans-serif;
+    font: 600 1em "Montserrat", sans-serif;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .nodata {
-    font: 700 1em "Roboto", sans-serif;
+    font: 600 1em "Montserrat", sans-serif;
     color: white;
 }
 
@@ -65,7 +65,7 @@ body {
     padding: 10px 25px 25px 25px;
     background-color: var(--cardBackground);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-    border-radius: 10px;
+    border-radius: 6px;
     border-width: 10px;
     border-color: var(--cardBorder);
 }
@@ -77,7 +77,7 @@ body {
         padding: 10px 15px 15px 15px;
         background-color: var(--cardBackground);
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-        border-radius: 10px;
+        border-radius: 6px;
         border-width: 10px;
         border-color: var(--cardBorder);
     }
@@ -90,7 +90,7 @@ body {
         padding: 10px 15px 15px 15px;
         background-color: var(--cardBackground);
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-        border-radius: 10px;
+        border-radius: 6px;
         border-width: 5px;
         border-color: var(--cardBorder);
     }
@@ -154,7 +154,8 @@ body {
 .header a:hover {
     color: var(--headerBackground);
     background-color: var(--headerColor);
-    transition: all 0.4s ease;
+    transition: 0.5s;
+    font-weight: normal;
 }
 
 #featured,
@@ -182,23 +183,14 @@ body {
     z-index: 1;
     top: 0;
     color: var(--headerColor);
-    font: 700 2.5em "Roboto Condensed", sans-serif;
+    font: 700 1.5em "Montserrat", sans-serif;
+    font-size: xx-large;
     margin-top: 0;
-    line-height: 0.5em;
 }
 
 .section-content {
     width: 100%;
 }
-
-.section-about p {
-    width: 100%;
-    font: 400 1em "Roboto", sans-serif;
-    line-height: 1.5em;
-    text-align: justify;
-    color: var(--aboutColor);
-}
-
 
 .col-6 {
     display: grid;
@@ -267,7 +259,7 @@ body {
 .card {
     margin: 10px;
     padding: 10px 15px 10px 15px;
-    border-radius: 10px;
+    border-radius: 6px;
     overflow: hidden;
     background-color: var(--cardBackground);
 }
@@ -287,8 +279,7 @@ body {
 }
 
 .card-h-content {
-    font: 300 1.1em "Roboto", sans-serif;
-    line-height: 1.5em;
+    font: 400 1em "Source Sans Pro", sans-serif;
     color: var(--cardColor);
 }
 
@@ -309,7 +300,7 @@ body {
 
 .card-v-img {
     margin: -10px -15px 0px -15px;
-    background-color: var(--cardBackground);
+    background-color: var(--cardColor);
 }
 
 .card-h-img > img,
@@ -329,19 +320,19 @@ body {
 .card-v-title,
 .card-sm-title {
     color: var(--headerColor);
-    font: 700 1.2em "Roboto", sans-serif;
+    font: 600 1.2em "Montserrat", sans-serif;
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .card-sm-title {
-    font: 700 1em "Roboto", sans-serif;
+    font: 600 1em "Montserrat", sans-serif;
 }
 
 .modal-subtitle,
 .card-h-subtitle,
 .card-v-subtitle {
-    font: 400 1em "Roboto Condensed", sans-serif;
+    font: 600 1em "Source Sans Pro", sans-serif;
     margin-top: 0;
     color: var(--subtitleColor);
 }
@@ -349,8 +340,7 @@ body {
 .modal-description,
 .card-h-description,
 .card-v-description {
-    font: 300 1em "Roboto", sans-serif;
-    line-height: 1.5em;
+    font: 400 1em "Source Sans Pro", sans-serif;
     color: var(--aboutColor);
 }
 
@@ -363,151 +353,137 @@ body {
     -webkit-line-clamp: 2;
 }
 
-.modal-close {
-    color: var(--cardColor);
+.modal-close,
+.modal-url {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid var(--cardColor);
+    border-radius: 6px;
 
+    font: 600 1em "Source Sans Pro", sans-serif;
+    color: var(--cardBackground);
+    background-color: var(--cardColor);
+    text-decoration-line: none;
 }
 
-.section-about a,
-.modal-url,
 .card a {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
     border: 1px solid var(--cardBackground);
-    border-radius: 50px;
-    font: 700 1em "Roboto Condensed", sans-serif;
+    border-radius: 6px;
+    font: 600 1em "Source Sans Pro", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
     text-decoration-line: none;
 }
 
-.section-about a {
-    color:  var(--cardBorder);
-}
-
-.modal-close:hover {
-    transition: all 0.4s ease;
-    color: var(--headerColor);
-}
-
-.section-about a:hover,
-.modal-url:hover,
-.card a:hover {
+.modal-close:hover,
+.modal-url:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
     background-color: var(--cardBackground);
-    border-color: var(--cardColor)
+    border-color: var(--cardColor);
 }
 
-.section-about a:hover {
-    background-color:  var(--cardBorder);
+.card a:hover {
+    transition: all 0.4s ease;
+    color: #5BC0BE;
+    background-color: #1C2541;
 }
 
+#about p {
+    color: var(--aboutColor);
+    text-align: justify;
+}
+
+#about a {
+    color: var(--aboutColor);
+    text-decoration-line: none;
+}
 
 *, *:before, *:after {
         box-sizing: border-box;
-}
-
-#news-link,
-#projects-link {
-    display: block;
-    margin: 10px;
-    padding: 15px 0;
-    border: 1px solid var(--cardBackground);
-    border-radius: 10px;
-    text-align: center;
-    font: 700 1.5em "Roboto Condensed", sans-serif;
-    color: var(--cardBorder);
-    background-color: var(--headerColor);
-    text-decoration: none;
-}
-
-#news-link:hover,
-#projects-link:hover {
-    transition: all 0.4s ease;
-    color: var(--cardColor);
-    background-color: var(--cardBorder);
-    border-color: var(--cardColor);
-}
+    }
     
-.footer {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 5px 50px 10px 5px;
-    color: var(--cardColor);
-    background-color: var(--headerBackground);
-}
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px 50px 10px 5px;
+        color: var(--cardColor);
+        background-color: var(--headerBackground);
+    }
     
-.footer > * {
-    flex: 1 100%;
-}
+    .footer > * {
+        flex:  1 100%;
+    }
 
-.footer li,
-.footer a,
-.footer ul {
-    text-decoration: none;
-    line-height: 2em;
-    list-style: none;
-    padding-left: 0;
-}
-    
-.l-footer {
-    text-align: center;
-    line-height: 0em;
-}
-
-.l-footer img{
-    max-width: 80px;
-}
-
-.l-footer > h4 {
-    font-family: "Courier New", sans-serif;
-}
-
-.socials img{
-    margin: 0px 5px 0px 5px;
-    max-width: 25px;
-}
-
-.r-footer {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 0.9em;
-    margin-right: 2em;
-    color: var(--headerColor);
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.r-footer > * {
-    flex: 1 50%;
-    margin-right: 1.25em;
-}
-
-.box a {
-    font-family: "Roboto Condensed", sans-serif;
-    color: var(--cardColor);
-}
-
-.box a:hover {
-    color: var(--headerColor);
-    transition: all 0.4s ease;
-}
-
-@media screen and (min-width: 600px) {
-    .r-footer > * {
-        flex: 1;
+    .footer li,
+    .footer a,
+    .footer ul {
+        text-decoration: none;
+        line-height: 2em;
+        list-style: none;
+        padding-left: 0;
     }
     
     .l-footer {
-        flex: 1 0px;
+        text-align: center;
+        line-height: 0em;
+    }
+
+    .l-footer img{
+        max-width: 80px;
+    }
+
+    .l-footer > h4 {
+        font-family: "Courier New", sans-serif;
+    }
+
+    .socials img{
+        margin: 0px 5px 0px 5px;
+        max-width: 25px;
     }
     
     .r-footer {
-        flex: 3 0px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 0.9em;
+        margin-right: 2em;
+        color: var(--headerColor);
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+        flex: 1 50%;
+        margin-right: 1.25em;
     }
 
-    .r-footer p {
-        flex: 5 0px;
+    .box a {
+        font-family: "Roboto Condensed", sans-serif;
+        color: var(--cardColor);
     }
-}
+
+    .box a:hover {
+        color: var(--headerColor);
+    }
+    
+    @media screen and (min-width: 600px) {
+            .r-footer > * {
+            flex: 1;
+        }
+        
+        .l-footer {
+            flex: 1 0px;
+        }
+        
+        .r-footer {
+            flex: 3 0px;
+        }
+
+        .r-footer p {
+            flex: 5 0px;
+        }
+    }
+    
