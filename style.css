@@ -551,7 +551,7 @@ body {
     }
 }
 
-#contact p {
+/* #contact p {
     color: var(--aboutColor);
     text-align: justify;
     padding: 5px;
@@ -561,7 +561,7 @@ body {
 #contact a {
     color: var(--aboutColor);
     text-decoration-line: none;
-}
+} */
 
 *, *:before, *:after {
         box-sizing: border-box;
