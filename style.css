@@ -30,7 +30,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 }
 
 .error-content h1 {
-    font: 700 2em "Roboto Condensed", sans-serif;
+    font: 700 2em "Courier Prime", sans-serif;
     color: var(--headerColor);
 }
 
@@ -169,10 +169,9 @@ body {
 
 #home-more h1{
     float:  left;
-    font-family: "Courier New", sans-serif;
-    font-size:  1.3em; 
+    font: 700 1.3em "Courier Prime", sans-serif;
     line-height: 50px;
-    color: var(--cardColor);
+    color: var(--headerColor);
 }
 
 .navbar {
@@ -501,7 +500,7 @@ body {
 
 .about-header {
     color: var(--headerColor);
-    font: 600 1.2em "Montserrat", sans-serif;
+    font: 700 1.2em "Courier Prime", sans-serif;
     font-size: 54px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -511,6 +510,7 @@ body {
     color: var(--aboutColor);
     text-align: justify;
     padding: 15px;
+    line-height: 1.5em;
 }
 
 @media screen and (max-width: 800px) {
@@ -533,7 +533,7 @@ body {
     
     .about-header {
         color: var(--headerColor);
-        font: 600 1.2em "Montserrat", sans-serif;
+        font: 700 1.2em "Courier Prime", sans-serif;
         font-size: 36px;
         margin-bottom: 5px;
         margin-top: 5px;
