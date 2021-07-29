@@ -212,14 +212,13 @@ body {
 .section h2 {
     padding: 10px 0px 10px 0px;
     background-color: inherit;
-    /* position: sticky;
-    position: -webkit-sticky; */
     z-index: 1;
     top: 0;
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
     margin-top: 0;
     line-height: 1em;
+    text-align: center;
 }
 
 .section-content {
@@ -243,7 +242,6 @@ body {
 
 #home-contact h2{
     color: #1C2541;
-    text-align: center;
 }
 
 .section-contact {
@@ -621,14 +619,23 @@ body {
     max-width: 80px;
 }
 
-.l-footer > h4 {
+.l-footer a {
+    color: var(--cardColor);
     margin-top: 0;
     font-family: "Courier New", sans-serif;
+}
+
+.l-footer a:hover {
+    filter: invert(50%);
 }
 
 .socials img{
     margin: 0px 5px 0px 5px;
     max-width: 25px;
+}
+
+.socials a:hover {
+    filter: invert(50%);
 }
 
 .r-footer {
