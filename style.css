@@ -282,7 +282,7 @@ nav .mainMenu .closeMenu , .icons i {
     }
 
     nav .mainMenu {
-        height: 100vh;
+        height: 80vh;
         position: fixed;
         top: 0;
         right: 0;
