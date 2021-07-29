@@ -50,7 +50,6 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    backdrop-filter: blur(2.5px);
     margin: 0;
 }
 
@@ -97,7 +96,7 @@ body {
     border-color: var(--cardBorder);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
     .modal-box {
         margin: 15% auto;
         width: 50%;
