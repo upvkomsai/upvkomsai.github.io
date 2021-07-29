@@ -251,14 +251,18 @@ body {
 .section-contact {
     display: flex;
     justify-content: space-evenly;
-    lex-wrap: wrap;
+    flex-wrap: wrap;
     text-align: center;
+    
 }
 
+.section-contact div {
+    width: 18%;
+    margin: 20px 0 35px 0;
+}
 
 .section-contact img {
-    width: 40%;
-    padding-top: 25px;
+    width: 90%;
 }
 
 .section-contact img:hover {
@@ -269,7 +273,6 @@ body {
 .section-contact p {
     font: 700 1.2em "Roboto", sans-serif;
     color: var(--cardBorder);
-    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 500px) {
