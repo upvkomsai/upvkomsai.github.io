@@ -630,12 +630,12 @@ body {
     }
 
     .r-footer {
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .r-footer p{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 20px;
         line-height: 20px;
         font-size: 0.8em;
         display: flex;
