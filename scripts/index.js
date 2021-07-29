@@ -174,6 +174,8 @@ const bindToModal = (
 const bindData = () => {
     const _homeNews = document.querySelector("#home-news .section-content");
     const _news = document.querySelector("#news .section-content");
+    const _homeGallery = document.querySelector("#home-gallery .section-content");
+    const _gallery = document.querySelector("#gallery .section-content");
     const _homeProjects = document.querySelector("#home-projects .section-content");
     const _projectsDone = document.querySelector("#projects .section-content");
     const _officers = document.querySelector("#officers .section-content");
@@ -219,6 +221,48 @@ const bindData = () => {
             );
 
             _news.append(card);
+        });
+    }
+
+    if (homeGallery.length) {
+        _homeGallery.querySelector(".nodata").remove();
+
+        homeGallery.forEach((e) => {
+            const card = bindToCard(
+                CARD.VERTICAL,
+                true,
+                e.img_path || PLACEHOLDER_IMAGE.GALLERY,
+                e.title,
+                e.date_shown,
+                false,
+                e.description,
+                true,
+                e.url,
+                e.urlText || "More Info"
+            );
+
+            _homeGallery.append(card);
+        });
+    }
+
+    if (gallery.length) {
+        _gallery.querySelector(".nodata").remove();
+
+        gallery.forEach((e) => {
+            const card = bindToCard(
+                CARD.VERTICAL,
+                true,
+                e.img_path || PLACEHOLDER_IMAGE.GALLERY,
+                e.title,
+                e.date_shown,
+                false,
+                e.description,
+                true,
+                e.url,
+                e.urlText || "More Info"
+            );
+
+            _gallery.append(card);
         });
     }
 
