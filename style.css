@@ -249,14 +249,15 @@ body {
 }
 
 .section-contact {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    margin:  20px 0;
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.section-contact img{
-    width: 60%;
+
+.section-contact img {
+    width: 150px;
+    padding-top: 25px;
 }
 
 .section-contact img:hover {
@@ -265,8 +266,9 @@ body {
 }
 
 .section-contact p {
-    font: 60% "Roboto", sans-serif;
+    font: 700 1.2em "Roboto", sans-serif;
     color: var(--cardBorder);
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 500px) {
