@@ -559,7 +559,7 @@ body {
 }
 
 *, *:before, *:after {
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #news-more,
@@ -593,28 +593,28 @@ body {
 .footer {
     display: flex;
     flex-flow: row wrap;
-    padding: 5px 50px 10px 5px;
+    padding: 20px 0px 10px 0px;
     color: var(--cardColor);
     background-color: var(--headerBackground);
 }
 
-
-.footer li,
-.footer a,
-.footer ul {
-    text-decoration: none;
-    line-height: 2em;
-    list-style: none;
-    padding-left: 0;
+.footer-logo img{
+    max-width: 80px;
 }
-    
+
+.footer-title h4{
+    font-family: "Courier New", sans-serif;
+}
+
 .l-footer {
+    line-height: 0em;
     flex: 1 0px;
     text-align: center;
     display: flex;
     flex-flow: column;
 }
 
+<<<<<<< Updated upstream
 .l-footer img{
     max-width: 80px;
 }
@@ -629,6 +629,8 @@ body {
     filter: invert(50%);
 }
 
+=======
+>>>>>>> Stashed changes
 .socials img{
     margin: 0px 5px 0px 5px;
     max-width: 25px;
@@ -641,17 +643,13 @@ body {
 .r-footer {
     flex: 3 0px;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 90%;
-    margin-right: 2em;
+    font-size: 80%;
     color: var(--headerColor);
     display: flex;
     flex-flow: row wrap;
-}
-
-.r-footer p {
-    font-size: 90%;
-    flex: 5 0px;
-    margin-right: 1.25em;
+    line-height: 2em;
+    list-style: none;
+    padding-left: 0;
 }
 
 .r-footer > * {
@@ -659,42 +657,58 @@ body {
 }
 
 .box a {
+    text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
     color: var(--cardColor);
 }
 
 .box a:hover {
     color: var(--headerColor);
-    transition: all 0.4s ease;
+}
+
+.footer-rights {
+    font-size: 90%;
+    margin-right: 1.25em;
+    flex: 5 0px;
 }
 
 @media screen and (max-width: 600px) {
-
     .footer {
+        padding: 20px;
         display: flex;
-        align-items: center;
-        padding: 0px 0px 10px 20px;
+        flex-direction: column;
+        justify-content: center;
     }
-
+    
     .l-footer {
         display: flex;
+        text-align: center;
         flex-direction: column;
     }
 
-    .r-footer {
-        font-size: 90%;
-        margin-left: 20px;
-    }
-
-    .r-footer p{
-        margin-left: 20px;
-        line-height: 20px;
-        font-size: 90%;
+    .box {
+        justify-content: center;
         display: flex;
+        flex-flow: row;
+    }
+
+    #home-link,
+    #news-link,
+    #projects-link,
+    #gallery-link,
+    #about-link,
+    #contact-link {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .r-footer{
+        line-height: 1.5em;
+        display: flex;
+        text-align: center;
         flex-direction: column;
     }
 
-    .socials img{
-        max-width: 20%;
+    .socials img {
+        padding-bottom: 1em;
     }
 }
