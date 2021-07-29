@@ -211,7 +211,7 @@ body {
     padding: 25px;
 }
 
-.section-heading {
+.section h2 {
     padding: 10px 0px 10px 0px;
     background-color: inherit;
     /* position: sticky;
@@ -221,7 +221,7 @@ body {
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
     margin-top: 0;
-    line-height: 0.5em;
+    line-height: 1em;
 }
 
 .section-content {
@@ -268,6 +268,23 @@ body {
     font: 700 1.2em "Roboto", sans-serif;
     color: var(--cardBorder);
 }
+
+@media screen and (max-width: 500px) {
+    .section-contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-contact img {
+        width: 60px;
+        margin: 0px 10px 0px 20px;
+    }
+
+    .section-contact p {
+        font-size: 10px;
+    }
+}
+
 
 .col-6 {
     display: grid;
@@ -342,7 +359,7 @@ body {
 
 .card {
     margin: 10px;
-    padding: 10px 15px 25px 15px;
+    padding: 10px 15px 15px 15px;
     border-radius: 10px;
     overflow: hidden;
     background-color: var(--cardBackground);
@@ -355,7 +372,7 @@ body {
 
 .card-h {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 80%;
 }
 
 .card-v-content {
@@ -473,6 +490,7 @@ body {
 .about-img{
     max-width: 100%;
     max-height: 300px;
+    margin-top: 20px;
 }
 
 .about-header {
@@ -539,10 +557,7 @@ body {
     color: var(--cardColor);
     background-color: var(--headerBackground);
 }
-    
-.footer > * {
-    flex: 1 100%;
-}
+
 
 .footer li,
 .footer a,
@@ -554,8 +569,10 @@ body {
 }
     
 .l-footer {
+    flex: 1 0px;
     text-align: center;
-    line-height: 0em;
+    display: flex;
+    flex-flow: column;
 }
 
 .l-footer img{
@@ -563,6 +580,7 @@ body {
 }
 
 .l-footer > h4 {
+    margin-top: 0;
     font-family: "Courier New", sans-serif;
 }
 
@@ -572,6 +590,7 @@ body {
 }
 
 .r-footer {
+    flex: 3 0px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.9em;
     margin-right: 2em;
@@ -580,9 +599,13 @@ body {
     flex-flow: row wrap;
 }
 
-.r-footer > * {
-    flex: 1 50%;
+.r-footer p {
+    flex: 5 0px;
     margin-right: 1.25em;
+}
+
+.r-footer > * {
+    flex: 1;
 }
 
 .box a {
@@ -595,20 +618,27 @@ body {
     transition: all 0.4s ease;
 }
 
-@media screen and (min-width: 600px) {
-    .r-footer > * {
-        flex: 1;
-    }
-    
-    .l-footer {
-        flex: 1 0px;
-    }
-    
-    .r-footer {
-        flex: 3 0px;
+@media screen and (max-width: 600px) {
+
+    .footer {
+        padding: 0px 40px 10px 40px;
     }
 
-    .r-footer p {
-        flex: 5 0px;
+    .l-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .r-footer {
+        margin-left: 40px;
+    }
+
+    .r-footer p{
+        text-align: center;
+        margin-left: 40px;
+        line-height: 20px;
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
     }
 }
