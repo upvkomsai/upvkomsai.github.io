@@ -1,8 +1,41 @@
 const PLACEHOLDER_IMAGE = {
+    FEATURED: null,
     NEWS: "resources/img/logo.png",
+    GALLERY: "resources/img/logo.png",
     PROJECTS_DONE: "resources/img/logo.png",
     OFFICERS: "resources/img/logo.png",
 };
+
+const featured = [
+    {
+        title: "What Computer Part are You?",
+        date: "July 30, 2021",
+        content:
+        `Are you this? or this?`,
+        img_path: "resources/img/featured/Slide1.jpg",
+    },
+    {
+        title: "What Computer Part are You?",
+        date: "July 30, 2021",
+        content:
+        `Are you this? or this?`,
+        img_path: "resources/img/featured/Slide2.jpg",
+    },
+    {
+        title: "What Computer Part are You?",
+        date: "July 30, 2021",
+        content:
+        `Are you this? or this?`,
+        img_path: "resources/img/featured/Slide3.jpg",
+    },
+    {
+        title: "What Computer Part are You?",
+        date: "July 30, 2021",
+        content:
+        `Are you this? or this?`,
+        img_path: "resources/img/featured/Slide4.jpg",
+    },
+];
 
 const news = [
     {
@@ -50,6 +83,39 @@ const news = [
 ];
 
 const homeNews = [news[0], news[1], news[2]];
+
+const gallery = [
+    {
+        title: "Kom E-Con 2021",
+        date_shown: "May 7, 2021",
+        description:
+        `Sir Maynard ❤️❤️❤️`,
+        img_path: "resources/img/gallery/GroupPic_wNongMaynard.jpg",
+    },
+    {
+        title: "Kom E-Con 2021",
+        date_shown: "May 7, 2021",
+        description:
+        `Ma'am Relyn ❤️❤️❤️`,
+        img_path: "resources/img/gallery/GroupPic_wMaamRelyn.jpg",
+    },
+    {
+        title: "Kom E-Con 2021",
+        date_shown: "May 7, 2021",
+        description:
+        `Sir Alexis ❤️❤️❤️`,
+        img_path: "resources/img/gallery/GroupPic_wSirAlexis.jpg",
+    },
+    {
+        title: "Kom E-Con 2021",
+        date_shown: "May 7, 2021",
+        description:
+        `Sir Stephen ❤️❤️❤️`,
+        img_path: "resources/img/gallery/GroupPic_wSirStephen.jpg",
+    },
+];
+
+const homeGallery = [gallery[0], gallery[1], gallery[2]];
 
 const projectsDone = [
     {
