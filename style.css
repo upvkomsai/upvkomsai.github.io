@@ -253,16 +253,17 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+    overflow: hidden;
     
 }
 
 .section-contact div {
-    width: 300px;
-    margin: 20px 0 35px 0;
+    width: 30%;
+    margin: 25px 0;
 }
 
 .section-contact img {
-    width: 150px;
+    width: 50%;
 }
 
 .section-contact img:hover {
@@ -277,16 +278,20 @@ body {
 
 @media screen and (max-width: 500px) {
     .section-contact {
-        grid-template-columns: 33% 33% 33%;
+        flex-direction: column;
+    }
+
+    .section-contact div {
+        width: 80%;
+        margin: 25px auto;
     }
 
     .section-contact img {
-        width: 60%;
-        margin: 0px 10px 0px 20px;
+        width: 50%;
     }
 
     .section-contact p {
-        font-size: 60%;
+        font-size: 100%;
     }
 }
 
