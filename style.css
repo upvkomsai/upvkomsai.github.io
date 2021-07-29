@@ -38,6 +38,12 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     color: var(--headerColor);
 }
 
+@media screen and (max-width: 500px) {
+    .error {
+        width: 300px;
+    }
+}
+
 /* Main Website */
 html {
     scroll-behavior: smooth;
