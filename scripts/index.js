@@ -332,6 +332,22 @@ const bindData = () => {
 
 bindData();
 
+
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+}
+
 // Handles button clicks on header navigation
 // When adding new pages, create a new 'btn' for the header and a new 'link' for the footer, then duplicate the code below
 const home_btn = document.getElementById("home-btn");

@@ -159,6 +159,7 @@ body {
     white-space: pre-line;
 }
 
+/* ORIGINAL NAVBAR
 .header {
     overflow: hidden;
     width:  100%;
@@ -194,6 +195,124 @@ body {
     color: var(--headerBackground);
     background-color: var(--headerColor);
     transition: all 0.4s ease;
+}
+ 
+*/
+
+nav {
+    padding: 0;
+    background: var(--headerBackground);
+    color: var(--cardColor);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar-logo {
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+nav .navbar-logo img {
+    padding-top: 15px;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+nav h1{
+    font-family: "Courier Prime", sans-serif;
+    color: var(--headerColor);
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.openMenu i img,
+.closeMenu i img {
+    max-width: 2em;
+}
+
+nav .mainMenu {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size:  1.2em;
+    font-weight: 300;
+}
+
+nav .mainMenu li a:hover {
+    background: var(--headerColor);
+    color: var(--headerBackground);
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+@media(max-width: 800px){
+    nav .navbar-logo {
+        padding-top: 13px;
+        display: inline-flex;
+    }
+    
+    nav .navbar-logo img {
+        padding-top: auto;
+    }
+    
+    nav h1{
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--headerBackground);
+        color: var(--cardColor);
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: var(--headerColor);
+        font-size: 1.6rem;
+    }
 }
 
 #featured,
