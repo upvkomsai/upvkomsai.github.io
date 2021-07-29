@@ -115,7 +115,7 @@ const homeProjects = [projectsDone[0], projectsDone[1], projectsDone[2]];
 
 const officers = [
     {
-        name: "Jayvee Castañeda",
+        name: "JAYVEE CASTAÑEDA",
         position: "President",
         description:
         `I don't have description ~~~ mema lang
@@ -123,11 +123,35 @@ const officers = [
         email: "jbcastaneda@up.edu.ph"
     },
     {
-        name: "Candyl John Faeldonea",
+        name: "BRETHREN ACE DE LA GENTE",
+        position: "Vice President for Internal Affairs",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com"
+    },
+    {
+        name: "CANDYL JOHN FAELDONEA",
         position: "Vice President for External Affairs",
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
         email: "cjfaeldonea@up.edu.ph"
+    },
+    {
+        name: "JOHANNA MARIE QUITOVIERA",
+        position: "Secretary",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com"
+    },
+    {
+        name: "GRACIELOU JOMOC",
+        position: "Assistant Secretary",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com"
     },
 ];
