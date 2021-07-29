@@ -276,7 +276,7 @@ body {
     color: var(--cardBorder);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .section-contact {
         flex-direction: column;
     }
@@ -291,7 +291,7 @@ body {
     }
 
     .section-contact p {
-        font-size: 1.5em;
+        font-size: 200%;
     }
 }
 
