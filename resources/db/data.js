@@ -1,6 +1,7 @@
 const PLACEHOLDER_IMAGE = {
-    NEWS: null,
-    PROJECTS_DONE: null,
+    NEWS: "resources/img/logo.png",
+    PROJECTS_DONE: "resources/img/logo.png",
+    OFFICERS: "resources/img/logo.png",
 };
 
 const news = [
@@ -111,3 +112,22 @@ const projectsDone = [
 ];
 
 const homeProjects = [projectsDone[0], projectsDone[1], projectsDone[2]];
+
+const officers = [
+    {
+        name: "Jayvee Castañeda",
+        position: "President",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "jbcastaneda@up.edu.ph"
+    },
+    {
+        name: "Candyl John Faeldonea",
+        position: "Vice President for External Affairs",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "cjfaeldonea@up.edu.ph"
+    },
+];

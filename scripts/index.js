@@ -13,6 +13,7 @@ const CARD = {
  * @param {string} imgPath - path to image file to be displayed on the card
  * @param {string} title - title of the card
  * @param {string} subtitle - subtitle to be displayed on the card
+ * @param {string} subtitle2 - another subtitle to be displayed on the card
  * @param {string} description - description of the card
  * @param {boolean} showDescription - whether to show description on the card itself
  * @param {string} url - URL pointing to external resources
@@ -25,6 +26,7 @@ const bindToCard = (
     imgPath,
     title,
     subtitle,
+    subtitle2,
     description,
     showDescription,
     url,
@@ -39,12 +41,7 @@ const bindToCard = (
     if (imgPath) {
         const img = document.createElement("img");
         img.src = imgPath;
-        img.alt = title || "No image provided.";
-        clone.querySelector(`.${layout}-img`).appendChild(img);
-    } else {
-        const img = document.createElement("img");
-        img.src = "resources/img/logo.png";
-        img.alt = title || "No image provided.";
+        img.alt = title || "No title provided.";
         clone.querySelector(`.${layout}-img`).appendChild(img);
     }
 
@@ -57,6 +54,12 @@ const bindToCard = (
         clone.querySelector(
             `.${layout}-content .${layout}-subtitle`
         ).textContent = subtitle;
+    }
+
+    if (subtitle2) {
+        clone.querySelector(
+            `.${layout}-content .${layout}-subtitle2`
+        ).textContent = subtitle2;
     }
 
     if (description && showDescription) {
@@ -81,7 +84,7 @@ const bindToCard = (
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToModal(clone, imgPath, title, subtitle, description, url, urlText);
+        bindToModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText);
         clone.classList.add("clickable", null);
     }
 
@@ -110,6 +113,7 @@ modal.addEventListener("click", (e) => {
  * @param {string} imgPath
  * @param {string} title
  * @param {string} subtitle
+ * @param {string} subtitle2
  * @param {string} description
  * @param {string} url
  * @param {string} urlText
@@ -119,6 +123,7 @@ const bindToModal = (
     imgPath,
     title,
     subtitle,
+    subtitle2,
     description,
     url,
     urlText
@@ -134,6 +139,12 @@ const bindToModal = (
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
             subtitle || "N/A";
+
+        if (subtitle2) {
+            modal.querySelector(".modal-content .modal-subtitle2").textContent =
+                subtitle2 || "N/A";
+        }
+        
         modal.querySelector(".modal-content .modal-img").src =
             imgPath || "resources/img/logo.png";
         modal.querySelector(".modal-content .modal-description").textContent =
@@ -165,6 +176,7 @@ const bindData = () => {
     const _news = document.querySelector("#news .section-content");
     const _homeProjects = document.querySelector("#home-projects .section-content");
     const _projectsDone = document.querySelector("#projects .section-content");
+    const _officers = document.querySelector("#officers .section-content");
 
     // Clone the template `div` and populate it with necessary data
 
@@ -175,9 +187,10 @@ const bindData = () => {
             const card = bindToCard(
                 CARD.VERTICAL,
                 true,
-                e.img_path,
+                e.img_path || PLACEHOLDER_IMAGE.NEWS,
                 e.title,
                 e.date,
+                false,
                 e.content,
                 true,
                 e.url,
@@ -195,9 +208,10 @@ const bindData = () => {
             const card = bindToCard(
                 CARD.VERTICAL,
                 true,
-                e.img_path,
+                e.img_path || PLACEHOLDER_IMAGE.NEWS,
                 e.title,
                 e.date,
+                false,
                 e.content,
                 true,
                 e.url,
@@ -215,9 +229,10 @@ const bindData = () => {
             const card = bindToCard(
                 CARD.VERTICAL,
                 true,
-                e.img_path,
+                e.img_path || PLACEHOLDER_IMAGE.PROJECTS_DONE,
                 e.name,
                 e.date_shown,
+                false,
                 e.description,
                 true,
                 e.url,
@@ -234,15 +249,37 @@ const bindData = () => {
             const card = bindToCard(
                 CARD.VERTICAL,
                 true,
-                e.img_path,
+                e.img_path || PLACEHOLDER_IMAGE.PROJECTS_DONE,
                 e.name,
                 e.date_shown,
+                false,
                 e.description,
                 true,
                 e.url,
                 e.urlText || "More Info"
             );
             _projectsDone.append(card);
+        });
+    }
+
+    if (officers.length) {
+        _officers.querySelector(".nodata").remove();
+
+        officers.forEach((e) => {
+            const card = bindToCard(
+                CARD.VERTICAL,
+                true,
+                e.img_path || PLACEHOLDER_IMAGE.OFFICERS,
+                e.name,
+                e.position,
+                e.email,
+                e.description,
+                true,
+                e.url,
+                e.urlText || "More Info"
+            );
+
+            _officers.append(card);
         });
     }
 
