@@ -289,6 +289,10 @@ body {
     .section-contact img {
         width: 50%;
     }
+
+    .section-contact p {
+        font-size: 1.5em;
+    }
 }
 
 
