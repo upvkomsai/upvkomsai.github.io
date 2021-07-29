@@ -261,6 +261,8 @@ const about_btn = document.getElementById("about-btn");
 const contact_btn = document.getElementById("contact-btn");
 
 const home_more = document.getElementById("home-more");
+const home_more2 = document.getElementById("home-more2");
+const home_more3 = document.getElementById("home-more3");
 const news_more = document.getElementById("news-more");
 const projects_more = document.getElementById("projects-more");
 const gallery_more = document.getElementById("gallery-more");
@@ -304,6 +306,14 @@ const buttons = [
         target: "home",
     },
     {
+        btn: home_more2,
+        target: "home",
+    },
+    {
+        btn: home_more3,
+        target: "home",
+    },
+    {
         btn: news_more,
         target: "news",
     },
@@ -319,10 +329,6 @@ const buttons = [
         btn: about_more,
         target: "about",
     },
-    // {
-    //     btn: contact_more,
-    //     target: "contact",
-    // },
     {
         btn: home_link,
         target: "home",
