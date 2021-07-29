@@ -257,12 +257,12 @@ body {
 }
 
 .section-contact div {
-    width: 18%;
+    width: 30%;
     margin: 20px 0 35px 0;
 }
 
 .section-contact img {
-    width: 90%;
+    width: 50%;
 }
 
 .section-contact img:hover {
