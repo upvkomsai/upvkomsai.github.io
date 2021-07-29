@@ -259,7 +259,7 @@ body {
 
 .section-contact div {
     width: 30%;
-    margin: 25px 0;
+    margin: 20px 0 30px 0;
 }
 
 .section-contact img {
@@ -276,7 +276,7 @@ body {
     color: var(--cardBorder);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .section-contact {
         flex-direction: column;
     }
@@ -291,7 +291,7 @@ body {
     }
 
     .section-contact p {
-        font-size: 150%;
+        font-size: 120%;
     }
 }
 
