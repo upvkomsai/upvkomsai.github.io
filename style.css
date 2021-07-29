@@ -251,6 +251,7 @@ body {
 .section-contact {
     display: flex;
     justify-content: space-evenly;
+    lex-wrap: wrap;
     text-align: center;
 }
 
