@@ -303,7 +303,6 @@ const news_more = document.getElementById("news-more");
 const projects_more = document.getElementById("projects-more");
 const gallery_more = document.getElementById("gallery-more");
 const about_more = document.getElementById("about-more");
-// const contact_more = document.getElementById("contact-more");
 
 const home_link = document.getElementById("home-link");
 const news_link = document.getElementById("news-link");
@@ -335,7 +334,7 @@ const buttons = [
     },
     {
         btn: contact_btn,
-        target: "contact",
+        target: "home",
     },
     {
         btn: home_more,
@@ -383,7 +382,7 @@ const buttons = [
     },
     {
         btn: contact_link,
-        target: "contact",
+        target: "home",
     },
 ];
 
