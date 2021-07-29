@@ -16,17 +16,16 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 
 /* Error 404 Page */
 .error {
-    max-width:  100%;
-    max-height:  750px;
+    width: 450px;
     background-color: var(--headerBackground);
     padding:  30px 50px;
-    margin: 100px 500px;
+    margin: 5% auto;
     text-align: center;
     border-radius: 10px;
 }
 
 .error-img {
-    width: 200px;
+    width: 50%;
 }
 
 .error-content h1 {
