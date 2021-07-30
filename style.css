@@ -78,6 +78,10 @@ body {
     }
 }
 
+.noUnderline {
+    text-decoration: none;
+}
+
 #modal {
     position: fixed;
     z-index: 2;
@@ -160,17 +164,22 @@ body {
 
 nav {
     background: var(--headerBackground);
+    position: fixed;
+    display: block;
     color: var(--cardColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    width: 100%;
+    z-index: 5;
 }
 
 nav .navbar-logo {
     padding-left: 10px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 nav .navbar-logo img {
@@ -225,12 +234,11 @@ nav .closeMenu , .icons i {
 
 @media(max-width: 880px){
     nav .mainMenu {
-        height: 500px;
+        height: 400px;
         position: fixed;
         top: 0;
         right: 0;
-        left: 0;
-        z-index: 10;
+        z-index: 5;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -256,7 +264,7 @@ nav .closeMenu , .icons i {
     nav .mainMenu a:hover {
         background: none;
         color: var(--headerColor);
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 }
 
