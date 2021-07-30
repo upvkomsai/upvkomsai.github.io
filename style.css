@@ -52,8 +52,7 @@ html {
 body {
     background-image: url("resources/img/background.png");
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     margin: 0;
 }
@@ -381,7 +380,7 @@ nav .closeMenu , .icons i {
     grid-template-columns: 50% 50%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1010px) {
     .section {
         grid-template-columns: 100%;
     }
