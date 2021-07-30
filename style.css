@@ -285,14 +285,14 @@ nav .closeMenu , .icons i {
     padding: 5% 5% 0% 5%;
 }
 
-#home-contact {
-    margin: 0% 9.5%;    
-    background-color: #5BC0BE;
-    border-radius: 10px;
+#home-contact h2{
+    color: var(--headerBackground);
 }
 
-#home-contact h2{
-    color: #1C2541;
+#home-contact .section {
+    background-color: var(--headerColor);
+    margin: 0% 9%;    
+    border-radius: 10px;
 }
 
 .section {
@@ -307,7 +307,7 @@ nav .closeMenu , .icons i {
     top: 0;
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
-    margin-top: 100px;
+    margin-top: 60px;
     line-height: 1em;
     text-align: center;
 }
