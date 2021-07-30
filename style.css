@@ -530,6 +530,7 @@ nav .closeMenu , .icons i {
     font: 300 1em "Roboto", sans-serif;
     line-height: 1.5em;
     color: var(--aboutColor);
+    text-align: justify;
 }
 
 .card-h-description,
@@ -683,6 +684,8 @@ nav .closeMenu , .icons i {
 
 .footer-title h4{
     font-family: "Courier Prime", sans-serif;
+    color: var(--cardColor);
+    background-color: var(--headerBackground);
 }
 
 .l-footer {
