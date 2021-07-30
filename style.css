@@ -200,87 +200,71 @@ body {
 */
 
 nav {
-    padding: 0;
     background: var(--headerBackground);
     color: var(--cardColor);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 }
 
 nav .navbar-logo {
     padding-left: 10px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
 }
 
 nav .navbar-logo img {
-    padding-top: 15px;
-    max-height: 70px;
-    max-width: 70px;
+    width: 50px;
 }
 
 nav h1{
     font-family: "Courier Prime", sans-serif;
     color: var(--headerColor);
-    margin-top: 30px;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .openMenu i img,
 .closeMenu i img {
-    max-width: 2em;
+    width: 50px;
 }
 
 nav .mainMenu {
-    font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     list-style: none;
 }
 
-nav .mainMenu li a {
-    display: inline-block;
-    padding: 15px;
+nav .mainMenu a {
+    padding: 30px 15px;
+    font: 300 1.2em "Roboto Condensed", sans-serif;
+    color: var(--cardColor);
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
-    font-size:  1.2em;
-    font-weight: 300;
+    line-height: 2em;
 }
 
-nav .mainMenu li a:hover {
+nav .mainMenu a:hover {
     background: var(--headerColor);
     color: var(--headerBackground);
+    transition: all 0.4s ease;
 }
 
 nav .openMenu {
-    font-size: 2rem;
+    font-size: 2em;
     margin: 20px;
     display: none;
     cursor: pointer;
 }
 
-nav .mainMenu .closeMenu , .icons i {
-    font-size: 2rem;
+nav .closeMenu , .icons i {
+    font-size: 2em;
     display: none;
     cursor: pointer;
 }
 
 
-@media(max-width: 800px){
-    nav .navbar-logo {
-        padding-top: 13px;
-        display: inline-flex;
-    }
-    
-    nav .navbar-logo img {
-        padding-top: auto;
-    }
-    
-    nav h1{
-        margin-top: 35px;
-        margin-left: 10px;
-    }
-
+@media(max-width: 880px){
     nav .mainMenu {
         height: 80vh;
         position: fixed;
