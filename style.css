@@ -191,7 +191,6 @@ nav h1{
 }
 
 nav .mainMenu {
-    padding-left: 0;
     display: flex;
     list-style: none;
 }
@@ -241,6 +240,7 @@ nav .closeMenu , .icons i {
         transition: top 1s ease;
         display: none;
         padding: 0;
+        margin:  0;
     }
 
     nav .closeMenu {
