@@ -266,7 +266,7 @@ nav .closeMenu , .icons i {
 
 @media(max-width: 880px){
     nav .mainMenu {
-        height: 80vh;
+        height: 500px;
         position: fixed;
         top: 0;
         right: 0;
@@ -279,9 +279,10 @@ nav .closeMenu , .icons i {
         color: var(--cardColor);
         transition: top 1s ease;
         display: none;
+        padding: 0;
     }
 
-    nav .mainMenu .closeMenu {
+    nav .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
@@ -292,10 +293,10 @@ nav .closeMenu , .icons i {
         display: block;
     }
 
-    nav .mainMenu li a:hover {
+    nav .mainMenu a:hover {
         background: none;
         color: var(--headerColor);
-        font-size: 1.6rem;
+        font-size: 1.5em;
     }
 }
 
