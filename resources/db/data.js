@@ -186,7 +186,7 @@ const officers = [
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
-        email: "jbcastaneda@up.edu.ph"
+        email: "jbcastaneda@up.edu.ph",
     },
     {
         name: "BRETHREN ACE DE LA GENTE",
@@ -194,7 +194,7 @@ const officers = [
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
-        email: "tempemail@email.com"
+        email: "tempemail@email.com",
     },
     {
         name: "CANDYL JOHN FAELDONEA",
@@ -202,22 +202,173 @@ const officers = [
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
-        email: "cjfaeldonea@up.edu.ph"
+        email: "cjfaeldonea@up.edu.ph",
     },
+    // {
+    //     name: "JOHANNA MARIE QUITOVIERA",
+    //     position: "Secretary",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "GRACIELOU JOMOC",
+    //     position: "Assistant Secretary",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "MICHAEL VINCENT DOSADO",
+    //     position: "Treasurer",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "RICA EUNICE DORDAS",
+    //     position: "Assistant Treasurer",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    //     name: "KRISTEN ANN JOY LUCIANO",
+    //     position: "Business Manager",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "RUSSEL JADE TUMANON",
+    //     position: "Assistant Business Manager",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
     {
-        name: "JOHANNA MARIE QUITOVIERA",
-        position: "Secretary",
+        name: "ALYSSA ALEXANDRA LEE",
+        position: "Auditor",
+        description:
+        `Demonstrates time management, decision making, and leadership skills`,
+        email: "aslee2@up.edu.ph",
+        img_path: "resources/img/officers/lee.jpg",
+    },
+    // {
+    //     name: "JOHN GABRIEL CABATU-AN",
+    //     position: "Assistant Auditor",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    {
+        name: "JANLEY MOLINA",
+        position: "P.I.O.",
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
-        email: "tempemail@email.com"
+        email: "tempemail@email.com",
     },
     {
-        name: "GRACIELOU JOMOC",
-        position: "Assistant Secretary",
+        name: "CHRISTIAN DALE CELESTIAL",
+        position: "P.I.O.",
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
-        email: "tempemail@email.com"
+        email: "tempemail@email.com",
     },
+    {
+        name: "ANN BEATRICE DESTAJO",
+        position: "P.I.O.",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    // {
+    //     name: "SOPHIA FEONA CANTILLER",
+    //     position: "2nd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    {
+        name: "LLOYD WALLYS M. DELA CRUZ",
+        position: "2nd Year Batch Representative",
+        description:
+        `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
+        email: "lmdelacruz4@up.edu.ph",
+        img_path: "resources/img/officers/dela_cruz.jpg",
+    },
+    // {
+    //     name: "JOHN KYLE JUNSAY",
+    //     position: "2nd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "RHEYMART TUGADO",
+    //     position: "2nd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "JAN KRISTINE MOSONG",
+    //     position: "3rd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    {
+        name: "HANNAH BELLA C. ARCEÑO",
+        position: "3rd Year Batch Representative",
+        description:
+        `perpetually in pursuit of learning and experience`,
+        email: "hcarceno@up.edu.ph",
+        img_path: "resources/img/officers/arceño.jpg",
+    },
+    // {
+    //     name: "NHILBERT JAY VALENTE",
+    //     position: "3rd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "ERRU TORCULAS",
+    //     position: "3rd Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "RENZEL BUATAG",
+    //     position: "4th Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
+    // {
+    //     name: "JOECEL EMAN CARPIO",
+    //     position: "4th Year Batch Representative",
+    //     description:
+    //     `I don't have description ~~~ mema lang
+    //     hahahahaha`,
+    //     email: "tempemail@email.com",
+    // },
 ];
