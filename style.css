@@ -275,13 +275,13 @@ nav .closeMenu , .icons i {
 #home-projects,
 #home-gallery,
 #home-about,
-#home-contact 
+#home-contact, 
 #news,
 #projects,
 #gallery,
 #about,
 #contact {
-    padding: 2.5% 5% 0% 5%;
+    padding: 5% 5% 0% 5%;
 }
 
 #home-contact {
@@ -295,7 +295,7 @@ nav .closeMenu , .icons i {
 }
 
 .section {
-    margin: 0 2.5% 2.5% 2.5%;
+    margin: 0% 2.5% 2.5% 2.5%;
     padding: 25px;
 }
 
