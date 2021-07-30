@@ -233,6 +233,7 @@ nav .closeMenu , .icons i {
 
 
 @media(max-width: 880px){
+
     nav .mainMenu {
         height: 450px;
         width: 300px;
@@ -275,13 +276,13 @@ nav .closeMenu , .icons i {
 #home-projects,
 #home-gallery,
 #home-about,
-#home-contact 
+#home-contact, 
 #news,
 #projects,
 #gallery,
 #about,
 #contact {
-    padding: 2.5% 5% 0% 5%;
+    padding: 5% 5% 0% 5%;
 }
 
 #home-contact {
