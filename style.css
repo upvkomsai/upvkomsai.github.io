@@ -307,7 +307,7 @@ nav .closeMenu , .icons i {
     top: 0;
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
-    margin-top: 60px;
+    margin-top: 50px;
     line-height: 1em;
     text-align: center;
 }
@@ -334,7 +334,7 @@ nav .closeMenu , .icons i {
 
 .section-contact div {
     width: 30%;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 50px 0;
 }
 
 .section-contact img {
