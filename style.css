@@ -234,7 +234,8 @@ nav .closeMenu , .icons i {
 
 @media(max-width: 880px){
     nav .mainMenu {
-        height: 400px;
+        height: 450px;
+        width: 300px;
         position: fixed;
         top: 0;
         right: 0;
@@ -244,6 +245,7 @@ nav .closeMenu , .icons i {
         align-items: center;
         background: var(--headerBackground);
         color: var(--cardColor);
+        border-radius: 15px;
         transition: top 1s ease;
         display: none;
         padding: 0;
@@ -264,7 +266,7 @@ nav .closeMenu , .icons i {
     nav .mainMenu a:hover {
         background: none;
         color: var(--headerColor);
-        font-size: 1.25em;
+        font-size: 1.4em;
     }
 }
 
@@ -723,6 +725,7 @@ nav .closeMenu , .icons i {
 
 .box a:hover {
     color: var(--headerColor);
+    transition: all 0.4s ease;
 }
 
 .footer-rights {
