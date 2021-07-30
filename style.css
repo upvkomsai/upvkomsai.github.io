@@ -38,7 +38,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     color: var(--headerColor);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 880px) {
     .error {
         width: 300px;
     }
@@ -297,7 +297,7 @@ nav .closeMenu , .icons i {
 
 .section {
     margin: 0 2.5% 2.5% 2.5%;
-    padding: 25px;
+    padding: 10px;
 }
 
 .section h2 {
@@ -307,7 +307,7 @@ nav .closeMenu , .icons i {
     top: 0;
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
-    margin-top: 50px;
+    margin-top: 0;
     line-height: 1em;
     text-align: center;
 }
@@ -351,7 +351,7 @@ nav .closeMenu , .icons i {
     color: var(--cardBorder);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
     .section-contact {
         flex-direction: column;
     }
@@ -409,7 +409,7 @@ nav .closeMenu , .icons i {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
     #featured,
     #home-news,
     #home-projects,
@@ -420,14 +420,11 @@ nav .closeMenu , .icons i {
     #gallery,
     #about,
     #contact {
-        padding: 1% 1.5% 0% 1.5%;
+        padding: 20% 1.5% 0% 1.5%;
     }
 
     .col-6,
-    .col-4 {
-        grid-template-columns: 50% 50%;
-    }
-
+    .col-4,
     .col-3,
     .col-2 {
         grid-template-columns: 100%;
@@ -594,7 +591,7 @@ nav .closeMenu , .icons i {
     line-height: 1.5em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
     .about-section{
         margin-top: 5px;
         margin-bottom: 5px;
@@ -738,7 +735,7 @@ nav .closeMenu , .icons i {
     flex: 5 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 880px) {
     .footer {
         padding: 20px;
         display: flex;

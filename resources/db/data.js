@@ -82,7 +82,7 @@ const news = [
     },
 ];
 
-const homeNews = [news[0], news[1], news[2]];
+const homeNews = [news[0], news[1], news[2], news[3]];
 
 const gallery = [
     {
@@ -115,7 +115,7 @@ const gallery = [
     },
 ];
 
-const homeGallery = [gallery[0], gallery[1], gallery[2]];
+const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
@@ -177,7 +177,7 @@ const projectsDone = [
     },
 ];
 
-const homeProjects = [projectsDone[0], projectsDone[1], projectsDone[2]];
+const homeProjects = [projectsDone[0], projectsDone[1], projectsDone[2], projectsDone[3]];
 
 const officers = [
     {
