@@ -11,6 +11,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     --cardBackground: #0B132B;
     --cardBorder: #1C2541;
     --subtitleColor: #3A506B;
+    --subtitleColor2: #496383;
     --aboutColor: white;
 }
 
@@ -516,9 +517,17 @@ nav .closeMenu , .icons i {
 .modal-subtitle,
 .card-h-subtitle,
 .card-v-subtitle {
-    font: 400 1em "Roboto Condensed", sans-serif;
+    font: 500 1em "Roboto Condensed", sans-serif;
     margin-top: 0;
     color: var(--subtitleColor);
+}
+
+.modal-subtitle2,
+.card-h-subtitle2,
+.card-v-subtitle2 {
+    font: 400 1em "Roboto Condensed", sans-serif;
+    margin-top: 0;
+    color: var(--subtitleColor2);
 }
 
 .modal-description,
@@ -556,6 +565,10 @@ nav .closeMenu , .icons i {
     color: var(--cardColor);
     background-color: var(--cardBackground);
     border-color: var(--cardColor);
+}
+
+#officers {
+    text-align: center;
 }
 
 /* About Page */
