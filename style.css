@@ -275,12 +275,23 @@ nav .closeMenu , .icons i {
 #home-projects,
 #home-gallery,
 #home-about,
+#home-contact 
 #news,
 #projects,
 #gallery,
 #about,
 #contact {
     padding: 2.5% 5% 0% 5%;
+}
+
+#home-contact {
+    margin: 0% 9.5%;    
+    background-color: #5BC0BE;
+    border-radius: 10px;
+}
+
+#home-contact h2{
+    color: #1C2541;
 }
 
 .section {
@@ -310,17 +321,6 @@ nav .closeMenu , .icons i {
     line-height: 1.5em;
     text-align: justify;
     color: var(--aboutColor);
-}
-
-
-#home-contact {
-    margin: 0 9%;
-    background-color: #5BC0BE;
-    border-radius: 10px;
-}
-
-#home-contact h2{
-    color: #1C2541;
 }
 
 .section-contact {
