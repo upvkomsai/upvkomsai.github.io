@@ -306,7 +306,7 @@ nav .closeMenu , .icons i {
     top: 0;
     color: var(--headerColor);
     font: 700 3em "Roboto Condensed", sans-serif;
-    margin-top: 0;
+    margin-top: 100px;
     line-height: 1em;
     text-align: center;
 }
