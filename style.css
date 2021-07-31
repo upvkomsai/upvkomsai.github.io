@@ -4,13 +4,13 @@ To easily change colors across all uses, change colors here.
 To use these colors in specific classes, use "var(--varName)" e.g. var(--noScriptColor)
 */
 :root {
-    --noScriptColor: #6FFFE9;
-    --headerColor: #5BC0BE;
-    --headerBackground:#0B132B;
+    --noScriptColor: #6fffe9;
+    --headerColor: #5bc0be;
+    --headerBackground: #0b132b;
     --cardColor: #ffffff;
-    --cardBackground: #0B132B;
-    --cardBorder: #1C2541;
-    --subtitleColor: #3A506B;
+    --cardBackground: #0b132b;
+    --cardBorder: #1c2541;
+    --subtitleColor: #3a506b;
     --subtitleColor2: #496383;
     --aboutColor: white;
 }
@@ -19,7 +19,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 .error {
     width: 450px;
     background-color: var(--headerBackground);
-    padding:  30px 50px;
+    padding: 30px 50px;
     margin: 5% auto;
     text-align: center;
     border-radius: 10px;
@@ -144,7 +144,6 @@ body {
     color: var(--headerColor);
 }
 
-
 .modal-close:hover {
     color: var(--cardColor);
     transition: all 0.4s ease;
@@ -187,7 +186,7 @@ nav .navbar-logo img {
     width: 50px;
 }
 
-nav h1{
+nav h1 {
     font-family: "Courier Prime", sans-serif;
     color: var(--headerColor);
     margin-left: 10px;
@@ -226,15 +225,14 @@ nav .openMenu {
     cursor: pointer;
 }
 
-nav .closeMenu , .icons i {
+nav .closeMenu,
+.icons i {
     font-size: 2em;
     display: none;
     cursor: pointer;
 }
 
-
-@media(max-width: 880px){
-
+@media (max-width: 880px) {
     nav .mainMenu {
         height: 450px;
         width: 300px;
@@ -251,7 +249,7 @@ nav .closeMenu , .icons i {
         transition: top 1s ease;
         display: none;
         padding: 0;
-        margin:  0;
+        margin: 0;
     }
 
     nav .closeMenu {
@@ -277,7 +275,7 @@ nav .closeMenu , .icons i {
 #home-projects,
 #home-gallery,
 #home-about,
-#home-contact, 
+#home-contact,
 #news,
 #projects,
 #gallery,
@@ -286,13 +284,13 @@ nav .closeMenu , .icons i {
     padding: 5% 5% 0% 5%;
 }
 
-#home-contact h2{
+#home-contact h2 {
     color: var(--headerBackground);
 }
 
 #home-contact .section {
     background-color: var(--headerColor);
-    margin: 0% 9%;    
+    margin: 0% 9%;
     border-radius: 10px;
 }
 
@@ -370,7 +368,6 @@ nav .closeMenu , .icons i {
         font-size: 120%;
     }
 }
-
 
 .col-6 {
     display: grid;
@@ -486,6 +483,7 @@ nav .closeMenu , .icons i {
 .card-v-img {
     margin: -10px -15px 0px -15px;
     background-color: var(--cardBackground);
+    aspect-ratio: 1;
 }
 
 .card-h-img > img,
@@ -494,10 +492,7 @@ nav .closeMenu , .icons i {
 }
 
 .card-v-img > img {
-    width: 100%;
-    min-width: 22rem;
-    height: 22rem;
-    object-fit: cover;
+    height: 100%;
 }
 
 .modal-title,
@@ -572,7 +567,7 @@ nav .closeMenu , .icons i {
 }
 
 /* About Page */
-.about-section{
+.about-section {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 15px;
@@ -583,7 +578,7 @@ nav .closeMenu , .icons i {
     background-color: var(--cardBackground);
 }
 
-.about-img{
+.about-img {
     max-width: 100%;
     max-height: 300px;
     margin-top: 20px;
@@ -605,7 +600,7 @@ nav .closeMenu , .icons i {
 }
 
 @media screen and (max-width: 880px) {
-    .about-section{
+    .about-section {
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 5px;
@@ -615,13 +610,13 @@ nav .closeMenu , .icons i {
         text-align: center;
         background-color: var(--cardBackground);
     }
-    
-    .about-img{
+
+    .about-img {
         max-width: 80%;
         max-height: 200px;
         margin-top: 20px;
     }
-    
+
     .about-header {
         color: var(--headerColor);
         font: 700 1.2em "Courier Prime", sans-serif;
@@ -629,7 +624,7 @@ nav .closeMenu , .icons i {
         margin-bottom: 5px;
         margin-top: 5px;
     }
-    
+
     .about-p {
         color: var(--aboutColor);
         text-align: justify;
@@ -649,8 +644,10 @@ nav .closeMenu , .icons i {
     text-decoration-line: none;
 } */
 
-*, *:before, *:after {
-        box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 #news-more,
@@ -688,11 +685,11 @@ nav .closeMenu , .icons i {
     background-color: var(--headerBackground);
 }
 
-.footer-logo img{
+.footer-logo img {
     max-width: 80px;
 }
 
-.footer-title h4{
+.footer-title h4 {
     font-family: "Courier Prime", sans-serif;
     color: var(--cardColor);
     background-color: var(--headerBackground);
@@ -706,7 +703,7 @@ nav .closeMenu , .icons i {
     flex-flow: column;
 }
 
-.socials img{
+.socials img {
     margin: 0px 5px 0px 5px;
     max-width: 25px;
 }
@@ -755,7 +752,7 @@ nav .closeMenu , .icons i {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .l-footer {
         display: flex;
         text-align: center;
@@ -777,7 +774,7 @@ nav .closeMenu , .icons i {
         padding: 0px 10px 0px 10px;
     }
 
-    .r-footer{
+    .r-footer {
         line-height: 1.5em;
         display: flex;
         text-align: center;
