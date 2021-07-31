@@ -302,7 +302,7 @@ nav .closeMenu , .icons i {
 }
 
 .section h2 {
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
     background-color: inherit;
     z-index: 1;
     top: 0;
@@ -392,7 +392,7 @@ nav .closeMenu , .icons i {
     grid-template-columns: 50% 50%;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1200px) {
     .section {
         grid-template-columns: 100%;
     }
@@ -410,7 +410,7 @@ nav .closeMenu , .icons i {
     }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 890px) {
     #featured,
     #home-news,
     #home-projects,
@@ -525,7 +525,7 @@ nav .closeMenu , .icons i {
 .modal-subtitle2,
 .card-h-subtitle2,
 .card-v-subtitle2 {
-    font: 400 1em "Roboto Condensed", sans-serif;
+    font: 400 1em "Roboto", sans-serif;
     margin-top: 0;
     color: var(--subtitleColor2);
 }
@@ -553,7 +553,7 @@ nav .closeMenu , .icons i {
     padding: 10px 15px;
     border: 1px solid var(--headerColor);
     border-radius: 50px;
-    font: 700 1em "Roboto Condensed", sans-serif;
+    font: 700 0.85em "Roboto Condensed", sans-serif;
     color: var(--cardBackground);
     background-color: var(--headerColor);
     text-decoration-line: none;
