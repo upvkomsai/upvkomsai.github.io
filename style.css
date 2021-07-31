@@ -280,7 +280,8 @@ nav .closeMenu,
 #projects,
 #gallery,
 #about,
-#contact {
+#contact,
+#help {
     padding: 5% 5% 0% 5%;
 }
 
@@ -381,7 +382,7 @@ nav .closeMenu,
 
 .col-3 {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
 }
 
 .col-2 {
@@ -407,7 +408,7 @@ nav .closeMenu,
     }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 880px) {
     #featured,
     #home-news,
     #home-projects,
@@ -417,7 +418,8 @@ nav .closeMenu,
     #projects,
     #gallery,
     #about,
-    #contact {
+    #contact,
+    #help {
         padding: 20% 1.5% 0% 1.5%;
     }
 
@@ -565,7 +567,9 @@ nav .closeMenu,
     border-color: var(--cardColor);
 }
 
-#officers {
+#officers,
+#officers .card-h-description,
+#officers .card-v-description {
     text-align: center;
 }
 
@@ -657,7 +661,8 @@ nav .closeMenu,
 #gallery-more,
 #projects-more,
 #about-more,
-#contact-more {
+#contact-more,
+#help-more {
     display: block;
     margin: 10px;
     padding: 15px 0;
@@ -674,7 +679,8 @@ nav .closeMenu,
 #gallery-more:hover,
 #projects-more:hover,
 #about-more:hover,
-#contact-more:hover {
+#contact-more:hover,
+#help-more:hover {
     transition: all 0.4s ease;
     color: var(--cardColor);
     background-color: var(--cardBackground);
@@ -773,7 +779,8 @@ nav .closeMenu,
     #projects-link,
     #gallery-link,
     #about-link,
-    #contact-link {
+    #contact-link,
+    #help-link {
         padding: 0px 10px 0px 10px;
     }
 
