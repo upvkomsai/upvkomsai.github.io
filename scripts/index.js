@@ -85,7 +85,7 @@ const bindToCard = (
 
     if (includeModal) {
         bindToModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText);
-        clone.classList.add("clickable", null);
+        clone.classList.add("clickable");
     }
 
     return clone;
