@@ -236,21 +236,22 @@ const officers = [
     //     hahahahaha`,
     //     email: "tempemail@email.com",
     // },
-    //     name: "KRISTEN ANN JOY LUCIANO",
-    //     position: "Business Manager",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "RUSSEL JADE TUMANON",
-    //     position: "Assistant Business Manager",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "KRISTEN ANN JOY LUCIANO",
+        position: "Business Manager",
+        description:
+        `INTP`,
+        email: "kfluciano@up.edu.ph",
+        img_path: "resources/img/officers/luciano.jpg",
+    },
+    {
+        name: "RUSSEL JADE TUMANON",
+        position: "Assistant Business Manager",
+        description:
+        `Team Free Will 2.0`,
+        email: "rftumanon@up.edu.ph",
+        img_path: "resources/img/officers/tumanon.jpg",
+    },
     {
         name: "ALYSSA ALEXANDRA LEE",
         position: "Auditor",
@@ -271,17 +272,17 @@ const officers = [
         name: "JANLEY MOLINA",
         position: "P.I.O.",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `No description.`,
+        email: "jrmolina2@up.edu.ph",
+        img_path: "resources/img/officers/molina.jpg",
     },
     {
         name: "CHRISTIAN DALE CELESTIAL",
         position: "P.I.O.",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `A minimalist.`,
+        email: "cpcelestial@up.edu.ph",
+        img_path: "resources/img/officers/celestial.jpg",
     },
     {
         name: "ANN BEATRICE DESTAJO",
@@ -291,14 +292,15 @@ const officers = [
         hahahahaha`,
         email: "tempemail@email.com",
     },
-    // {
-    //     name: "SOPHIA FEONA CANTILLER",
-    //     position: "2nd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "SOPHIA FEONA CANTILLER",
+        position: "2nd Year Batch Representative",
+        description:
+        `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
+        I live for the arts and literary, and everything in between—with my love for computers squeezed in. `,
+        email: "socantiller@up.edu.ph",
+        img_path: "resources/img/officers/cantiller.jpg",
+    },
     {
         name: "LLOYD WALLYS M. DELA CRUZ",
         position: "2nd Year Batch Representative",
