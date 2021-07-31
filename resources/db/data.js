@@ -184,9 +184,9 @@ const officers = [
         name: "JAYVEE CASTAÑEDA",
         position: "President",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `Calculating in the midst of an Unbound Thresh`,
         email: "jbcastaneda@up.edu.ph",
+        img_path: "resources/img/officers/castañeda.jpg",
     },
     {
         name: "BRETHREN ACE DE LA GENTE",
