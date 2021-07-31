@@ -204,38 +204,38 @@ const officers = [
         hahahahaha`,
         email: "cjfaeldonea@up.edu.ph",
     },
-    // {
-    //     name: "JOHANNA MARIE QUITOVIERA",
-    //     position: "Secretary",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "GRACIELOU JOMOC",
-    //     position: "Assistant Secretary",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "MICHAEL VINCENT DOSADO",
-    //     position: "Treasurer",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "RICA EUNICE DORDAS",
-    //     position: "Assistant Treasurer",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "JOHANNA MARIE QUITOVIERA",
+        position: "Secretary",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "GRACIELOU JOMOC",
+        position: "Assistant Secretary",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "MICHAEL VINCENT DOSADO",
+        position: "Treasurer",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "RICA EUNICE DORDAS",
+        position: "Assistant Treasurer",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
     {
         name: "KRISTEN ANN JOY LUCIANO",
         position: "Business Manager",
@@ -260,14 +260,14 @@ const officers = [
         email: "aslee2@up.edu.ph",
         img_path: "resources/img/officers/lee.jpg",
     },
-    // {
-    //     name: "JOHN GABRIEL CABATU-AN",
-    //     position: "Assistant Auditor",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "JOHN GABRIEL CABATU-AN",
+        position: "Assistant Auditor",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
     {
         name: "JANLEY MOLINA",
         position: "P.I.O.",
@@ -309,30 +309,30 @@ const officers = [
         email: "lmdelacruz4@up.edu.ph",
         img_path: "resources/img/officers/dela_cruz.jpg",
     },
-    // {
-    //     name: "JOHN KYLE JUNSAY",
-    //     position: "2nd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "RHEYMART TUGADO",
-    //     position: "2nd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "JAN KRISTINE MOSONG",
-    //     position: "3rd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "JOHN KYLE JUNSAY",
+        position: "2nd Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "RHEYMART TUGADO",
+        position: "2nd Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "JAN KRISTINE MOSONG",
+        position: "3rd Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
     {
         name: "HANNAH BELLA C. ARCEÑO",
         position: "3rd Year Batch Representative",
@@ -341,36 +341,36 @@ const officers = [
         email: "hcarceno@up.edu.ph",
         img_path: "resources/img/officers/arceño.jpg",
     },
-    // {
-    //     name: "NHILBERT JAY VALENTE",
-    //     position: "3rd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "ERRU TORCULAS",
-    //     position: "3rd Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "RENZEL BUATAG",
-    //     position: "4th Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
-    // {
-    //     name: "JOECEL EMAN CARPIO",
-    //     position: "4th Year Batch Representative",
-    //     description:
-    //     `I don't have description ~~~ mema lang
-    //     hahahahaha`,
-    //     email: "tempemail@email.com",
-    // },
+    {
+        name: "NHILBERT JAY VALENTE",
+        position: "3rd Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "ERRU TORCULAS",
+        position: "3rd Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "RENZEL BUATAG",
+        position: "4th Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
+    {
+        name: "JOECEL EMAN CARPIO",
+        position: "4th Year Batch Representative",
+        description:
+        `I don't have description ~~~ mema lang
+        hahahahaha`,
+        email: "tempemail@email.com",
+    },
 ];
