@@ -308,6 +308,8 @@ const bindData = () => {
 
     if (officers.length) {
         _officers.querySelector(".nodata").remove();
+        var count = 0;
+        var container = document.createElement("div");
 
         officers.forEach((e) => {
             const card = bindToCard(
@@ -316,14 +318,41 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.OFFICERS,
                 e.name,
                 e.position,
-                e.email,
+                "✉ " + e.email,
                 e.description,
                 true,
                 e.url,
                 e.urlText || "More Info"
             );
+            
+            if  (count == 0){
+                container.classList = "col-3";
+                container.append(document.createElement("div"));
+                _officers.append(container);
 
-            _officers.append(card);
+            } else if (count == 3 || count == 11 || count == 15 || count == 19 || count == 23){
+                _officers.append(document.createElement("br"));
+                _officers.append(document.createElement("br"));
+
+                container = document.createElement("div");
+                container.classList = "col-4";
+                _officers.append(container);
+
+            } else if (count == 27){
+                _officers.append(document.createElement("br"));
+                _officers.append(document.createElement("br"));
+
+                container = document.createElement("div");
+                container.classList = "col-4";
+                container.append(document.createElement("div"));
+                _officers.append(container);
+
+            } else if (count == 29){
+                container = document.createElement("div");
+                _officers.append(container);
+            }
+            container.append(card);
+            count ++;
         });
     }
 
@@ -356,6 +385,7 @@ const projects_btn = document.getElementById("projects-btn");
 const gallery_btn = document.getElementById("gallery-btn");
 const about_btn = document.getElementById("about-btn");
 const contact_btn = document.getElementById("contact-btn");
+const help_btn = document.getElementById("help-btn");
 
 const home_more = document.getElementById("home-more");
 const home_more2 = document.getElementById("home-more2");
@@ -363,6 +393,7 @@ const news_more = document.getElementById("news-more");
 const projects_more = document.getElementById("projects-more");
 const gallery_more = document.getElementById("gallery-more");
 const about_more = document.getElementById("about-more");
+const help_more = document.getElementById("help-more");
 
 const home_link = document.getElementById("home-link");
 const news_link = document.getElementById("news-link");
@@ -370,6 +401,7 @@ const projects_link = document.getElementById("projects-link");
 const gallery_link = document.getElementById("gallery-link");
 const about_link = document.getElementById("about-link");
 const contact_link = document.getElementById("contact-link");
+const help_link = document.getElementById("help-link");
 
 const buttons = [
     {
@@ -397,6 +429,10 @@ const buttons = [
         target: "home",
     },
     {
+        btn: help_btn,
+        target: "help",
+    },
+    {
         btn: home_more,
         target: "home",
     },
@@ -421,6 +457,10 @@ const buttons = [
         target: "about",
     },
     {
+        btn: help_more,
+        target: "help",
+    },
+    {
         btn: home_link,
         target: "home",
     },
@@ -443,6 +483,10 @@ const buttons = [
     {
         btn: contact_link,
         target: "home",
+    },
+    {
+        btn: help_link,
+        target: "help",
     },
 ];
 
