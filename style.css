@@ -351,6 +351,30 @@ nav .closeMenu,
     color: var(--cardBorder);
 }
 
+.question {
+    background-color: var(--headerBackground);
+    color: var(--aboutColor);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+.active, .question:hover {
+    background-color: var(--cardBorder);
+}
+  
+.answer {
+    padding: 0 18px;
+    color: var(--aboutColor);
+    background-color: var(--headerBackground);
+    display: none;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 880px) {
     .section-contact {
         flex-direction: column;
