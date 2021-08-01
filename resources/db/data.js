@@ -285,12 +285,12 @@ const officers = [
         img_path: "resources/img/officers/celestial.jpg",
     },
     {
-        name: "ANN BEATRICE DESTAJO",
+        name: "ANN BEATRICE L. DESTAJO",
         position: "P.I.O.",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `A cosmic glitch`,
+        email: "aldestajo@up.edu.ph",
+        img_path: "resources/img/officers/destajo.jpg",
     },
     {
         name: "TBA",

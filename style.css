@@ -373,6 +373,7 @@ nav .closeMenu,
     background-color: var(--headerBackground);
     display: none;
     overflow: hidden;
+    text-align: justify;
 }
 
 @media screen and (max-width: 880px) {
