@@ -181,12 +181,16 @@ const homeProjects = [projectsDone[0], projectsDone[1], projectsDone[2], project
 
 const officers = [
     {
-        name: "JAYVEE CASTAÑEDA",
+        name: "JAYVEE B. CASTAÑEDA",
         position: "President",
         description:
-        `Calculating in the midst of an Unbound Thresh`,
+        `Derived from the Lost Equation...
+        where Chaos must stay chaotic
+        
+        I'm Blue da bu di dabu da`,
         email: "jbcastaneda@up.edu.ph",
         img_path: "resources/img/officers/castañeda.jpg",
+        is_dev: true,
     },
     {
         name: "BRETHREN ACE DE LA GENTE",
@@ -197,36 +201,37 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "CANDYL JOHN FAELDONEA",
+        name: "CANDYL JOHN F. FAELDONEA",
         position: "Vice President for External Affairs",
         description:
         `I don't have description ~~~ mema lang
         hahahahaha`,
         email: "cjfaeldonea@up.edu.ph",
+        is_dev: true,
     },
     {
-        name: "JOHANNA MARIE QUITOVIERA",
+        name: "JOHANNA MARIE P. QUITOVIERA",
         position: "Secretary",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `A third year student at the University of the Philippines Visayas na patuloy lumalaban emz`,
+        email: "jpquitoviera@up.edu.ph",
+        img_path: "resources/img/officers/quitoviera.jpg",
     },
     {
-        name: "GRACIELOU JOMOC",
+        name: "GRACIELOU L. JOMOC",
         position: "Assistant Secretary",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `Drinks coffee and takes photographs of food (and does a bit with learning technologies too).`,
+        email: "gljomoc@up.edu.ph",
+        img_path: "resources/img/officers/jomoc.jpg",
     },
     {
         name: "MICHAEL VINCENT DOSADO",
         position: "Treasurer",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `ESFJ`,
+        email: "mcdosado@up.edu.ph",
+        img_path: "resources/img/officers/dosado.jpg",
     },
     {
         name: "RICA EUNICE DORDAS",
@@ -237,7 +242,7 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "KRISTEN ANN JOY LUCIANO",
+        name: "KRISTEN ANN JOY F. LUCIANO",
         position: "Business Manager",
         description:
         `INTP`,
@@ -245,15 +250,16 @@ const officers = [
         img_path: "resources/img/officers/luciano.jpg",
     },
     {
-        name: "RUSSEL JADE TUMANON",
+        name: "RUSSEL JADE F. TUMANON",
         position: "Assistant Business Manager",
         description:
         `Team Free Will 2.0`,
         email: "rftumanon@up.edu.ph",
         img_path: "resources/img/officers/tumanon.jpg",
+        is_dev: true,
     },
     {
-        name: "ALYSSA ALEXANDRA LEE",
+        name: "ALYSSA ALEXANDRA S. LEE",
         position: "Auditor",
         description:
         `Demonstrates time management, decision making, and leadership skills`,
@@ -269,20 +275,22 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "JANLEY MOLINA",
+        name: "JANLEY R. MOLINA",
         position: "P.I.O.",
         description:
         `No description.`,
         email: "jrmolina2@up.edu.ph",
         img_path: "resources/img/officers/molina.jpg",
+        is_dev: true,
     },
     {
-        name: "CHRISTIAN DALE CELESTIAL",
+        name: "CHRISTIAN DALE P. CELESTIAL",
         position: "P.I.O.",
         description:
         `A minimalist.`,
         email: "cpcelestial@up.edu.ph",
         img_path: "resources/img/officers/celestial.jpg",
+        is_dev: true,
     },
     {
         name: "ANN BEATRICE L. DESTAJO",
@@ -291,6 +299,7 @@ const officers = [
         `A cosmic glitch`,
         email: "aldestajo@up.edu.ph",
         img_path: "resources/img/officers/destajo.jpg",
+        is_dev: true,
     },
     {
         name: "TBA",
@@ -333,7 +342,7 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "SOPHIA FEONA CANTILLER",
+        name: "SOPHIA FEONA O. CANTILLER",
         position: "2nd Year Batch Representative",
         description:
         `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
@@ -358,7 +367,7 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "RHEYMART TUGADO",
+        name: "RHEYMART G. TUGADO",
         position: "2nd Year Batch Representative",
         description:
         `I don't have description ~~~ mema lang
@@ -366,12 +375,12 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "JAN KRISTINE MOSONG",
+        name: "JAN KRISTINE A. MOSONG",
         position: "3rd Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `3rd Year Batch Representative`,
+        email: "jamosong@up.edu.ph",
+        img_path: "resources/img/officers/mosong.jpg",
     },
     {
         name: "HANNAH BELLA C. ARCEÑO",
@@ -390,20 +399,20 @@ const officers = [
         email: "tempemail@email.com",
     },
     {
-        name: "ERRU TORCULAS",
+        name: "ERRU G. TORCULAS",
         position: "3rd Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `*insert inspiring quote* just a small town boi, living in a lonely world. Just crating illustrations to keep me sane. `,
+        email: "egtorculas@up.edu.ph",
+        img_path: "resources/img/officers/torculas.jpg",
     },
     {
-        name: "RENZEL BUATAG",
+        name: "RENZEL E. BUATAG",
         position: "4th Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `ngeee. idunno. `,
+        email: "rebuatag@up.edu.ph",
+        img_path: "resources/img/officers/buatag.jpg",
     },
     {
         name: "JOECEL EMAN CARPIO",
