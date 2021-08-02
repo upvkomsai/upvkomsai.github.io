@@ -361,10 +361,12 @@ nav .closeMenu,
 }
 
 .question {
+    font-size: larger;
     background-color: var(--headerBackground);
     color: var(--aboutColor);
     cursor: pointer;
     padding: 18px;
+    border-radius: 10px;
     width: 100%;
     text-align: left;
     border: none;
@@ -372,8 +374,14 @@ nav .closeMenu,
     transition: 0.4s;
   }
   
-.active, .question:hover {
+.active {
+    color: var(--aboutColor);
     background-color: var(--cardBorder);
+}
+
+.question:hover {
+    color: var(--headerBackground);
+    background-color: var(--headerColor);
 }
   
 .answer {
