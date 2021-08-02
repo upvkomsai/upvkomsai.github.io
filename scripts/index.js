@@ -87,7 +87,7 @@ const bindToCard = (
         const devTitle = document.createElement("p");
 
         devTitle.className = "modal-dev";
-        devTitle.textContent = "✓ CERTIFIED WEBSITE DEVELOPER";
+        devTitle.textContent = "✔ CERTIFIED WEBSITE DEVELOPER";
 
         clone.querySelector(`.${layout}-content`).appendChild(devTitle);
     }
@@ -180,7 +180,7 @@ const bindToModal = (
         if (is_dev) {
             const devTitle = modal.querySelector(".modal-dev");
     
-            devTitle.textContent = "✓ CERTIFIED WEBSITE DEVELOPER";
+            devTitle.textContent = "✔ CERTIFIED WEBSITE DEVELOPER";
             devTitle.hidden = false;
 
         } else {
