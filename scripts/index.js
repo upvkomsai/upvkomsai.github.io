@@ -18,6 +18,7 @@ const CARD = {
  * @param {boolean} showDescription - whether to show description on the card itself
  * @param {string} url - URL pointing to external resources
  * @param {string} urlText - text to display instead of the URL
+ * @param {boolean} is_dev - state true for website developers
  * @returns {Node} A preformatted `<div>` element that can be attached to the DOM
  */
 const bindToCard = (
@@ -30,7 +31,8 @@ const bindToCard = (
     description,
     showDescription,
     url,
-    urlText = "More details"
+    urlText = "More details",
+    is_dev
 ) => {
     layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
 
@@ -81,10 +83,19 @@ const bindToCard = (
         clone.querySelector(`.${layout}-content`).appendChild(link);
     }
 
+    if (is_dev) {
+        const devTitle = document.createElement("p");
+
+        devTitle.className = "modal-dev";
+        devTitle.textContent = "✓ CERTIFIED WEBSITE DEVELOPER";
+
+        clone.querySelector(`.${layout}-content`).appendChild(devTitle);
+    }
+
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText);
+        bindToModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText, is_dev);
         clone.classList.add("clickable");
     }
 
@@ -117,6 +128,7 @@ modal.addEventListener("click", (e) => {
  * @param {string} description
  * @param {string} url
  * @param {string} urlText
+ * @param {boolean} is_dev
  */
 const bindToModal = (
     element,
@@ -126,7 +138,8 @@ const bindToModal = (
     subtitle2,
     description,
     url,
-    urlText
+    urlText,
+    is_dev
 ) => {
     if (!element) return false;
 
@@ -164,6 +177,19 @@ const bindToModal = (
             link.hidden = true;
         }
 
+        if (is_dev) {
+            const devTitle = modal.querySelector(".modal-dev");
+    
+            devTitle.textContent = "✓ CERTIFIED WEBSITE DEVELOPER";
+            devTitle.hidden = false;
+
+        } else {
+            const devTitle = modal.querySelector(".modal-dev");
+    
+            devTitle.textContent = "";
+            devTitle.hidden = true;
+        }
+
         modal.hidden = false;
     });
 };
@@ -196,7 +222,8 @@ const bindData = () => {
                 e.content,
                 true,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
 
             _homeNews.append(card);
@@ -217,7 +244,8 @@ const bindData = () => {
                 e.content,
                 true,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
 
             _news.append(card);
@@ -236,9 +264,10 @@ const bindData = () => {
                 e.date_shown,
                 false,
                 e.description,
-                true,
+                false,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
 
             _homeGallery.append(card);
@@ -257,9 +286,10 @@ const bindData = () => {
                 e.date_shown,
                 false,
                 e.description,
-                true,
+                false,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
 
             _gallery.append(card);
@@ -280,7 +310,8 @@ const bindData = () => {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
             _homeProjects.append(card);
         });
@@ -300,7 +331,8 @@ const bindData = () => {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                false
             );
             _projectsDone.append(card);
         });
@@ -322,7 +354,8 @@ const bindData = () => {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "More Info"
+                e.urlText || "More Info",
+                e.is_dev
             );
             
             if  (count == 0){

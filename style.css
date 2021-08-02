@@ -162,6 +162,15 @@ body {
     white-space: pre-line;
 }
 
+.modal-dev {
+    text-align: center;
+    font-weight: bolder;
+    color: var(--cardBackground);
+    background-color: var(--cardColor);
+    border-radius: 10px;
+    padding: 5px;
+}
+
 nav {
     background: var(--headerBackground);
     position: fixed;
