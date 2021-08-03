@@ -810,6 +810,7 @@ nav .closeMenu,
     }
 
     .box {
+        overflow-wrap: normal;
         justify-content: center;
         display: flex;
         flex-flow: row;
@@ -822,7 +823,7 @@ nav .closeMenu,
     #about-link,
     #contact-link,
     #help-link {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 10px 0px 0px;
     }
 
     .r-footer {
