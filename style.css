@@ -164,9 +164,9 @@ body {
 
 .modal-dev {
     text-align: center;
-    font-weight: bolder;
+    font: 700 1em "Roboto Condensed", sans-serif;
     color: var(--cardBackground);
-    background-color: var(--cardColor);
+    background-color: var(--headerColor);
     border-radius: 10px;
     padding: 5px;
 }
