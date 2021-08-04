@@ -187,7 +187,7 @@ const officers = [
         `Derived from the Lost Equation...
         where Chaos must stay chaotic
         
-        I'm Blue da bu di dabu da`,
+        Things come and go...`,
         email: "jbcastaneda@up.edu.ph",
         img_path: "resources/img/officers/castañeda.jpg",
         is_dev: true,
@@ -234,12 +234,12 @@ const officers = [
         img_path: "resources/img/officers/dosado.jpg",
     },
     {
-        name: "RICA EUNICE DORDAS",
+        name: "RICA EUNICE L. DORDAS",
         position: "Assistant Treasurer",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `Hi. I make crochet products. Follow me on FB and IG: @heycrushe`,
+        email: "rldordas@up.edu.ph",
+        img_path: "resources/img/officers/dordas.jpg",
     },
     {
         name: "KRISTEN ANN JOY F. LUCIANO",
@@ -391,12 +391,12 @@ const officers = [
         img_path: "resources/img/officers/arceño.jpg",
     },
     {
-        name: "NHILBERT JAY VALENTE",
+        name: "NHILBERT JAY E. VALENTE",
         position: "3rd Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `:)`,
+        email: "nevalente@up.edu.ph",
+        img_path: "resources/img/officers/valente.jpg",
     },
     {
         name: "ERRU G. TORCULAS",
