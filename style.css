@@ -431,7 +431,7 @@ nav .closeMenu,
     grid-template-columns: 50% 50%;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .section {
         grid-template-columns: 100%;
     }
@@ -447,7 +447,7 @@ nav .closeMenu,
     .col-3 {
         grid-template-columns: 50% 50%;
     }
-}
+} */
 
 @media screen and (max-width: 880px) {
     #featured,
