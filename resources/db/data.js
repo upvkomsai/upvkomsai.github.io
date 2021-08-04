@@ -40,9 +40,11 @@ const featured = [
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
-        date: "July 30, 2021",
+        date: "August 6, 2021",
         content:
-        `UPV Komsai.Org now has an official website. Love this new website OMG! Check it out!!!`,
+        `On August 6, 2021, UPV Komsai.Org has now launched its official website to the public.
+        
+        Check it out by typing "upv.komsai.org" on your browser or by clicking the link below.`,
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -86,32 +88,137 @@ const homeNews = [news[0], news[1], news[2], news[3]];
 
 const gallery = [
     {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Raffle Draw Winners`,
+        img_path: "resources/img/gallery/raffle.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Trivia Night BONUS ROUND Winners`,
+        img_path: "resources/img/gallery/triviaBonus.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Trivia Night HARD ROUND Winners`,
+        img_path: "resources/img/gallery/triviaHard.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Trivia Night MEDIUM ROUND Winners`,
+        img_path: "resources/img/gallery/triviaMedium.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Trivia Night EASY ROUND Winners`,
+        img_path: "resources/img/gallery/triviaEasy.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `"What Do You Meme?" 3rd Place`,
+        img_path: "resources/img/gallery/wdym3.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `"What Do You Meme?" 2nd Place`,
+        img_path: "resources/img/gallery/wdym2.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `"What Do You Meme?" 1st Place`,
+        img_path: "resources/img/gallery/wdym1.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `Over-Riddle-ing Winners`,
+        img_path: "resources/img/gallery/over-riddle-ing.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `CSS Challenge Winner #2`,
+        img_path: "resources/img/gallery/css2.png",
+    },
+    {
+        title: "Komsai Week 2021 Winners",
+        date_shown: "May 8, 2021",
+        description:
+        `CSS Challenge Winner #1`,
+        img_path: "resources/img/gallery/css1.png",
+    },
+    {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
-        `Sir Maynard ❤️❤️❤️`,
+        `Group Picture with Mr. Maynard Vargas ❤️❤️❤️`,
         img_path: "resources/img/gallery/GroupPic_wNongMaynard.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
-        `Ma'am Relyn ❤️❤️❤️`,
+        `Group Picture with Ms. Relyn Dela Cruz ❤️❤️❤️`,
         img_path: "resources/img/gallery/GroupPic_wMaamRelyn.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
-        `Sir Alexis ❤️❤️❤️`,
+        `Group Picture with Mr. Alexis Lingad ❤️❤️❤️`,
         img_path: "resources/img/gallery/GroupPic_wSirAlexis.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
-        `Sir Stephen ❤️❤️❤️`,
+        `Group Picture with Mr. Stephen Alayon ❤️❤️❤️`,
         img_path: "resources/img/gallery/GroupPic_wSirStephen.jpg",
+    },
+    {
+        title: "LoL: Wild Rift Tournament with USC",
+        date_shown: "March 27, 2021",
+        description:
+        `LoL: Wild Rift Tournament Brackets`,
+        img_path: "resources/img/gallery/USCTournamentBrackets.png",
+    },
+    {
+        title: "LoL: Wild Rift Tournament with USC",
+        date_shown: "March 27, 2021",
+        description:
+        `LoL: Wild Rift Tournament Teams`,
+        img_path: "resources/img/gallery/USCTournamentTeams.png",
+    },
+    {
+        title: "YEP NICL 2020 Valorant Leg",
+        date_shown: "November 10, 2020",
+        description:
+        `Team "Kuya Marjo Supporters" for YEP NICL 2020`,
+        img_path: "resources/img/gallery/kuyamarjo.png",
+    },
+    {
+        title: "YEP NICL 2020 Valorant Leg",
+        date_shown: "November 10, 2020",
+        description:
+        `Team "Op Ja Kaw?" for YEP NICL 2020`,
+        img_path: "resources/img/gallery/opjakaw.png",
     },
 ];
 
@@ -120,13 +227,15 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 const projectsDone = [
     {
         name: "Official Website",
-        date_shown: "July 15, 2021",
+        date_shown: "July 2 - August 6, 2021",
         description:
         `UPV Komsai.Org now has an official website.
         
-        It started as a plan years ago, and eventually the organization finally made it happen. With a website, the organization can finally spread its wings outside its limitations. Here's to a new way of communication.
+        It started as a plan years ago, and eventually the organization finally made it happen. Over the span of a month, we designed a website so that it will be easier for our followers to contact us and know more about the organization.
         
-        Visit the website through the link below.`,
+        With a website, the organization can finally spread its wings outside its limitations. Cheers to a new way of communication.
+        
+        You may visit the website by typing "upv.komsai.org" on your browser or by clicking the link below.`,
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
