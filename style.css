@@ -331,33 +331,23 @@ nav .closeMenu,
 }
 
 .caption {
-    font: 40 1em "Roboto", sans-serif;
-    color: var(--headerBackground);
+    font: 400 1em "Roboto", sans-serif;
+    color: var(--cardColor);
     padding: 8px 12px;
     position: absolute;
-    left: 20px;
+    left: 23px;
     bottom: 15px;
 }
 
 @media screen and (max-width: 880px) {
 
     .headline {
-        font: 700 3.5em "Roboto Condensed", sans-serif;
-        color: var(--headerColor);
-        padding: 8px 12px;
         display: block;
-        position: absolute;
-        left: 20px;
-        bottom: 90px;
+        bottom: 110px;
     }
     
     .caption {
-        font: 40 1em "Roboto", sans-serif;
-        color: var(--headerBackground);
-        padding: 8px 12px;
-        position: absolute;
-        left: 20px;
-        bottom: 15px;
+        bottom: 10px;
     }
     
 }
