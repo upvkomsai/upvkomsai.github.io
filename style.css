@@ -321,24 +321,13 @@ nav .closeMenu,
     background-color: var(--headerColor);
 }
 
-.headline {
+.caption {
     font: 700 3.5em "Roboto Condensed", sans-serif;
     color: var(--headerColor);
     padding: 8px 12px;
     position: absolute;
-    left: 30px;
-    bottom: 70px;
-}
-
-.caption {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1em;
-    color: var(--headerBackground);
-    padding: 0px 12px;
-    position: absolute;
-    left: 30px;
-    right: 30px;
-    bottom: 10px;
+    left: 40px;
+    bottom: 20px;
 }
 
 .dot {
