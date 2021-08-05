@@ -811,6 +811,7 @@ nav .closeMenu,
     padding: 20px 0px 10px 0px;
     color: var(--cardColor);
     background-color: var(--headerBackground);
+    margin-top: 100px;
 }
 
 .footer-logo img {
