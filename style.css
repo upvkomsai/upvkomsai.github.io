@@ -331,11 +331,11 @@ nav .closeMenu,
 }
 
 .caption {
-    font: 40 1em "Roboto", sans-serif;
-    color: var(--headerBackground);
+    font: 400 1em "Roboto", sans-serif;
+    color: var(--cardColor);
     padding: 8px 12px;
     position: absolute;
-    left: 20px;
+    left: 23px;
     bottom: 15px;
 }
 
@@ -356,7 +356,7 @@ nav .closeMenu,
         color: var(--headerBackground);
         padding: 8px 12px;
         position: absolute;
-        left: 20px;
+        left: 23px;
         bottom: 15px;
     }
     
