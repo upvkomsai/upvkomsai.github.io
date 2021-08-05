@@ -321,13 +321,45 @@ nav .closeMenu,
     background-color: var(--headerColor);
 }
 
-.caption {
+.headline {
     font: 700 3.5em "Roboto Condensed", sans-serif;
     color: var(--headerColor);
     padding: 8px 12px;
     position: absolute;
-    left: 40px;
+    left: 20px;
+    bottom: 60px;
+}
+
+.caption {
+    font: 40 1em "Roboto", sans-serif;
+    color: var(--headerBackground);
+    padding: 8px 12px;
+    position: absolute;
+    left: 20px;
     bottom: 20px;
+}
+
+@media screen and (max-width: 880px) {
+
+    .headline {
+        font: 700 3.5em "Roboto Condensed", sans-serif;
+        color: var(--headerColor);
+        padding: 8px 12px;
+        display: block;
+        position: absolute;
+        left: 20px;
+        bottom: 90px;
+    }
+    
+    .caption {
+        font: 40 1em "Roboto", sans-serif;
+        color: var(--headerBackground);
+        padding: 8px 12px;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+    }
+    
 }
 
 .dot {
