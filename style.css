@@ -348,16 +348,16 @@ nav .closeMenu,
         display: block;
         position: absolute;
         left: 20px;
-        bottom: 90px;
+        bottom: 110px;
     }
     
     .caption {
         font: 40 1em "Roboto", sans-serif;
-        color: var(--headerBackground);
+        color: var(--cardColor);
         padding: 8px 12px;
         position: absolute;
         left: 23px;
-        bottom: 15px;
+        bottom: 10px;
     }
     
 }
