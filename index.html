@@ -106,6 +106,7 @@
             <!-- END OF SMALL CARD TEMPLATE -->
         </div>
         <div id="home">
+            
             <!-- <div id="featured">
                 <div class="section">
                     <h2 class="section-heading">FEATURED</h2>
@@ -114,6 +115,57 @@
                     </div>
                 </div>
             </div> -->
+            
+            <div class="home-feature">
+                <div class="mySlides fade">
+                    <img src="resources/img/logo.png">
+                    <div class="caption">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="resources/img/logo1.png">
+                    <div class="caption">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="resources/img/logo2.png">
+                    <div class="caption">Caption Three</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" current", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " current";
+                }
+            </script>
             <div id="home-about">
                 <div class="section">
                     <!-- <h2 class="section-heading">ABOUT US</h2> -->
