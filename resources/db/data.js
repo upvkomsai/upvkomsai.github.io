@@ -302,12 +302,12 @@ const officers = [
         is_dev: true,
     },
     {
-        name: "BRETHREN ACE DE LA GENTE",
+        name: "BRETHREN ACE D. DE LA GENTE",
         position: "Vice President for Internal Affairs",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `50% human, 50% unsure`,
+        email: "bddelagente@up.edu.ph",
+        img_path: "resources/img/officers/delagente.jpg",
     },
     {
         name: "CANDYL JOHN F. FAELDONEA",
@@ -468,12 +468,14 @@ const officers = [
         img_path: "resources/img/officers/dela_cruz.jpg",
     },
     {
-        name: "JOHN KYLE JUNSAY",
+        name: "JOHN KYLE N. JUNSAY",
         position: "2nd Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `I'm into photography and cinematography. My favorite music is the sound of the ocean waves clashing into the shore. 
+
+        I always believe that we make our own reality so I try to look through the brighter side of everything.`,
+        email: "jnjunsay@up.edu.ph",
+        img_path: "resources/img/officers/junsay.jpg",
     },
     {
         name: "RHEYMART G. TUGADO",
@@ -524,11 +526,13 @@ const officers = [
         img_path: "resources/img/officers/buatag.jpg",
     },
     {
-        name: "JOECEL EMAN CARPIO",
+        name: "JOECEL EMAN I. CARPIO",
         position: "4th Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `"Pero ma, kahit gaga at pasaway ako, gusto ko lang naman maging proud ka sa'kin eh. Kaya nga inaayos ko 'yung buhay ko ngayon eh." - Alex on The Confrontation scene
+
+        "Don't give comments about my personal life because I don't give comments about yours!" - Alex to Bobbie on their confrontation about their ex-boyfriend.`,
+        email: "jicarpio1@up.edu.ph",
+        img_path: "resources/img/officers/carpio.jpg",
     },
 ];
