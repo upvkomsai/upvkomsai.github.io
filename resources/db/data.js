@@ -272,6 +272,21 @@ const officers = [
         
         Things come and go...`,
         email: "jbcastaneda@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook", //icon located in "resources/img/icons"
+                url: "https://www.facebook.com",
+            },
+            {
+                name:"twitter", //icon located in "resources/img/icons"
+                url: "https://www.twitter.com",
+            },
+            {
+                name:"linkedin", //icon located in "resources/img/icons"
+                url: "https://www.linkedin.com",
+            },
+        ],
         img_path: "resources/img/officers/castañeda.jpg",
         is_dev: true,
     },
