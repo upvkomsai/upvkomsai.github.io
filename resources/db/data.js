@@ -6,37 +6,6 @@ const PLACEHOLDER_IMAGE = {
     OFFICERS: "resources/img/logo.png",
 };
 
-const featured = [
-    {
-        title: "What Computer Part are You?",
-        date: "July 30, 2021",
-        content:
-        `Are you this? or this?`,
-        img_path: "resources/img/featured/Slide1.jpg",
-    },
-    {
-        title: "What Computer Part are You?",
-        date: "July 30, 2021",
-        content:
-        `Are you this? or this?`,
-        img_path: "resources/img/featured/Slide2.jpg",
-    },
-    {
-        title: "What Computer Part are You?",
-        date: "July 30, 2021",
-        content:
-        `Are you this? or this?`,
-        img_path: "resources/img/featured/Slide3.jpg",
-    },
-    {
-        title: "What Computer Part are You?",
-        date: "July 30, 2021",
-        content:
-        `Are you this? or this?`,
-        img_path: "resources/img/featured/Slide4.jpg",
-    },
-];
-
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
@@ -92,105 +61,110 @@ const gallery = [
         date_shown: "May 8, 2021",
         description:
         `Raffle Draw Winners`,
-        img_path: "resources/img/gallery/raffle.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/raffle.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night BONUS ROUND Winners`,
-        img_path: "resources/img/gallery/triviaBonus.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/triviaBonus.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night HARD ROUND Winners`,
-        img_path: "resources/img/gallery/triviaHard.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/triviaHard.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night MEDIUM ROUND Winners`,
-        img_path: "resources/img/gallery/triviaMedium.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/triviaMedium.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night EASY ROUND Winners`,
-        img_path: "resources/img/gallery/triviaEasy.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/triviaEasy.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
-        `"What Do You Meme?" 3rd Place`,
-        img_path: "resources/img/gallery/wdym3.png",
+        `"What Do You Meme?" 3rd Place
+        Adrine Marie Adonis`,
+        img_path: "resources/img/gallery/KomsaiWeek2021/wdym3.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
-        `"What Do You Meme?" 2nd Place`,
-        img_path: "resources/img/gallery/wdym2.png",
+        `"What Do You Meme?" 2nd Place
+        Earl James Rentillo`,
+        img_path: "resources/img/gallery/KomsaiWeek2021/wdym2.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
-        `"What Do You Meme?" 1st Place`,
-        img_path: "resources/img/gallery/wdym1.png",
+        `"What Do You Meme?" 1st Place
+        Russel Jade Tumanon`,
+        img_path: "resources/img/gallery/KomsaiWeek2021/wdym1.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
         `Over-Riddle-ing Winners`,
-        img_path: "resources/img/gallery/over-riddle-ing.png",
+        img_path: "resources/img/gallery/KomsaiWeek2021/over-riddle-ing.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
-        `CSS Challenge Winner #2`,
-        img_path: "resources/img/gallery/css2.png",
+        `CSS Challenge Winner #2
+        Lloyd Wally Dela Cruz`,
+        img_path: "resources/img/gallery/KomsaiWeek2021/css2.png",
     },
     {
         title: "Komsai Week 2021 Winners",
         date_shown: "May 8, 2021",
         description:
-        `CSS Challenge Winner #1`,
-        img_path: "resources/img/gallery/css1.png",
+        `CSS Challenge Winner #1
+        Ann Beatrice Destajo`,
+        img_path: "resources/img/gallery/KomsaiWeek2021/css1.png",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
         `Group Picture with Mr. Maynard Vargas ❤️❤️❤️`,
-        img_path: "resources/img/gallery/GroupPic_wNongMaynard.jpg",
+        img_path: "resources/img/gallery/KomsaiWeek2021/GroupPic_wNongMaynard.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
         `Group Picture with Ms. Relyn Dela Cruz ❤️❤️❤️`,
-        img_path: "resources/img/gallery/GroupPic_wMaamRelyn.jpg",
+        img_path: "resources/img/gallery/KomsaiWeek2021/GroupPic_wMaamRelyn.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
         `Group Picture with Mr. Alexis Lingad ❤️❤️❤️`,
-        img_path: "resources/img/gallery/GroupPic_wSirAlexis.jpg",
+        img_path: "resources/img/gallery/KomsaiWeek2021/GroupPic_wSirAlexis.jpg",
     },
     {
         title: "Kom E-Con 2021",
         date_shown: "May 7, 2021",
         description:
         `Group Picture with Mr. Stephen Alayon ❤️❤️❤️`,
-        img_path: "resources/img/gallery/GroupPic_wSirStephen.jpg",
+        img_path: "resources/img/gallery/KomsaiWeek2021/GroupPic_wSirStephen.jpg",
     },
     {
         title: "LoL: Wild Rift Tournament with USC",
