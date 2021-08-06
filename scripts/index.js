@@ -42,6 +42,82 @@ var slideIndex = 1;
  * @param {string} imgPath - path to image file to be displayed on the card
  * @param {string} title - title of the card
  * @param {string} subtitle - subtitle to be displayed on the card
+ * @param {string} description - description of the card
+ * @param {boolean} showDescription - whether to show description on the card itself
+ * @param {string} url - URL pointing to external resources
+ * @param {string} urlText - text to display instead of the URL
+ * @returns {Node} A preformatted `<div>` element that can be attached to the DOM
+ */
+const bindToCard = (
+    layout,
+    includeModal,
+    imgPath,
+    title,
+    subtitle,
+    description,
+    showDescription,
+    url,
+    urlText = "More details",
+) => {
+    layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
+
+    const clone = document
+        .querySelector(`#templates .card.${layout}.template`)
+        .cloneNode(true);
+
+    if (imgPath) {
+        const img = document.createElement("img");
+        img.src = imgPath;
+        img.alt = title || "No title provided.";
+        clone.querySelector(`.${layout}-img`).appendChild(img);
+    }
+
+    if (title) {
+        clone.querySelector(`.${layout}-content .${layout}-title`).textContent =
+            title;
+    }
+
+    if (subtitle) {
+        clone.querySelector(
+            `.${layout}-content .${layout}-subtitle`
+        ).textContent = subtitle;
+    }
+
+    if (description && showDescription) {
+        clone.querySelector(
+            `.${layout}-content .${layout}-description`
+        ).textContent = description || "No description.";
+    } else {
+        clone
+            .querySelector(`.${layout}-content .${layout}-description`)
+            ?.remove();
+    }
+
+    if (url) {
+        const link = document.createElement("a");
+
+        link.href = url;
+        link.textContent = urlText;
+
+        clone.querySelector(`.${layout}-content`).appendChild(link);
+    }
+
+    clone.classList.remove("template");
+
+    if (includeModal) {
+        bindToModal(clone, imgPath, title, subtitle, description, url, urlText);
+        clone.classList.add("clickable");
+    }
+
+    return clone;
+};
+
+/**
+ * @param {string} layout - card layout as defined in the CARD constant (horizontal, vertical, or small)
+ * @param {boolean} includeModal - bind a modal to the Card item to show more details
+ * @param {string} imgPath - path to image file to be displayed on the card
+ * @param {string} title - title of the card
+ * @param {string} subtitle - subtitle to be displayed on the card
  * @param {string} subtitle2 - another subtitle to be displayed on the card
  * @param {string} description - description of the card
  * @param {boolean} showDescription - whether to show description on the card itself
@@ -50,7 +126,7 @@ var slideIndex = 1;
  * @param {boolean} is_dev - state true for website developers
  * @returns {Node} A preformatted `<div>` element that can be attached to the DOM
  */
-const bindToCard = (
+ const bindToOfficerCard = (
     layout,
     includeModal,
     imgPath,
@@ -124,7 +200,7 @@ const bindToCard = (
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText, is_dev);
+        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText, is_dev);
         clone.classList.add("clickable");
     }
 
@@ -159,7 +235,64 @@ modal.addEventListener("click", (e) => {
  * @param {string} urlText
  * @param {boolean} is_dev
  */
-const bindToModal = (
+ const bindToModal = (
+    element,
+    imgPath,
+    title,
+    subtitle,
+    description,
+    url,
+    urlText
+) => {
+    if (!element) return false;
+
+    element.addEventListener("click", (e) => {
+
+        modal.querySelector(".modal-content .modal-title").textContent =
+            title || "No title";
+        modal.querySelector(".modal-content .modal-subtitle").textContent =
+            subtitle || "N/A";
+        
+        modal.querySelector(".modal-content .modal-img").src =
+            imgPath || "resources/img/logo.png";
+        modal.querySelector(".modal-content .modal-description").textContent =
+            description || "No description";
+
+        if (url) {
+            const link = modal.querySelector(".modal-url");
+
+            link.href = url;
+            link.textContent = urlText;
+            link.hidden = false;
+        } else {
+            const link = modal.querySelector(".modal-url");
+
+            link.href = "#";
+            link.textContent = "";
+            link.hidden = true;
+        }
+        
+        const devTitle = modal.querySelector(".modal-dev");
+
+        devTitle.textContent = "";
+        devTitle.hidden = true;
+
+        modal.hidden = false;
+    });
+};
+
+/**
+ * @param {Node} element - element that triggers the modal
+ * @param {string} imgPath
+ * @param {string} title
+ * @param {string} subtitle
+ * @param {string} subtitle2
+ * @param {string} description
+ * @param {string} url
+ * @param {string} urlText
+ * @param {boolean} is_dev
+ */
+const bindToOfficerModal = (
     element,
     imgPath,
     title,
@@ -173,9 +306,6 @@ const bindToModal = (
     if (!element) return false;
 
     element.addEventListener("click", (e) => {
-        // if (e.target === element.querySelector("a")) {
-        //     return;
-        // }
 
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
@@ -247,12 +377,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.NEWS,
                 e.title,
                 e.date,
-                false,
                 e.content,
                 true,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
 
             _homeNews.append(card);
@@ -269,12 +397,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.NEWS,
                 e.title,
                 e.date,
-                false,
                 e.content,
                 true,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
 
             _news.append(card);
@@ -291,12 +417,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.GALLERY,
                 e.title,
                 e.date_shown,
-                false,
                 e.description,
                 false,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
 
             _homeGallery.append(card);
@@ -313,12 +437,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.GALLERY,
                 e.title,
                 e.date_shown,
-                false,
                 e.description,
                 false,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
 
             _gallery.append(card);
@@ -335,12 +457,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.PROJECTS_DONE,
                 e.name,
                 e.date_shown,
-                false,
                 e.description,
                 true,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
             _homeProjects.append(card);
         });
@@ -356,12 +476,10 @@ const bindData = () => {
                 e.img_path || PLACEHOLDER_IMAGE.PROJECTS_DONE,
                 e.name,
                 e.date_shown,
-                false,
                 e.description,
                 true,
                 e.url,
                 e.urlText || "More Info",
-                false
             );
             _projectsDone.append(card);
         });
@@ -373,7 +491,7 @@ const bindData = () => {
         var container = document.createElement("div");
 
         officers.forEach((e) => {
-            const card = bindToCard(
+            const card = bindToOfficerCard(
                 CARD.VERTICAL,
                 true,
                 e.img_path || PLACEHOLDER_IMAGE.OFFICERS,
