@@ -19,7 +19,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 .error {
     width: 450px;
     background-color: var(--headerBackground);
-    padding: 30px 50px;
+    padding: 30px 30px;
     margin: 5% auto;
     text-align: center;
     border-radius: 10px;
@@ -37,6 +37,29 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 .error-content p {
     font: 400 1em "Roboto", sans-serif;
     color: var(--headerColor);
+}
+
+.error-content a {
+    font: 400 1em "Roboto", sans-serif;
+    border-color: var(--cardBorder);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--headerBackground);
+    background-color: var(--headerColor);
+    margin: 0 2.5% 2.5% 2.5%;
+    padding: 10px;
+}
+
+.error-content a:hover {
+    transition: all 0.4s ease;
+    font: 400 1em "Roboto", sans-serif;
+    border-color: var(--headerColor);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--headerColor);
+    background-color: var(--headerBackground);
+    margin: 0 2.5% 2.5% 2.5%;
+    padding: 10px;
 }
 
 @media screen and (max-width: 880px) {
