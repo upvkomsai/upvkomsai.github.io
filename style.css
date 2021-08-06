@@ -340,7 +340,7 @@ nav .closeMenu,
 
 .headline {
     font: 700 3.5em "Roboto Condensed", sans-serif;
-    color: var(--headerColor);
+    color: var(--cardColor);
     padding: 8px 12px;
     position: absolute;
     left: 20px;
