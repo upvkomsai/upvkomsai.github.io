@@ -313,9 +313,10 @@ const officers = [
         name: "CANDYL JOHN F. FAELDONEA",
         position: "Vice President for External Affairs",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `Part-time computer science student. Wanna join [other] orgs? 
+        SKL, hindi applicable sa akin ang mga komsai stereotypes, bakit kaya?`,
         email: "cjfaeldonea@up.edu.ph",
+        img_path: "resources/img/officers/faeldonea.jpg",
         is_dev: true,
     },
     {
@@ -465,7 +466,7 @@ const officers = [
         description:
         `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
         email: "lmdelacruz4@up.edu.ph",
-        img_path: "resources/img/officers/dela_cruz.jpg",
+        img_path: "resources/img/officers/delacruz.jpg",
     },
     {
         name: "JOHN KYLE N. JUNSAY",
