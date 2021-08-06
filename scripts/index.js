@@ -116,7 +116,7 @@ const bindToCard = (
         const devTitle = document.createElement("p");
 
         devTitle.className = "modal-dev";
-        devTitle.textContent = "✔ CERTIFIED WEBSITE DEVELOPER";
+        devTitle.textContent = `✔ "upv.komsai.org" Website Developer`;
 
         clone.querySelector(`.${layout}-content`).appendChild(devTitle);
     }
@@ -209,7 +209,7 @@ const bindToModal = (
         if (is_dev) {
             const devTitle = modal.querySelector(".modal-dev");
     
-            devTitle.textContent = "✔ CERTIFIED WEBSITE DEVELOPER";
+            devTitle.textContent = `✔ "upv.komsai.org" Website Developer`;
             devTitle.hidden = false;
 
         } else {

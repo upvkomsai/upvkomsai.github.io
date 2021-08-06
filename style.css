@@ -96,7 +96,7 @@ body {
 
 .modal-box {
     margin: 15% auto;
-    width: 35%;
+    width: 45%;
     padding: 10px 25px 25px 25px;
     background-color: var(--cardBackground);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
