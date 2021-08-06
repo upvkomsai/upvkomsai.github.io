@@ -6,6 +6,45 @@ const PLACEHOLDER_IMAGE = {
     OFFICERS: "resources/img/logo.png",
 };
 
+const featured = [
+    {
+        title: "UPV Komsai.Org",
+        date: "March 7, 2021",
+        content:
+        `Long description`,
+        img_path: "resources/img/featured/Classic.jpg",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "UPV Komsai.Org",
+        date: "March 7, 2021",
+        content:
+        `Long description`,
+        img_path: "resources/img/featured/KomsaiPose.jpg",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "UPV Komsai.Org",
+        date: "March 7, 2021",
+        content:
+        `Long description`,
+        img_path: "resources/img/featured/Wacky.jpg",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "UPV Komsai.Org",
+        date: "March 7, 2021",
+        content:
+        `Long description`,
+        img_path: "resources/img/featured/Compress.jpg",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+]
+
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
