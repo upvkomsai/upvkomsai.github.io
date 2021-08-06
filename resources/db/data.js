@@ -1,5 +1,5 @@
 const PLACEHOLDER_IMAGE = {
-    FEATURED: null,
+    FEATURED: "resources/img/logo.png",
     NEWS: "resources/img/logo.png",
     GALLERY: "resources/img/logo.png",
     PROJECTS_DONE: "resources/img/logo.png",

@@ -378,7 +378,6 @@ nav .closeMenu,
     to {opacity: 1}
 }
 
-#featured,
 #home-news,
 #home-projects,
 #home-gallery,
@@ -550,7 +549,6 @@ nav .closeMenu,
 } */
 
 @media screen and (max-width: 880px) {
-    #featured,
     #home-news,
     #home-projects,
     #home-gallery,
