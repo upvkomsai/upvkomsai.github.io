@@ -45,7 +45,7 @@ const news = [
         img_path: "resources/img/news/Congrats_2ndSem.png",
     },
     {
-        title: "Congratulations Honorofic Scholars!!!",
+        title: "Congratulations Honorific Scholars!!!",
         date: "July 7, 2021",
         content:
         `🏆 Congratulations 🏆 to all the CAS University and College Scholars for the 1st Semester of A.Y. 2020 - 2021!!! ❤️❤️❤️`,
@@ -287,7 +287,8 @@ const officers = [
         name: "CANDYL JOHN F. FAELDONEA",
         position: "Vice President for External Affairs",
         description:
-        `Part-time computer science student. Wanna join [other] orgs? 
+        `Part-time computer science student. Wanna join [other] orgs?
+        
         SKL, hindi applicable sa akin ang mga komsai stereotypes, bakit kaya?`,
         email: "cjfaeldonea@up.edu.ph",
         img_path: "resources/img/officers/faeldonea.jpg",
