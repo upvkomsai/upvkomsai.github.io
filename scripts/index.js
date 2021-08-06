@@ -135,9 +135,7 @@ const bindToCard = (
     subtitle2,
     description,
     showDescription,
-    url,
-    urlText = "More details",
-    is_dev
+    is_dev,
 ) => {
     layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
 
@@ -164,9 +162,10 @@ const bindToCard = (
     }
 
     if (subtitle2) {
+        const sub2 = document.createElement("p");
+        sub2.textContent = subtitle2;
         clone.querySelector(
-            `.${layout}-content .${layout}-subtitle2`
-        ).textContent = subtitle2;
+            `.${layout}-content .${layout}-subtitle2`).appendChild(sub2);
     }
 
     if (description && showDescription) {
@@ -177,15 +176,6 @@ const bindToCard = (
         clone
             .querySelector(`.${layout}-content .${layout}-description`)
             ?.remove();
-    }
-
-    if (url) {
-        const link = document.createElement("a");
-
-        link.href = url;
-        link.textContent = urlText;
-
-        clone.querySelector(`.${layout}-content`).appendChild(link);
     }
 
     if (is_dev) {
@@ -200,7 +190,7 @@ const bindToCard = (
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description, url, urlText, is_dev);
+        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description, is_dev);
         clone.classList.add("clickable");
     }
 
@@ -229,11 +219,9 @@ modal.addEventListener("click", (e) => {
  * @param {string} imgPath
  * @param {string} title
  * @param {string} subtitle
- * @param {string} subtitle2
  * @param {string} description
  * @param {string} url
  * @param {string} urlText
- * @param {boolean} is_dev
  */
  const bindToModal = (
     element,
@@ -252,6 +240,11 @@ modal.addEventListener("click", (e) => {
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
             subtitle || "N/A";
+
+        const sub2 = modal.querySelector(".modal-content .modal-subtitle2");
+        sub2.href = "#";
+        sub2.textContent = "";
+        sub2.hidden = true;
         
         modal.querySelector(".modal-content .modal-img").src =
             imgPath || "resources/img/logo.png";
@@ -288,8 +281,6 @@ modal.addEventListener("click", (e) => {
  * @param {string} subtitle
  * @param {string} subtitle2
  * @param {string} description
- * @param {string} url
- * @param {string} urlText
  * @param {boolean} is_dev
  */
 const bindToOfficerModal = (
@@ -299,8 +290,6 @@ const bindToOfficerModal = (
     subtitle,
     subtitle2,
     description,
-    url,
-    urlText,
     is_dev
 ) => {
     if (!element) return false;
@@ -313,8 +302,9 @@ const bindToOfficerModal = (
             subtitle || "N/A";
 
         if (subtitle2) {
-            modal.querySelector(".modal-content .modal-subtitle2").textContent =
-                subtitle2 || "N/A";
+            const sub2 = modal.querySelector(".modal-content .modal-subtitle2");
+            sub2.classList.add("modal-subtitle2");
+            sub2.textContent = subtitle2 || "N/A";
         }
         
         modal.querySelector(".modal-content .modal-img").src =
@@ -322,22 +312,13 @@ const bindToOfficerModal = (
         modal.querySelector(".modal-content .modal-description").textContent =
             description || "No description";
 
-        if (url) {
-            const link = modal.querySelector(".modal-url");
-
-            link.href = url;
-            link.textContent = urlText;
-            link.hidden = false;
-        } else {
-            const link = modal.querySelector(".modal-url");
-
-            link.href = "#";
-            link.textContent = "";
-            link.hidden = true;
-        }
+        const link = modal.querySelector(".modal-content .modal-url");
+        link.href = "#";
+        link.textContent = "";
+        link.hidden = true;
 
         if (is_dev) {
-            const devTitle = modal.querySelector(".modal-dev");
+            const devTitle = modal.querySelector(".modal-content .modal-dev");
     
             devTitle.textContent = `✔ "upv.komsai.org" Website Developer`;
             devTitle.hidden = false;
@@ -500,8 +481,6 @@ const bindData = () => {
                 "✉ " + e.email,
                 e.description,
                 true,
-                e.url,
-                e.urlText || "More Info",
                 e.is_dev
             );
             
