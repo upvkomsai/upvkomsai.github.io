@@ -60,7 +60,17 @@ const news = [
         title: "Congratulations Team AWS gege!!!",
         date: "August 7, 2021",
         content:
-        `🏆 Congratulations!!! 🏆`,
+        `Amazon Web Services (AWS) has recently launched Build On, ASEAN 2021, a competitive hackathon that challenges the community to create technological initiatives and solutions to address challenges.
+        
+        Team "AWS gege" consisting of 5 members from UPV Komsai.Org Batch 2018 namely Renzel Escopalao Buatag, Patricia Marie Garcia, John Honeyman, Mace Matthew and Aron Miles Samson, hailed as CHAMPION from the Philippines Shortlisted Teams.
+        
+        UPV Komsai.Org would like to extend our congratulations to our Komsai-Hackerists for bringing home the bacon 🥓, and upholding their Honor and Excellence.
+        
+        Padayon Mga Isko't Iska sa Pag-Hack!!!
+        
+        Caption and Pub Design by: Ken Faeldonea`,
+        url: "https://www.buildonasean2021.com/",
+        urlText: "Read More",
         img_path: "resources/img/news/TeamAWSgege.png",
     },
     {
