@@ -343,8 +343,8 @@ nav .closeMenu,
     color: var(--cardColor);
     padding: 8px 12px;
     position: absolute;
-    left: 20px;
-    bottom: 60px;
+    left: 60px;
+    bottom: 80px;
 }
 
 .caption {
@@ -363,8 +363,10 @@ nav .closeMenu,
     }
 
     .headline {
+        font-size: 2em;
         display: block;
-        bottom: 110px;
+        left: 40px;
+        bottom: 60px;
     }
     
     .caption {
@@ -750,7 +752,7 @@ nav .closeMenu,
     font: 400 1em "Roboto", sans-serif;
     text-decoration-line: none;
     text-align: center;
-    background-color: inherit;
+    background-color: var(--cardBackground);
 }
 
 .about-img {
