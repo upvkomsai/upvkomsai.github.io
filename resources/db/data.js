@@ -48,13 +48,75 @@ const featured = [
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
-        date: "August 6, 2021",
+        date: "August 9, 2021",
         content:
-        `On August 6, 2021, UPV Komsai.Org has now launched its official website to the public.
+        `Last August 9, 2021, UPV Komsai.Org has now launched its official website to the public.
         
         Check it out by typing "upv.komsai.org" on your browser or by clicking the link below.`,
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
+    },
+    {
+        title: "Congratulations Team AWS gege!!!",
+        date: "August 7, 2021",
+        content:
+        `🏆 Congratulations!!! 🏆`,
+        img_path: "resources/img/news/TeamAWSgege.png",
+    },
+    {
+        title: "Congratulations UPV Komsai.Org Graduates 2021!!!",
+        date: "August 7, 2021",
+        content:
+        `> npm start build
+        > graduation-2021@0.1.0 start
+        > react-scripts start
+
+        Starting the development server...
+
+        After long and hard years of perseverance, dedication, and persistence, you will never forget that time you misplaced a semicolon in your code and that time you passed a minute late from the deadline.
+
+        We would like to congratulate the UPV Komsai.Org graduates of Batch 2021. We are truly proud that you have overcome all the struggles and hardships in these trying times and proved to us what it means to have Honor and Excellence.
+        
+        [ Shayne Meiko M. Abao ]
+        [ Kathlene S. Acompaniado ]
+        [ Shania Mariz D. Cruzado ]
+        [ Shiela May S. Juele ]
+        [ Sage Jemarie F. Paclibar ]
+        [ Nicole Jaye S. Solano ]
+        [ Raymund Gerard L. Pamatian ]
+        [ Daundee L. Fernandez ]
+
+        Your family —the remaining kilobytes, bytes, and bits—  warmly greet you on your graduation.
+        PADAYON MGA ISKOLAR NG BAYAN!!!
+
+        > Terminate batch job (Y/N)? n
+
+        Caption by: Jayvee Castañeda and Ken Faeldonea
+        Pub Design by: Jayvee Castañeda and Ann Beatrice Destajo`,
+        url: "https://www.facebook.com/U.P.Visayas.Official/videos/232426762078460/",
+        urlText: "UPV Commencement Exercises 2021",
+        img_path: "resources/img/news/KomsaiGraduates2021.png",
+    },
+    {
+        title: "Congratulations Patricia Marie Garcia!!!",
+        date: "August 4, 2021",
+        content:
+        `from 𝘂𝗽𝘃.𝗸𝗼𝗺𝘀𝗮𝗶.𝗼𝗿𝗴:𝟯𝟬𝟬𝟬
+
+        Greetings to Patricia Marie Garcia of Komsai 2018
+
+        Ms. Garcia is one of the four developers of "Project Island Response & Intervention for Systematic Evacuation (i-RISE)". Recently, their team, UP SysTeam become the first group from the Philippines to be qualified for the Top 10 Google Developer Student Clubs' (DSC) 2021 Solution Challenge!
+        
+        We salute you Patty for your skills, and for embodying the Honor and Excellence as Komsai and Iska ng Bayan! 
+        
+        Congratulations from us at UPV Komsai. Org!!! 👏👏👏
+        
+        𝗣𝗢𝗦𝗧 𝗛𝗧𝗧𝗣 𝘂𝗽𝘃.𝗸𝗼𝗺𝘀𝗮𝗶.𝗼𝗿𝗴 𝟯𝟬𝟬𝟬 𝗦𝗧𝗔𝗧𝗨𝗦 𝟮𝟬𝟬 𝗢𝗞
+        
+        Pub Design by: Ken Faeldonea`,
+        url: "https://www.facebook.com/dscupdiliman/photos/a.646298539337259/871389470161497",
+        urlText: "Read More",
+        img_path: "resources/img/news/PatriciaDSC.png",
     },
     {
         title: "CONGRATULATIONS UPV B.S. in Computer Science Passers!!!",
@@ -240,7 +302,7 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 const projectsDone = [
     {
         name: "Official Website",
-        date_shown: "July 2 - August 6, 2021",
+        date_shown: "July 2 - August 8, 2021",
         description:
         `UPV Komsai.Org now has an official website.
         
@@ -311,21 +373,21 @@ const officers = [
         
         Things come and go...`,
         email: "jbcastaneda@up.edu.ph",
-        socials:
-        [
-            {
-                name:"facebook", //icon located in "resources/img/icons"
-                url: "https://www.facebook.com",
-            },
-            {
-                name:"twitter", //icon located in "resources/img/icons"
-                url: "https://www.twitter.com",
-            },
-            {
-                name:"linkedin", //icon located in "resources/img/icons"
-                url: "https://www.linkedin.com",
-            },
-        ],
+        // socials:
+        // [
+        //     {
+        //         name:"facebook", //icon located in "resources/img/icons"
+        //         url: "https://www.facebook.com",
+        //     },
+        //     {
+        //         name:"twitter", //icon located in "resources/img/icons"
+        //         url: "https://www.twitter.com",
+        //     },
+        //     {
+        //         name:"linkedin", //icon located in "resources/img/icons"
+        //         url: "https://www.linkedin.com",
+        //     },
+        // ],
         img_path: "resources/img/officers/castañeda.jpg",
         is_dev: true,
     },
@@ -406,12 +468,12 @@ const officers = [
         img_path: "resources/img/officers/lee.jpg",
     },
     {
-        name: "JOHN GABRIEL CABATU-AN",
+        name: "JOHN GABRIEL P. CABATU-AN",
         position: "Assistant Auditor",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `I always pick the mage role.`,
+        email: "jpcabatuan@up.edu.ph",
+        img_path: "resources/img/officers/cabatu-an.jpg",
     },
     {
         name: "JANLEY R. MOLINA",
@@ -511,9 +573,9 @@ const officers = [
         name: "RHEYMART G. TUGADO",
         position: "2nd Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
-        email: "tempemail@email.com",
+        `Ngi?`,
+        email: "rgtugado@up.edu.ph",
+        img_path: "resources/img/officers/tugado.jpg",
     },
     {
         name: "JAN KRISTINE A. MOSONG",
