@@ -19,7 +19,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 .error {
     width: 450px;
     background-color: var(--headerBackground);
-    padding: 30px 30px;
+    padding: 50px 30px;
     margin: 5% auto;
     text-align: center;
     border-radius: 10px;
@@ -40,26 +40,20 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
 }
 
 .error-content a {
-    font: 400 1em "Roboto", sans-serif;
-    border-color: var(--cardBorder);
+    padding: 10px 15px;
+    border: 1px solid var(--headerColor);
     border-radius: 10px;
-    text-decoration: none;
-    color: var(--headerBackground);
+    font: 700 1em "Roboto Condensed", sans-serif;
+    color: var(--cardBackground);
     background-color: var(--headerColor);
-    margin: 0 2.5% 2.5% 2.5%;
-    padding: 10px;
+    text-decoration-line: none;
 }
 
 .error-content a:hover {
     transition: all 0.4s ease;
-    font: 400 1em "Roboto", sans-serif;
-    border-color: var(--headerColor);
-    border-radius: 10px;
-    text-decoration: none;
-    color: var(--headerColor);
-    background-color: var(--headerBackground);
-    margin: 0 2.5% 2.5% 2.5%;
-    padding: 10px;
+    border-color: var(--cardColor);
+    color: var(--cardColor);
+    background-color: var(--cardBackground);
 }
 
 @media screen and (max-width: 880px) {
@@ -346,7 +340,7 @@ nav .closeMenu,
 
 .headline {
     font: 700 3.5em "Roboto Condensed", sans-serif;
-    color: var(--headerColor);
+    color: var(--cardColor);
     padding: 8px 12px;
     position: absolute;
     left: 20px;
@@ -516,6 +510,8 @@ nav .closeMenu,
 }
   
 .answer {
+    font: 300 1.1em "Roboto", sans-serif;
+    line-height: 1.5em;
     padding: 0 18px;
     color: var(--aboutColor);
     background-color: var(--headerBackground);
