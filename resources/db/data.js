@@ -506,40 +506,35 @@ const officers = [
         name: "TBA",
         position: "P.I.O.",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `No description`,
         email: "tempemail@email.com",
     },
     {
         name: "TBA",
         position: "1st Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `No description`,
         email: "tempemail@email.com",
     },
     {
         name: "TBA",
         position: "1st Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `No description`,
         email: "tempemail@email.com",
     },
     {
         name: "TBA",
         position: "1st Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `No description`,
         email: "tempemail@email.com",
     },
     {
         name: "TBA",
         position: "1st Year Batch Representative",
         description:
-        `I don't have description ~~~ mema lang
-        hahahahaha`,
+        `No description`,
         email: "tempemail@email.com",
     },
     {
