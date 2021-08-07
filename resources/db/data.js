@@ -94,7 +94,7 @@ const news = [
         Caption by: Jayvee Castañeda and Ken Faeldonea
         Pub Design by: Jayvee Castañeda and Ann Beatrice Destajo`,
         url: "https://www.facebook.com/U.P.Visayas.Official/videos/232426762078460/",
-        urlText: "UPV Commencement Exercises 2021",
+        urlText: "UPV Commencement Exercises",
         img_path: "resources/img/news/KomsaiGraduates2021.png",
     },
     {
