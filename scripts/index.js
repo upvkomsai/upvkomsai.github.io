@@ -44,7 +44,6 @@ function showSlides(n) {
     const current = document.getElementsByClassName("dot")[(slideIndex-1)];
     current.classList.add("active");
     
-    console.log(prevSlide);
     if (prevSlide>0){
         const prev = document.getElementsByClassName("dot")[prevSlide-1];
         prev.classList.remove("active");
