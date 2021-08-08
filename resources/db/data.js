@@ -398,6 +398,13 @@ const officers = [
         description:
         `50% human, 50% unsure`,
         email: "bddelagente@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/CodexStarlight",
+            },
+        ],
         img_path: "resources/img/officers/delagente.jpg",
     },
     {
@@ -408,8 +415,6 @@ const officers = [
         
         SKL, hindi applicable sa akin ang mga komsai stereotypes, bakit kaya?`,
         email: "cjfaeldonea@up.edu.ph",
-        img_path: "resources/img/officers/faeldonea.jpg",
-        is_dev: true,
         socials:
         [
             {
@@ -421,6 +426,8 @@ const officers = [
                 url: "https://www.linkedin.com/in/cjfaeldonea/",
             },
         ],
+        img_path: "resources/img/officers/faeldonea.jpg",
+        is_dev: true,
     },
     {
         name: "JOHANNA MARIE P. QUITOVIERA",
@@ -428,6 +435,21 @@ const officers = [
         description:
         `A third year student at the University of the Philippines Visayas na patuloy lumalaban emz`,
         email: "jpquitoviera@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/johannaquitoviera",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/hittoooww",
+            },
+            {
+                name:"twitter",
+                url: "https://twitter.com/hittoooww",
+            },
+        ],
         img_path: "resources/img/officers/quitoviera.jpg",
     },
     {
@@ -444,6 +466,17 @@ const officers = [
         description:
         `ESFJ`,
         email: "mcdosado@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/michael.dosado",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/mchl.dsdo/",
+            },
+        ],
         img_path: "resources/img/officers/dosado.jpg",
     },
     {
@@ -452,6 +485,13 @@ const officers = [
         description:
         `Hi. I make crochet products. Follow me on FB and IG: @heycrushe`,
         email: "rldordas@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/ricaxeunice/",
+            },
+        ],
         img_path: "resources/img/officers/dordas.jpg",
     },
     {
@@ -460,6 +500,13 @@ const officers = [
         description:
         `INTP`,
         email: "kfluciano@up.edu.ph",
+        socials:
+        [
+            {
+                name:"linkedin",
+                url: "www.linkedin.com/in/kristen-luciano-2021",
+            },
+        ],
         img_path: "resources/img/officers/luciano.jpg",
     },
     {
@@ -477,6 +524,21 @@ const officers = [
         description:
         `Demonstrates time management, decision making, and leadership skills`,
         email: "aslee2@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/abscyssa/",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/alyssuhlee/",
+            },
+            {
+                name:"twitter",
+                url: "https://twitter.com/alyssuhlee",
+            },
+        ],
         img_path: "resources/img/officers/lee.jpg",
     },
     {
@@ -485,6 +547,13 @@ const officers = [
         description:
         `I always pick the mage role.`,
         email: "jpcabatuan@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/JGCabatuan",
+            },
+        ],
         img_path: "resources/img/officers/cabatu-an.jpg",
     },
     {
@@ -493,6 +562,17 @@ const officers = [
         description:
         `No description.`,
         email: "jrmolina2@up.edu.ph",
+        socials:
+        [
+            {
+                name:"github",
+                url: "https://www.github.com/Stick1000",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/janley-molina",
+            },
+        ],
         img_path: "resources/img/officers/molina.jpg",
         is_dev: true,
     },
@@ -511,6 +591,13 @@ const officers = [
         description:
         `A cosmic glitch`,
         email: "aldestajo@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/annd20",
+            },
+        ],
         img_path: "resources/img/officers/destajo.jpg",
         is_dev: true,
     },
@@ -556,6 +643,17 @@ const officers = [
         `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
         I live for the arts and literary, and everything in between—with my love for computers squeezed in. `,
         email: "socantiller@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/sphcntllr",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/sophiacantiller/",
+            },
+        ],
         img_path: "resources/img/officers/cantiller.jpg",
     },
     {
@@ -564,6 +662,21 @@ const officers = [
         description:
         `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
         email: "lmdelacruz4@up.edu.ph",
+        socials:
+        [
+            {
+                name:"twitter",
+                url: "https://www.twitter.com/lunch_plus",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/lunchplus.art",
+            },
+            {
+                name:"website",
+                url: "https://lunchplus.bio.link",
+            },
+        ],
         img_path: "resources/img/officers/delacruz.jpg",
     },
     {
@@ -574,6 +687,17 @@ const officers = [
 
         I always believe that we make our own reality so I try to look through the brighter side of everything.`,
         email: "jnjunsay@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/johnkyle.junsay",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/itskylejunsay/",
+            },
+        ],
         img_path: "resources/img/officers/junsay.jpg",
     },
     {
@@ -590,6 +714,17 @@ const officers = [
         description:
         `3rd Year Batch Representative`,
         email: "jamosong@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/JanKristineMosong",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/jankristinemosong",
+            },
+        ],
         img_path: "resources/img/officers/mosong.jpg",
     },
     {
@@ -598,6 +733,17 @@ const officers = [
         description:
         `perpetually in pursuit of learning and experience`,
         email: "hcarceno@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/sumasaiyohb",
+            },
+            {
+                name:"twitter",
+                url: "https://www.twitter.com/sumasaiyo__",
+            },
+        ],
         img_path: "resources/img/officers/arceño.jpg",
     },
     {
@@ -606,6 +752,13 @@ const officers = [
         description:
         `:)`,
         email: "nevalente@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/timepause904/",
+            },
+        ],
         img_path: "resources/img/officers/valente.jpg",
     },
     {
@@ -614,6 +767,21 @@ const officers = [
         description:
         `*insert inspiring quote* just a small town boi, living in a lonely world. Just crating illustrations to keep me sane. `,
         email: "egtorculas@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/errutorculas",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/errutorculas",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/errutorculas",
+            },
+        ],
         img_path: "resources/img/officers/torculas.jpg",
     },
     {
@@ -622,6 +790,17 @@ const officers = [
         description:
         `ngeee. idunno. `,
         email: "rebuatag@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/rnzlbtg/",
+            },
+            {
+                name:"linkedin",
+                url: "www.linkedin.com/in/renzel-buatag",
+            },
+        ],
         img_path: "resources/img/officers/buatag.jpg",
     },
     {
