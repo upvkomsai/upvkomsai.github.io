@@ -11,7 +11,7 @@ const featured = [
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `This is a test description`,
+        `UPV Komsai.Org`,
         img_path: "resources/img/featured/komsaiorg.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
