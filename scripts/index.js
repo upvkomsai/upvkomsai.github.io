@@ -9,7 +9,6 @@ const CARD = {
 
 // Carousel 
 
-let slideIndex = 0;
 
 const carousel = document.getElementsByClassName("home-feature")[0];
 featured.forEach((e)=>{
@@ -30,38 +29,65 @@ featured.forEach((e)=>{
     carousel.append(div);
 });
 
-function showSlides(n) {
+var slideIndex = 0;
+
+var slides,dots;
+
+function showSlides() {
     var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
- var prevSlide = slideIndex;
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-    const current = document.getElementsByClassName("dot")[(slideIndex-1)];
-    current.classList.add("current");
-    
-    if (prevSlide>0){
-        const prev = document.getElementsByClassName("dot")[prevSlide-1];
-        prev.classList.remove("current");
+    slides = document.getElementsByClassName("mySlides");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
     }
-  }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("current");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].classList.add("current");
+    setTimeout(showSlides, 8000); // Change image every 8 seconds
+}
+    // const current = document.getElementsByClassName("dot")[(slideIndex-1)];
+    // current.classList.add("current");
+    
+    // if (prevSlide>0){
+    //     const prev = document.getElementsByClassName("dot")[prevSlide-1];
+    //     prev.classList.remove("current");
+    // }
+
 
 
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-  console.log(n);
+function plusSlides(position) {
+    slideIndex +=position;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    else if(slideIndex<1){slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("current");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].classList.add("current");
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(index) {
+    if (index> slides.length) {index = 1}
+    else if(index<1){index = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("current");
+    }
+    slides[index-1].style.display = "block";  
+    dots[index-1].classList.add("current");
 }
+
 const a = document.createElement("a");
 a.classList.add("prev");
 a.setAttribute("onclick", "plusSlides(-1)");
@@ -87,7 +113,7 @@ featured.forEach((f)=>{
 
 carousel.append(c);
 
-showSlides(slideIndex);
+showSlides();
 
 /**
  * @param {string} layout - card layout as defined in the CARD constant (horizontal, vertical, or small)
