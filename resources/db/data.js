@@ -159,42 +159,42 @@ const homeNews = [news[0], news[1], news[2], news[3]];
 
 const gallery = [
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Raffle Draw Winners",
         date_shown: "May 8, 2021",
         description:
         `Raffle Draw Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/raffle.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Trivia Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night BONUS ROUND Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/triviaBonus.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Trivia Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night HARD ROUND Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/triviaHard.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Trivia Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night MEDIUM ROUND Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/triviaMedium.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Trivia Winners",
         date_shown: "May 8, 2021",
         description:
         `Trivia Night EASY ROUND Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/triviaEasy.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 WDYM Winner",
         date_shown: "May 8, 2021",
         description:
         `"What Do You Meme?" 3rd Place
@@ -202,7 +202,7 @@ const gallery = [
         img_path: "resources/img/gallery/KomsaiWeek2021/wdym3.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 WDYM Winner",
         date_shown: "May 8, 2021",
         description:
         `"What Do You Meme?" 2nd Place
@@ -210,7 +210,7 @@ const gallery = [
         img_path: "resources/img/gallery/KomsaiWeek2021/wdym2.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 WDYM Winner",
         date_shown: "May 8, 2021",
         description:
         `"What Do You Meme?" 1st Place
@@ -218,14 +218,14 @@ const gallery = [
         img_path: "resources/img/gallery/KomsaiWeek2021/wdym1.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 Over-Riddle-ing Winners",
         date_shown: "May 8, 2021",
         description:
         `Over-Riddle-ing Winners`,
         img_path: "resources/img/gallery/KomsaiWeek2021/over-riddle-ing.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 CSS Challenge Winner",
         date_shown: "May 8, 2021",
         description:
         `CSS Challenge Winner #2
@@ -233,7 +233,7 @@ const gallery = [
         img_path: "resources/img/gallery/KomsaiWeek2021/css2.png",
     },
     {
-        title: "Komsai Week 2021 Winners",
+        title: "Komsai Week 2021 CSS Challenge Winner",
         date_shown: "May 8, 2021",
         description:
         `CSS Challenge Winner #1
