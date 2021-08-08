@@ -377,16 +377,16 @@ const officers = [
         socials:
         [
             {
-                name:"facebook", //icon located in "resources/img/icons"
-                url: "https://www.facebook.com",
+                name:"facebook",
+                url: "https://www.facebook.com/DJJayveeeeee/",
             },
             {
-                name:"twitter", //icon located in "resources/img/icons"
-                url: "https://www.twitter.com",
+                name:"youtube",
+                url: "https://www.youtube.com/channel/UC1E8Lzwmd0BptX1Ld4MLh8g",
             },
             {
-                name:"linkedin", //icon located in "resources/img/icons"
-                url: "https://www.linkedin.com",
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/jayvee-casta%C3%B1eda-677529216/",
             },
         ],
         img_path: "resources/img/officers/castañeda.jpg",
@@ -413,11 +413,11 @@ const officers = [
         socials:
         [
             {
-                name:"facebook", //icon located in "resources/img/icons"
+                name:"facebook",
                 url: "https://www.facebook.com/kenfaeldonea",
             },
             {
-                name:"linkedin", //icon located in "resources/img/icons"
+                name:"linkedin",
                 url: "https://www.linkedin.com/in/cjfaeldonea/",
             },
         ],
