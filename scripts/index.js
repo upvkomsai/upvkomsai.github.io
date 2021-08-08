@@ -9,32 +9,86 @@ const CARD = {
 
 // Carousel 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+const carousel = document.getElementsByClassName("home-feature")[0];
+featured.forEach((e)=>{
+    const div= document.createElement("div");
+    div.classList.add("mySlides");
+    div.classList.add("fade");
+    const img = document.createElement("img");
+    img.src = e.img_path;
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+    div.appendChild(img);
+
+    const content = document.createElement("div");
+    content.classList.add("headline");
+    content.textContent=e.content;
+    div.appendChild(content);
+
+    console.log(div);
+    carousel.append(div);
+});
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+ var prevSlide = slideIndex;
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+    const current = document.getElementsByClassName("dot")[(slideIndex-1)];
+    current.classList.add("active");
+    
+    console.log(prevSlide);
+    if (prevSlide>0){
+        const prev = document.getElementsByClassName("dot")[prevSlide-1];
+        prev.classList.remove("active");
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" current", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " current";
+  }
+
+
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  console.log(n);
 }
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+const a = document.createElement("a");
+a.classList.add("prev");
+a.setAttribute("onclick", "plusSlides(-1)");
+a.textContent="❮";
+carousel.append(a);
+
+const b = document.createElement("a");
+b.classList.add("next");
+b.setAttribute("onclick", "plusSlides(1)");
+b.textContent='❯';
+carousel.append(b);
+
+const c = document.createElement("div");
+c.classList.add("indicators");
+
+let num = 0;
+featured.forEach((f)=>{
+    const d = document.createElement("span");
+    d.classList.add("dot");
+    d.onclick="currentSlide("+num+")";
+    c.append(d);
+})
+
+carousel.append(c);
+
+showSlides(slideIndex);
 
 /**
  * @param {string} layout - card layout as defined in the CARD constant (horizontal, vertical, or small)
@@ -133,6 +187,7 @@ const bindToCard = (
     title,
     subtitle,
     subtitle2,
+    socmed,
     description,
     showDescription,
     is_dev,
@@ -168,6 +223,18 @@ const bindToCard = (
             `.${layout}-content .${layout}-subtitle2`).appendChild(sub2);
     }
 
+    if (socmed) {
+        socmed.forEach((e)=>{
+            const img = document.createElement("img");
+            img.classList.add("social-card");
+            img.src = "resources/img/icons/"+e.name+".png";
+            img.onclick = function(){
+                window.location.href = e.url;
+            };
+            clone.querySelector(`.${layout}-content`).appendChild(img);
+        })
+    }
+
     if (description && showDescription) {
         clone.querySelector(
             `.${layout}-content .${layout}-description`
@@ -190,7 +257,7 @@ const bindToCard = (
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description, is_dev);
+        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description,socmed, is_dev);
         clone.classList.add("clickable");
     }
 
@@ -290,6 +357,7 @@ const bindToOfficerModal = (
     subtitle,
     subtitle2,
     description,
+    socmed,
     is_dev
 ) => {
     if (!element) return false;
@@ -316,6 +384,25 @@ const bindToOfficerModal = (
         link.href = "#";
         link.textContent = "";
         link.hidden = true;
+
+        document.querySelectorAll('.modal-soc').forEach(function(a){
+            a.remove()
+            })
+        if (socmed) {
+            const socMed = modal.querySelector(".modal-content .modal-socials");
+            
+            socmed.forEach((e)=>{
+                const img = document.createElement("img");
+                img.classList.add("social-card");
+                img.classList.add("modal-soc");
+                img.src = "resources/img/icons/"+e.name+".png";
+                img.onclick = function(){
+                    window.location.href = e.url;
+                };
+                socMed.append(img);
+            })
+            socMed.hidden = false;
+        }
 
         if (is_dev) {
             const devTitle = modal.querySelector(".modal-content .modal-dev");
@@ -479,6 +566,7 @@ const bindData = () => {
                 e.name,
                 e.position,
                 "✉ " + e.email,
+                e.socials,
                 e.description,
                 true,
                 e.is_dev

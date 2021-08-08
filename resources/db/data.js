@@ -11,8 +11,8 @@ const featured = [
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `Long description`,
-        img_path: "resources/img/featured/Classic.jpg",
+        `This is a test description`,
+        img_path: "resources/img/featured/komsaiorg.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -20,8 +20,8 @@ const featured = [
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `Long description`,
-        img_path: "resources/img/featured/KomsaiPose.jpg",
+        `Komsai 2018`,
+        img_path: "resources/img/featured/komsai2018.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -29,20 +29,11 @@ const featured = [
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `Long description`,
-        img_path: "resources/img/featured/Wacky.jpg",
+        `Komsai 2019`,
+        img_path: "resources/img/featured/Komsai_2019.jpeg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
-    },
-    {
-        title: "UPV Komsai.Org",
-        date: "March 7, 2021",
-        content:
-        `Long description`,
-        img_path: "resources/img/featured/Compress.jpg",
-        url: "https://upv.komsai.org",
-        urlText: "Go to Official Website",
-    },
+    }
 ]
 
 const news = [
@@ -419,6 +410,17 @@ const officers = [
         email: "cjfaeldonea@up.edu.ph",
         img_path: "resources/img/officers/faeldonea.jpg",
         is_dev: true,
+        socials:
+        [
+            {
+                name:"facebook", //icon located in "resources/img/icons"
+                url: "https://www.facebook.com/kenfaeldonea",
+            },
+            {
+                name:"linkedin", //icon located in "resources/img/icons"
+                url: "https://www.linkedin.com/in/cjfaeldonea/",
+            },
+        ],
     },
     {
         name: "JOHANNA MARIE P. QUITOVIERA",

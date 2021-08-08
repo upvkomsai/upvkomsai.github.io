@@ -398,10 +398,16 @@ nav .closeMenu,
 }
 
 .fade {
+    -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
@@ -752,7 +758,7 @@ nav .closeMenu,
     font: 400 1em "Roboto", sans-serif;
     text-decoration-line: none;
     text-align: center;
-    background-color: var(--cardBackground);
+    /* background-color: var(--cardBackground); */
 }
 
 .about-img {
@@ -883,12 +889,12 @@ nav .closeMenu,
     flex-flow: column;
 }
 
-.socials img {
+.socials img{
     margin: 0px 5px 0px 5px;
     max-width: 25px;
 }
 
-.socials img:hover {
+.socials img:hover, {
     filter: invert(50%);
 }
 
@@ -966,4 +972,12 @@ nav .closeMenu,
     .socials img {
         padding-bottom: 1em;
     }
+}
+
+.social-card{
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: invert();
 }
