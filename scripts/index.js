@@ -40,13 +40,13 @@ function showSlides(n) {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
     const current = document.getElementsByClassName("dot")[(slideIndex-1)];
-    current.classList.add("active");
+    current.classList.add("current");
     
     if (prevSlide>0){
         const prev = document.getElementsByClassName("dot")[prevSlide-1];
-        prev.classList.remove("active");
+        prev.classList.remove("current");
     }
   }
 
