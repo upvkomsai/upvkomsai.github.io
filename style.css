@@ -791,7 +791,7 @@ nav .closeMenu,
         font: 400 1em "Roboto", sans-serif;
         text-decoration-line: none;
         text-align: center;
-        background-color: var(--cardBackground);
+        background-color: inherit;
     }
 
     .about-img {
