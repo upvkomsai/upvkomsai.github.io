@@ -230,7 +230,7 @@ nav .mainMenu {
 }
 
 nav .mainMenu a {
-    padding: 10px 15px;
+    padding: 30px 15px;
     margin-top: 100px;
     font: 300 1.2em "Roboto Condensed", sans-serif;
     color: var(--cardColor);
@@ -584,7 +584,7 @@ nav .closeMenu,
     #about,
     #contact,
     #help {
-        padding: 10% 1.5% 0% 1.5%;
+        padding: 20% 1.5% 0% 1.5%;
     }
 
     .col-6,
