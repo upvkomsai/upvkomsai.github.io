@@ -345,6 +345,7 @@ nav .closeMenu,
     position: absolute;
     left: 60px;
     bottom: 80px;
+    text-shadow:black 1px 0 10px;
 }
 
 .caption {
