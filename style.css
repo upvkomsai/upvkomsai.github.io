@@ -894,7 +894,7 @@ nav .closeMenu,
     max-width: 25px;
 }
 
-.socials img:hover, {
+.socials img:hover {
     filter: invert(50%);
 }
 
