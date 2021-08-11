@@ -39,13 +39,29 @@ const featured = [
 const news = [
     {
         title: "UPV Komsai.Org Website Launch",
-        date: "August 9, 2021",
+        date: "August 11, 2021",
         content:
-        `Last August 9, 2021, UPV Komsai.Org has now launched its official website to the public.
+        `In the beninggging.. in the.. in the bini... in the beninggiing.. yah.. in the.. in.. in.. ahh.. beninging yeah.. in in in the beginingih.... in the beninggibeningi.. beginning 
+
+        In the beginning ugh finally... Komsai gods started creation. On the first day, the course was created. On the second day, Komsai students were fashioned from procrastination and intelligence then they were placed in the Garden of Computers... and after 01000101 (haha joke lang ph0) years now we say, "LET THERE BE [A] WEBSITE!"
         
-        Check it out by typing "upv.komsai.org" on your browser or by clicking the link below.`,
+        A few years ago, we thought about creating a website for the organization, yet we decided to steer clear, thinking it might take a lot of time, effort, and money.
+        
+        Now, IT'S FINALLY HERE!!!
+        
+        The future is now thanks to Computer Science, as we are introducing our very own website. Given the current situation and a month's worth of hard work and perseverance, we can finally showcase what UPV Komsai.Org truly is capable of.
+        
+        With a website, the organization can finally tighten its grasp to the cyberspace and like a virus, spread its connection!
+        
+        ------------------------
+        "So pwede na pala ma click yung pangalan niyong nagbu-blue sa mga post nyo?"
+        
+        "Huo hehe 🙂"
+         
+        Check out our official website by going to "upv.komsai.org".`,
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
+        img_path: "resources/img/news/WebsiteLaunch.png",
     },
     {
         title: "Congratulations Team AWS gege!!!",
