@@ -8,10 +8,28 @@ const PLACEHOLDER_IMAGE = {
 
 const featured = [
     {
+        title: "web",
+        date: "March 7, 2021",
+        content:
+        `Website Launching`,
+        img_path: "resources/img/featured/weblaunch.png",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "Graduates",
+        date: "March 7, 2021",
+        content:
+        `Komsai.Org Graduates`,
+        img_path: "resources/img/featured/grad.png",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `UPV Komsai.Org`,
+        `Komsai 2018 & 2019`,
         img_path: "resources/img/featured/komsaiorg.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
@@ -20,20 +38,11 @@ const featured = [
         title: "UPV Komsai.Org",
         date: "March 7, 2021",
         content:
-        `Komsai 2018`,
+        `Kom-Con 2019`,
         img_path: "resources/img/featured/komsai2018.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
-    {
-        title: "UPV Komsai.Org",
-        date: "March 7, 2021",
-        content:
-        `Komsai 2019`,
-        img_path: "resources/img/featured/Komsai_2019.jpeg",
-        url: "https://upv.komsai.org",
-        urlText: "Go to Official Website",
-    }
 ]
 
 const news = [
