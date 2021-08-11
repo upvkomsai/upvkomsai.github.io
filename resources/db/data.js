@@ -8,17 +8,16 @@ const PLACEHOLDER_IMAGE = {
 
 const featured = [
     {
-        title: "web",
-        date: "March 7, 2021",
+        title: "Website Launch",
+        date: "August 11, 2021",
         content:
-        `Website Launching`,
+        `Website Launch`,
         img_path: "resources/img/featured/weblaunch.png",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
     {
         title: "Graduates",
-        date: "March 7, 2021",
         content:
         `Komsai.Org Graduates`,
         img_path: "resources/img/featured/grad.png",
@@ -27,7 +26,6 @@ const featured = [
     },
     {
         title: "UPV Komsai.Org",
-        date: "March 7, 2021",
         content:
         `Komsai 2018 & 2019`,
         img_path: "resources/img/featured/komsaiorg.jpg",
@@ -36,7 +34,6 @@ const featured = [
     },
     {
         title: "UPV Komsai.Org",
-        date: "March 7, 2021",
         content:
         `Kom-Con 2019`,
         img_path: "resources/img/featured/komsai2018.jpg",
@@ -50,23 +47,25 @@ const news = [
         title: "UPV Komsai.Org Website Launch",
         date: "August 11, 2021",
         content:
-        `In the beninggging.. in the.. in the bini... in the beninggiing.. yah.. in the.. in.. in.. ahh.. beninging yeah.. in in in the beginingih.... in the beninggibeningi.. beginning 
+        `In the bening. ging.. in the.. in the bini... in the beninggiing.. yah.. in the.. in.. in the beninggibeningi..
 
-        In the beginning ugh finally... Komsai gods started creation. On the first day, the course was created. On the second day, Komsai students were fashioned from procrastination and intelligence then they were placed in the Garden of Computers... and after 01000101 (haha joke lang ph0) years now we say, "LET THERE BE [A] WEBSITE!"
+        In the Beginning ugh finally... Komsai gods started programming. On the first day, the course was created. On the second day, Komsai students were fashioned from procrastination and intelligence, then they were placed in the Garden of Computers... and after 01000101 years now we say,
+        
+        "LET THERE BE A WEBSITE!"
         
         A few years ago, we thought about creating a website for the organization, yet we decided to steer clear, thinking it might take a lot of time, effort, and money.
         
         Now, IT'S FINALLY HERE!!!
         
-        The future is now thanks to Computer Science, as we are introducing our very own website. Given the current situation and a month's worth of hard work and perseverance, we can finally showcase what UPV Komsai.Org truly is capable of.
+        The Future is Now thanks to Computer Science, as we introduce to you our very own website. Given the current situation and a month's worth of hard work and perseverance, we can finally showcase what UPV Komsai.Org truly is capable of.
         
-        With a website, the organization can finally tighten its grasp to the cyberspace and like a virus, spread its connection!
+        With a website, the organization can finally tighten its grasp in the cyberspace and like a virus, spread its connection!
         
         ------------------------
         "So pwede na pala ma click yung pangalan niyong nagbu-blue sa mga post nyo?"
         
         "Huo hehe 🙂"
-         
+        
         Check out our official website by going to "upv.komsai.org".`,
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
@@ -332,11 +331,12 @@ const projectsDone = [
         description:
         `UPV Komsai.Org now has an official website.
         
-        It started as a plan years ago, and eventually the organization finally made it happen. Over the span of a month, we designed a website so that it will be easier for our followers to contact us and know more about the organization.
+        It started as a plan years ago, and eventually the organization finally made it happen. Over the span of a month, we designed a website so that it will be easier for people to contact us and know more about the organization.
         
-        With a website, the organization can finally spread its wings outside its limitations. Cheers to a new way of communication.
+        With a website, the organization can finally spread its wings outside its limitations.
         
         You may visit the website by typing "upv.komsai.org" on your browser or by clicking the link below.`,
+        img_path: "resources/img/featured/weblaunch.png",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
