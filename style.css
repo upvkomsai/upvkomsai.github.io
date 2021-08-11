@@ -514,7 +514,7 @@ nav .closeMenu,
   
 .active {
     color: var(--aboutColor);
-    background-color: var(--cardBorder);
+    background-color: var(--subtitleColor);
 }
 
 .question:hover {
@@ -528,9 +528,18 @@ nav .closeMenu,
     padding: 0 18px;
     color: var(--aboutColor);
     background-color: var(--headerBackground);
+    border-radius: 10px;
     display: none;
     overflow: hidden;
     text-align: justify;
+}
+
+.help-p {
+    font-size: larger;
+    color: var(--aboutColor);
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
 }
 
 @media screen and (max-width: 880px) {
