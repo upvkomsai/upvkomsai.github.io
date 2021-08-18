@@ -721,7 +721,15 @@ nav .closeMenu,
     -webkit-line-clamp: 2;
 }
 
-.social-card{
+.card .social-btn {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-card {
     max-width: 25px;
     max-height: 25px;
     margin-left: 5px;

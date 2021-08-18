@@ -176,6 +176,7 @@ const bindToCard = (
         const link = document.createElement("a");
 
         link.href = url;
+        link.target = "_blank";
         link.textContent = urlText;
 
         clone.querySelector(`.${layout}-content`).appendChild(link);
@@ -250,13 +251,17 @@ const bindToCard = (
 
     if (socmed) {
         socmed.forEach((e)=>{
+            const soc = document.createElement("a");
+            soc.target = "_blank";
+            soc.href = e.url;
+            soc.classList.add("social-btn");
+
             const img = document.createElement("img");
             img.classList.add("social-card");
             img.src = "resources/img/icons/"+e.name+".png";
-            img.onclick = function(){
-                window.location.href = e.url;
-            };
-            clone.querySelector(`.${layout}-content`).appendChild(img);
+
+            soc.appendChild(img);
+            clone.querySelector(`.${layout}-content`).appendChild(soc);
         })
     }
 
@@ -347,6 +352,7 @@ modal.addEventListener("click", (e) => {
             const link = modal.querySelector(".modal-url");
 
             link.href = url;
+            link.target = "_blank";
             link.textContent = urlText;
             link.hidden = false;
         } else {
@@ -417,14 +423,17 @@ const bindToOfficerModal = (
             const socMed = modal.querySelector(".modal-content .modal-socials");
             
             socmed.forEach((e)=>{
+                const soc = document.createElement("a");
+                soc.target = "_blank";
+                soc.href = e.url;
+                soc.classList.add("social-btn");
+
                 const img = document.createElement("img");
                 img.classList.add("social-card");
-                img.classList.add("modal-soc");
                 img.src = "resources/img/icons/"+e.name+".png";
-                img.onclick = function(){
-                    window.location.href = e.url;
-                };
-                socMed.append(img);
+
+                soc.appendChild(img);
+                socMed.append(soc);
             })
             socMed.hidden = false;
         }
