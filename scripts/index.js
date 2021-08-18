@@ -7,12 +7,11 @@ const CARD = {
     SMALL: "card-sm",
 };
 
-// Carousel 
-
+// Carousel
 
 const carousel = document.getElementsByClassName("home-feature")[0];
-featured.forEach((e)=>{
-    const div= document.createElement("div");
+featured.forEach((e) => {
+    const div = document.createElement("div");
     div.classList.add("mySlides");
     div.classList.add("fade");
     const img = document.createElement("img");
@@ -22,7 +21,7 @@ featured.forEach((e)=>{
 
     const content = document.createElement("div");
     content.classList.add("headline");
-    content.textContent=e.content;
+    content.textContent = e.content;
     div.appendChild(content);
 
     console.log(div);
@@ -31,85 +30,90 @@ featured.forEach((e)=>{
 
 var slideIndex = 0;
 
-var slides,dots;
+var slides, dots;
 
 function showSlides() {
     var i;
     slides = document.getElementsByClassName("mySlides");
     dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
     for (i = 0; i < dots.length; i++) {
         dots[i].classList.remove("current");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].classList.add("current");
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].classList.add("current");
     setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
-    // const current = document.getElementsByClassName("dot")[(slideIndex-1)];
-    // current.classList.add("current");
-    
-    // if (prevSlide>0){
-    //     const prev = document.getElementsByClassName("dot")[prevSlide-1];
-    //     prev.classList.remove("current");
-    // }
+// const current = document.getElementsByClassName("dot")[(slideIndex-1)];
+// current.classList.add("current");
 
-
-
+// if (prevSlide>0){
+//     const prev = document.getElementsByClassName("dot")[prevSlide-1];
+//     prev.classList.remove("current");
+// }
 
 // Next/previous controls
 function plusSlides(position) {
-    slideIndex +=position;
-    if (slideIndex> slides.length) {slideIndex = 1}
-    else if(slideIndex<1){slideIndex = slides.length}
+    slideIndex += position;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    } else if (slideIndex < 1) {
+        slideIndex = slides.length;
+    }
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].classList.remove("current");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].classList.add("current");
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].classList.add("current");
 }
 
 function currentSlide(index) {
-    if (index> slides.length) {index = 1}
-    else if(index<1){index = slides.length}
+    if (index > slides.length) {
+        index = 1;
+    } else if (index < 1) {
+        index = slides.length;
+    }
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].classList.remove("current");
     }
-    slides[index-1].style.display = "block";  
-    dots[index-1].classList.add("current");
+    slides[index - 1].style.display = "block";
+    dots[index - 1].classList.add("current");
 }
 
 const a = document.createElement("a");
 a.classList.add("prev");
 a.setAttribute("onclick", "plusSlides(-1)");
-a.textContent="❮";
+a.textContent = "❮";
 carousel.append(a);
 
 const b = document.createElement("a");
 b.classList.add("next");
 b.setAttribute("onclick", "plusSlides(1)");
-b.textContent='❯';
+b.textContent = "❯";
 carousel.append(b);
 
 const c = document.createElement("div");
 c.classList.add("indicators");
 
 let num = 0;
-featured.forEach((f)=>{
+featured.forEach((f) => {
     const d = document.createElement("span");
     d.classList.add("dot");
-    d.onclick="currentSlide("+num+")";
+    d.onclick = "currentSlide(" + num + ")";
     c.append(d);
-})
+});
 
 carousel.append(c);
 
@@ -136,7 +140,7 @@ const bindToCard = (
     description,
     showDescription,
     url,
-    urlText = "More details",
+    urlText = "More details"
 ) => {
     layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
 
@@ -206,7 +210,7 @@ const bindToCard = (
  * @param {boolean} is_dev - state true for website developers
  * @returns {Node} A preformatted `<div>` element that can be attached to the DOM
  */
- const bindToOfficerCard = (
+const bindToOfficerCard = (
     layout,
     includeModal,
     imgPath,
@@ -216,7 +220,7 @@ const bindToCard = (
     socmed,
     description,
     showDescription,
-    is_dev,
+    is_dev
 ) => {
     layout = layout || CARD.HORIZONTAL; // Default card layout is horizontal
 
@@ -245,12 +249,13 @@ const bindToCard = (
     if (subtitle2) {
         const sub2 = document.createElement("p");
         sub2.textContent = subtitle2;
-        clone.querySelector(
-            `.${layout}-content .${layout}-subtitle2`).appendChild(sub2);
+        clone
+            .querySelector(`.${layout}-content .${layout}-subtitle2`)
+            .appendChild(sub2);
     }
 
     if (socmed) {
-        socmed.forEach((e)=>{
+        socmed.forEach((e) => {
             const soc = document.createElement("a");
             soc.target = "_blank";
             soc.href = e.url;
@@ -258,11 +263,11 @@ const bindToCard = (
 
             const img = document.createElement("img");
             img.classList.add("social-card");
-            img.src = "resources/img/icons/"+e.name+".png";
+            img.src = "resources/img/icons/" + e.name + ".png";
 
             soc.appendChild(img);
             clone.querySelector(`.${layout}-content`).appendChild(soc);
-        })
+        });
     }
 
     if (description && showDescription) {
@@ -287,7 +292,16 @@ const bindToCard = (
     clone.classList.remove("template");
 
     if (includeModal) {
-        bindToOfficerModal(clone, imgPath, title, subtitle, subtitle2, description,socmed, is_dev);
+        bindToOfficerModal(
+            clone,
+            imgPath,
+            title,
+            subtitle,
+            subtitle2,
+            description,
+            socmed,
+            is_dev
+        );
         clone.classList.add("clickable");
     }
 
@@ -301,15 +315,29 @@ const modal = document.getElementById("modal");
 
 const modalClose = modal.querySelector(".modal-header .modal-close");
 modalClose.classList.add("clickable");
-modalClose.addEventListener("click", () => (modal.hidden = true));
+modalClose.addEventListener("click", () => {
+    modal.hidden = true;
+    clearModal();
+});
 
 modal.addEventListener("click", (e) => {
     if (e.target !== modal) {
         return;
     } else {
         modal.hidden = true;
+        clearModal();
     }
 });
+
+const clearModal = () => {
+    modal.querySelector(".modal-title").textContent = "";
+    modal.querySelector(".modal-subtitle").textContent = "";
+    modal.querySelector(".modal-subtitle2").textContent = "";
+    modal.querySelector(".modal-description").textContent = "";
+    modal.querySelector(".modal-url").textContent = "";
+    modal.querySelector(".modal-url").href = "";
+    // I probably missed something here, please check
+};
 
 /**
  * @param {Node} element - element that triggers the modal
@@ -320,7 +348,7 @@ modal.addEventListener("click", (e) => {
  * @param {string} url
  * @param {string} urlText
  */
- const bindToModal = (
+const bindToModal = (
     element,
     imgPath,
     title,
@@ -332,7 +360,6 @@ modal.addEventListener("click", (e) => {
     if (!element) return false;
 
     element.addEventListener("click", (e) => {
-
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
@@ -342,7 +369,7 @@ modal.addEventListener("click", (e) => {
         sub2.href = "#";
         sub2.textContent = "";
         sub2.hidden = true;
-        
+
         modal.querySelector(".modal-content .modal-img").src =
             imgPath || "resources/img/logo.png";
         modal.querySelector(".modal-content .modal-description").textContent =
@@ -362,7 +389,7 @@ modal.addEventListener("click", (e) => {
             link.textContent = "";
             link.hidden = true;
         }
-        
+
         const devTitle = modal.querySelector(".modal-dev");
 
         devTitle.textContent = "";
@@ -394,7 +421,6 @@ const bindToOfficerModal = (
     if (!element) return false;
 
     element.addEventListener("click", (e) => {
-
         modal.querySelector(".modal-content .modal-title").textContent =
             title || "No title";
         modal.querySelector(".modal-content .modal-subtitle").textContent =
@@ -405,7 +431,7 @@ const bindToOfficerModal = (
             sub2.classList.add("modal-subtitle2");
             sub2.textContent = subtitle2 || "N/A";
         }
-        
+
         modal.querySelector(".modal-content .modal-img").src =
             imgPath || "resources/img/logo.png";
         modal.querySelector(".modal-content .modal-description").textContent =
@@ -416,13 +442,13 @@ const bindToOfficerModal = (
         link.textContent = "";
         link.hidden = true;
 
-        document.querySelectorAll('.modal-soc').forEach(function(a){
-            a.remove()
-            })
+        document.querySelectorAll(".modal-soc").forEach(function (a) {
+            a.remove();
+        });
         if (socmed) {
             const socMed = modal.querySelector(".modal-content .modal-socials");
-            
-            socmed.forEach((e)=>{
+
+            socmed.forEach((e) => {
                 const soc = document.createElement("a");
                 soc.target = "_blank";
                 soc.href = e.url;
@@ -430,23 +456,22 @@ const bindToOfficerModal = (
 
                 const img = document.createElement("img");
                 img.classList.add("social-card");
-                img.src = "resources/img/icons/"+e.name+".png";
+                img.src = "resources/img/icons/" + e.name + ".png";
 
                 soc.appendChild(img);
                 socMed.append(soc);
-            })
+            });
             socMed.hidden = false;
         }
 
         if (is_dev) {
             const devTitle = modal.querySelector(".modal-content .modal-dev");
-    
+
             devTitle.textContent = `✔ "upv.komsai.org" Website Developer`;
             devTitle.hidden = false;
-
         } else {
             const devTitle = modal.querySelector(".modal-dev");
-    
+
             devTitle.textContent = "";
             devTitle.hidden = true;
         }
@@ -461,9 +486,13 @@ const bindToOfficerModal = (
 const bindData = () => {
     const _homeNews = document.querySelector("#home-news .section-content");
     const _news = document.querySelector("#news .section-content");
-    const _homeGallery = document.querySelector("#home-gallery .section-content");
+    const _homeGallery = document.querySelector(
+        "#home-gallery .section-content"
+    );
     const _gallery = document.querySelector("#gallery .section-content");
-    const _homeProjects = document.querySelector("#home-projects .section-content");
+    const _homeProjects = document.querySelector(
+        "#home-projects .section-content"
+    );
     const _projectsDone = document.querySelector("#projects .section-content");
     const _officers = document.querySelector("#officers .section-content");
 
@@ -482,7 +511,7 @@ const bindData = () => {
                 e.content,
                 true,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
 
             _homeNews.append(card);
@@ -502,7 +531,7 @@ const bindData = () => {
                 e.content,
                 true,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
 
             _news.append(card);
@@ -522,7 +551,7 @@ const bindData = () => {
                 e.description,
                 false,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
 
             _homeGallery.append(card);
@@ -542,7 +571,7 @@ const bindData = () => {
                 e.description,
                 false,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
 
             _gallery.append(card);
@@ -562,7 +591,7 @@ const bindData = () => {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
             _homeProjects.append(card);
         });
@@ -581,7 +610,7 @@ const bindData = () => {
                 e.description,
                 true,
                 e.url,
-                e.urlText || "More Info",
+                e.urlText || "More Info"
             );
             _projectsDone.append(card);
         });
@@ -605,21 +634,19 @@ const bindData = () => {
                 true,
                 e.is_dev
             );
-            
-            if  (count == 0){
+
+            if (count == 0) {
                 container.classList = "col-3";
                 container.append(document.createElement("div"));
                 _officers.append(container);
-
-            } else if (count == 3){
+            } else if (count == 3) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-
-            } else if (count == 11){
+            } else if (count == 11) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -630,8 +657,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-
-            } else if (count == 15){
+            } else if (count == 15) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -642,8 +668,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-
-            } else if (count == 19){
+            } else if (count == 19) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -654,8 +679,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-
-            } else if (count == 23){
+            } else if (count == 23) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -666,8 +690,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-
-            } else if (count == 27){
+            } else if (count == 27) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -679,13 +702,12 @@ const bindData = () => {
                 container.classList = "col-4";
                 container.append(document.createElement("div"));
                 _officers.append(container);
-
-            } else if (count == 29){
+            } else if (count == 29) {
                 container = document.createElement("div");
                 _officers.append(container);
             }
             container.append(card);
-            count ++;
+            count++;
         });
     }
 
@@ -694,27 +716,26 @@ const bindData = () => {
 
 bindData();
 
-
-const mainMenu = document.querySelector('.mainMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const openMenu = document.querySelector('.openMenu');
+const mainMenu = document.querySelector(".mainMenu");
+const closeMenu = document.querySelector(".closeMenu");
+const openMenu = document.querySelector(".openMenu");
 
 const navLink = document.querySelectorAll(".mainMenu");
 
-openMenu.addEventListener('click',show);
-closeMenu.addEventListener('click',close);
-navLink.forEach(n => n.addEventListener("click", autoClose));
+openMenu.addEventListener("click", show);
+closeMenu.addEventListener("click", close);
+navLink.forEach((n) => n.addEventListener("click", autoClose));
 
-function show(){
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
+function show() {
+    mainMenu.style.display = "flex";
+    mainMenu.style.top = "0";
 }
-function close(){
-    mainMenu.style.top = '-100%';
+function close() {
+    mainMenu.style.top = "-100%";
 }
 
 function autoClose() {
-    mainMenu.style.top = '-100%';
+    mainMenu.style.top = "-100%";
 }
 
 // Handles button clicks on header navigation
@@ -859,14 +880,14 @@ var acc = document.getElementsByClassName("question");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
 
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
 }
