@@ -318,7 +318,8 @@ nav .closeMenu,
     object-position: 50% 50%;
 }
 
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -338,7 +339,8 @@ nav .closeMenu,
     border-radius: 10px 0 0 10px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: var(--headerColor);
 }
 
@@ -349,7 +351,7 @@ nav .closeMenu,
     position: absolute;
     left: 60px;
     bottom: 80px;
-    text-shadow:black 1px 0 10px;
+    text-shadow: black 1px 0 10px;
 }
 
 .caption {
@@ -362,7 +364,6 @@ nav .closeMenu,
 }
 
 @media screen and (max-width: 880px) {
-    
     .mySlides img {
         height: 400px;
     }
@@ -373,11 +374,10 @@ nav .closeMenu,
         left: 40px;
         bottom: 60px;
     }
-    
+
     .caption {
         bottom: 10px;
     }
-    
 }
 
 .indicators {
@@ -398,7 +398,8 @@ nav .closeMenu,
     transition: all 0.4s ease;
 }
 
-.current, .dot:hover {
+.current,
+.dot:hover {
     background-color: var(--headerColor);
 }
 
@@ -410,12 +411,20 @@ nav .closeMenu,
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #home-news,
@@ -510,8 +519,8 @@ nav .closeMenu,
     border: none;
     outline: none;
     transition: 0.4s;
-  }
-  
+}
+
 .active {
     color: var(--aboutColor);
     background-color: var(--subtitleColor);
@@ -521,7 +530,7 @@ nav .closeMenu,
     color: var(--headerBackground);
     background-color: var(--headerColor);
 }
-  
+
 .answer {
     font: 300 1.1em "Roboto", sans-serif;
     line-height: 1.5em;
@@ -580,7 +589,6 @@ nav .closeMenu,
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 
 @media screen and (max-width: 880px) {
     #home-news,
@@ -738,8 +746,8 @@ nav .closeMenu,
 }
 
 .social-card:hover {
-   filter: invert(50%);
-   transition: all 0.4s ease;
+    filter: invert(50%);
+    transition: all 0.4s ease;
 }
 
 .modal-url,
@@ -896,7 +904,7 @@ nav .closeMenu,
     flex-flow: column;
 }
 
-.socials img{
+.socials img {
     margin: 0px 5px 0px 5px;
     max-width: 25px;
 }
