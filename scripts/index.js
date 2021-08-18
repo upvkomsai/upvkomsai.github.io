@@ -406,6 +406,7 @@ const bindToModal = (
  * @param {string} subtitle
  * @param {string} subtitle2
  * @param {string} description
+ * @param {array} socmed
  * @param {boolean} is_dev
  */
 const bindToOfficerModal = (
@@ -447,8 +448,11 @@ const bindToOfficerModal = (
         });
         if (socmed) {
             const socMed = modal.querySelector(".modal-content .modal-socials");
+            while (socMed.hasChildNodes()) {
+                socMed.removeChild(socMed.lastChild);
+            }
 
-            socmed.forEach((e) => {
+            socmed.forEach((e)=>{
                 const soc = document.createElement("a");
                 soc.target = "_blank";
                 soc.href = e.url;
@@ -458,7 +462,7 @@ const bindToOfficerModal = (
                 img.classList.add("social-card");
                 img.src = "resources/img/icons/" + e.name + ".png";
 
-                soc.appendChild(img);
+                soc.append(img);
                 socMed.append(soc);
             });
             socMed.hidden = false;
