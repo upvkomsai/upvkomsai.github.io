@@ -336,6 +336,7 @@ const clearModal = () => {
     modal.querySelector(".modal-description").textContent = "";
     modal.querySelector(".modal-url").textContent = "";
     modal.querySelector(".modal-url").href = "";
+    modal.querySelector(".modal-socials").innerHTML = "";
     // I probably missed something here, please check
 };
 
@@ -452,7 +453,7 @@ const bindToOfficerModal = (
                 socMed.removeChild(socMed.lastChild);
             }
 
-            socmed.forEach((e)=>{
+            socmed.forEach((e) => {
                 const soc = document.createElement("a");
                 soc.target = "_blank";
                 soc.href = e.url;
