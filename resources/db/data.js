@@ -44,6 +44,41 @@ const featured = [
 
 const news = [
     {
+        title: "Congratulations Team Hackushin Impact!",
+        date: "August 29, 2021",
+        content:
+        `Congratulations to our amazing hackerists Janley Molina, Lloyd Dela Cruz, John Markton Olarte, and the rest of Team Hakushin Impact for being the 1st Runner Up in the Impact Hackathon 5G - Health Category presented by Impact Hub Manila.
+        
+        UPV Komsai.Org greatly appreciates the team's effort in giving a large Hacking IMPACT (See what we did there?) to our community even in the current situation.
+        To that, we salute you!!! 🙌
+        Paimon will now bless your pulls, travelers ✨~ 
+        PADAYON!!!
+
+        Caption by: Jayvee Castañeda
+        Pub Design by: Christian Dale Celestial and Ann Beatrice Destajo`,
+        url: "https://www.facebook.com/101003224626184/posts/656898705703297/",
+        urlText: "Read More",
+        img_path: "resources/img/news/TeamHakushinImpact.jpg",
+    },
+    {
+        title: "Congratulations Erru Torculas!",
+        date: "August 25, 2021",
+        content:
+        `🏆 CONGRATULATIONS!!! 🏆
+
+        Erru Torculas, an incoming 3rd year Komsai student along with Team Amplify was hailed as the first winner in the ASEAN DSE Philippines National Finals 2021.
+        UPV Komsai.Org would like to congratulate our fellow hackerist Erru and his teammate Francis Nacionales by upholding their Honor and Excellence even outside the university.
+        
+        We are Proud of You!
+        Padayon!!!
+
+        Caption by: Jayvee Castañeda
+        Pub Design by: Ann Beatrice Destajo`,
+        url: "https://www.facebook.com/ASEANFoundation/photos/a.150363208362087/4365197606878605/",
+        urlText: "Read More",
+        img_path: "resources/img/news/ErruAmplify.jpg",
+    },
+    {
         title: "UPV Komsai.Org Website Launch",
         date: "August 11, 2021",
         content:
