@@ -652,7 +652,7 @@ const officers = [
         name: "ANN BEATRICE L. DESTAJO",
         position: "P.I.O.",
         description:
-        `A cosmic glitch`,
+        `No description.`,
         email: "aldestajo@up.edu.ph",
         socials:
         [
