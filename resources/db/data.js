@@ -8,6 +8,15 @@ const PLACEHOLDER_IMAGE = {
 
 const featured = [
     {
+        title: "Welcome to UPV",
+        date: "September 13, 2021",
+        content:
+        `Welcome to UPV`,
+        img_path: "resources/img/featured/welcome.gif",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
         title: "Website Launch",
         date: "August 11, 2021",
         content:
@@ -217,6 +226,27 @@ const news = [
 const homeNews = [news[0], news[1], news[2], news[3]];
 
 const gallery = [
+    {
+        title: "Komsai Freshies Batch 2021",
+        date_shown: "September 11, 2021",
+        description:
+        `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
+        img_path: "resources/img/gallery/KomsaiFreshies2021_1.png",
+    },
+    {
+        title: "Komsai Freshies Batch 2021",
+        date_shown: "September 11, 2021",
+        description:
+        `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
+        img_path: "resources/img/gallery/KomsaiFreshies2021_2.png",
+    },
+    {
+        title: "Komsai Freshies Batch 2021",
+        date_shown: "September 11, 2021",
+        description:
+        `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
+        img_path: "resources/img/gallery/KomsaiFreshies2021_3.png",
+    },
     {
         title: "Komsai Week 2021 Raffle Draw Winners",
         date_shown: "May 8, 2021",
