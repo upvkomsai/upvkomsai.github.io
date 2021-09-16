@@ -710,130 +710,33 @@ const officers = [
         img_path: "resources/img/officers/molejona.jpg",
     },
     {
-        name: "Chester Ken G. Gallego",
-        position: "1st Year Batch Representative for UPV Komsai.Org",
+        name: "RENZEL E. BUATAG",
+        position: "4th Year Batch Representative for UPV Komsai.Org",
         description:
-        `Hello, World!`,
-        email: "cggallego2@up.edu.ph",
+        `ngeee. idunno. `,
+        email: "rebuatag@up.edu.ph",
         socials:
         [
             {
                 name:"facebook",
-                url: "https://www.facebook.com/chstrkn/",
+                url: "https://www.facebook.com/rnzlbtg/",
             },
             {
                 name:"linkedin",
-                url: "https://www.linkedin.com/in/chstrkn",
-            },
-            {
-                name:"twitter",
-                url: "https://twitter.com/chstrkn",
+                url: "www.linkedin.com/in/renzel-buatag",
             },
         ],
-        img_path: "resources/img/officers/gallego.jpg",
+        img_path: "resources/img/officers/buatag.jpg",
     },
     {
-        name: "Mary Nicolette J. Parcon",
-        position: "1st Year Batch Representative for UPV Komsai.Org",
+        name: "JOECEL EMAN I. CARPIO",
+        position: "4th Year Batch Representative for UPV Elektrons",
         description:
-        `sHE'S brOKen`,
-        email: "mjparcon@up.edu.ph ",
-        socials:
-        [
-            {
-                name:"facebook",
-                url: "https://www.facebook.com/nqltt/",
-            },
-        ],
-        img_path: "resources/img/officers/parcon.jpg",
-    },
-    {
-        name: "Gabriel Dax P. Agura",
-        position: "1st Year Batch Representative for UPV Elektrons",
-        description:
-        `Tank Class in with DPS build`,
-        email: "gpagura@up.edu.ph",
-        img_path: "resources/img/officers/agura.jpg",
-    },
-    {
-        name: "Kristina V. Celis",
-        position: "1st Year Batch Representative for UPV Elektrons",
-        description:
-        `"If you're not a good shot today, don't worry. There are other ways to be useful."`,
-        email: "kvcelis@up.edu.ph",
-        img_path: "resources/img/officers/celis.jpg",
-    },
-    {
-        name: "LLOYD WALLYS M. DELA CRUZ",
-        position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description:
-        `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
-        email: "lmdelacruz4@up.edu.ph",
-        socials:
-        [
-            {
-                name:"twitter",
-                url: "https://www.twitter.com/lunch_plus",
-            },
-            {
-                name:"instagram",
-                url: "https://www.instagram.com/lunchplus.art",
-            },
-            {
-                name:"website",
-                url: "https://lunchplus.bio.link",
-            },
-        ],
-        img_path: "resources/img/officers/delacruz.jpg",
-    },
-    {
-        name: "RHEYMART G. TUGADO",
-        position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description:
-        `Ngi?`,
-        email: "rgtugado@up.edu.ph",
-        img_path: "resources/img/officers/tugado.jpg",
-    },
-    {
-        name: "SOPHIA FEONA O. CANTILLER",
-        position: "2nd Year Batch Representative for UPV Elektrons",
-        description:
-        `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
-        I live for the arts and literary, and everything in between—with my love for computers squeezed in. `,
-        email: "socantiller@up.edu.ph",
-        socials:
-        [
-            {
-                name:"facebook",
-                url: "https://www.facebook.com/sphcntllr",
-            },
-            {
-                name:"linkedin",
-                url: "https://www.linkedin.com/in/sophiacantiller/",
-            },
-        ],
-        img_path: "resources/img/officers/cantiller.jpg",
-    },
-    {
-        name: "JOHN KYLE N. JUNSAY",
-        position: "2nd Year Batch Representative for UPV Elektrons",
-        description:
-        `I'm into photography and cinematography. My favorite music is the sound of the ocean waves clashing into the shore. 
+        `"Pero ma, kahit gaga at pasaway ako, gusto ko lang naman maging proud ka sa'kin eh. Kaya nga inaayos ko 'yung buhay ko ngayon eh." - Alex on The Confrontation scene
 
-        I always believe that we make our own reality so I try to look through the brighter side of everything.`,
-        email: "jnjunsay@up.edu.ph",
-        socials:
-        [
-            {
-                name:"facebook",
-                url: "https://www.facebook.com/johnkyle.junsay",
-            },
-            {
-                name:"instagram",
-                url: "https://www.instagram.com/itskylejunsay/",
-            },
-        ],
-        img_path: "resources/img/officers/junsay.jpg",
+        "Don't give comments about my personal life because I don't give comments about yours!" - Alex to Bobbie on their confrontation about their ex-boyfriend.`,
+        email: "jicarpio1@up.edu.ph",
+        img_path: "resources/img/officers/carpio.jpg",
     },
     {
         name: "ERRU G. TORCULAS",
@@ -912,32 +815,129 @@ const officers = [
         img_path: "resources/img/officers/valente.jpg",
     },
     {
-        name: "RENZEL E. BUATAG",
-        position: "4th Year Batch Representative for UPV Komsai.Org",
+        name: "LLOYD WALLYS M. DELA CRUZ",
+        position: "2nd Year Batch Representative for UPV Komsai.Org",
         description:
-        `ngeee. idunno. `,
-        email: "rebuatag@up.edu.ph",
+        `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
+        email: "lmdelacruz4@up.edu.ph",
+        socials:
+        [
+            {
+                name:"twitter",
+                url: "https://www.twitter.com/lunch_plus",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/lunchplus.art",
+            },
+            {
+                name:"website",
+                url: "https://lunchplus.bio.link",
+            },
+        ],
+        img_path: "resources/img/officers/delacruz.jpg",
+    },
+    {
+        name: "RHEYMART G. TUGADO",
+        position: "2nd Year Batch Representative for UPV Komsai.Org",
+        description:
+        `Ngi?`,
+        email: "rgtugado@up.edu.ph",
+        img_path: "resources/img/officers/tugado.jpg",
+    },
+    {
+        name: "SOPHIA FEONA O. CANTILLER",
+        position: "2nd Year Batch Representative for UPV Elektrons",
+        description:
+        `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
+        I live for the arts and literary, and everything in between—with my love for computers squeezed in. `,
+        email: "socantiller@up.edu.ph",
         socials:
         [
             {
                 name:"facebook",
-                url: "https://www.facebook.com/rnzlbtg/",
+                url: "https://www.facebook.com/sphcntllr",
             },
             {
                 name:"linkedin",
-                url: "www.linkedin.com/in/renzel-buatag",
+                url: "https://www.linkedin.com/in/sophiacantiller/",
             },
         ],
-        img_path: "resources/img/officers/buatag.jpg",
+        img_path: "resources/img/officers/cantiller.jpg",
     },
     {
-        name: "JOECEL EMAN I. CARPIO",
-        position: "4th Year Batch Representative for UPV Elektrons",
+        name: "JOHN KYLE N. JUNSAY",
+        position: "2nd Year Batch Representative for UPV Elektrons",
         description:
-        `"Pero ma, kahit gaga at pasaway ako, gusto ko lang naman maging proud ka sa'kin eh. Kaya nga inaayos ko 'yung buhay ko ngayon eh." - Alex on The Confrontation scene
+        `I'm into photography and cinematography. My favorite music is the sound of the ocean waves clashing into the shore. 
 
-        "Don't give comments about my personal life because I don't give comments about yours!" - Alex to Bobbie on their confrontation about their ex-boyfriend.`,
-        email: "jicarpio1@up.edu.ph",
-        img_path: "resources/img/officers/carpio.jpg",
+        I always believe that we make our own reality so I try to look through the brighter side of everything.`,
+        email: "jnjunsay@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/johnkyle.junsay",
+            },
+            {
+                name:"instagram",
+                url: "https://www.instagram.com/itskylejunsay/",
+            },
+        ],
+        img_path: "resources/img/officers/junsay.jpg",
+    },
+    {
+        name: "Chester Ken G. Gallego",
+        position: "1st Year Batch Representative for UPV Komsai.Org",
+        description:
+        `Hello, World!`,
+        email: "cggallego2@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/chstrkn/",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/chstrkn",
+            },
+            {
+                name:"twitter",
+                url: "https://twitter.com/chstrkn",
+            },
+        ],
+        img_path: "resources/img/officers/gallego.jpg",
+    },
+    {
+        name: "Mary Nicolette J. Parcon",
+        position: "1st Year Batch Representative for UPV Komsai.Org",
+        description:
+        `sHE'S brOKen`,
+        email: "mjparcon@up.edu.ph ",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/nqltt/",
+            },
+        ],
+        img_path: "resources/img/officers/parcon.jpg",
+    },
+    {
+        name: "Gabriel Dax P. Agura",
+        position: "1st Year Batch Representative for UPV Elektrons",
+        description:
+        `Tank Class in with DPS build`,
+        email: "gpagura@up.edu.ph",
+        img_path: "resources/img/officers/agura.jpg",
+    },
+    {
+        name: "Kristina V. Celis",
+        position: "1st Year Batch Representative for UPV Elektrons",
+        description:
+        `"If you're not a good shot today, don't worry. There are other ways to be useful."`,
+        email: "kvcelis@up.edu.ph",
+        img_path: "resources/img/officers/celis.jpg",
     },
 ];

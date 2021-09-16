@@ -667,24 +667,14 @@ const bindData = () => {
                 _officers.append(document.createElement("br"));
 
                 const batchTitle = document.createElement("h2");
-                batchTitle.textContent = "1st Year Batch Representatives";
+                batchTitle.textContent = "4th Year Batch Representatives";
                 _officers.append(batchTitle);
 
                 container = document.createElement("div");
                 container.classList = "col-4";
+                container.append(document.createElement("div"));
                 _officers.append(container);
-            } else if (count == 19) {
-                _officers.append(document.createElement("br"));
-                _officers.append(document.createElement("br"));
-
-                const batchTitle = document.createElement("h2");
-                batchTitle.textContent = "2nd Year Batch Representatives";
-                _officers.append(batchTitle);
-
-                container = document.createElement("div");
-                container.classList = "col-4";
-                _officers.append(container);
-            } else if (count == 23) {
+            } else if (count == 17) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -695,17 +685,27 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 27) {
+            } else if (count == 21) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
                 const batchTitle = document.createElement("h2");
-                batchTitle.textContent = "4th Year Batch Representatives";
+                batchTitle.textContent = "2nd Year Batch Representatives";
                 _officers.append(batchTitle);
 
                 container = document.createElement("div");
                 container.classList = "col-4";
-                container.append(document.createElement("div"));
+                _officers.append(container);
+            } else if (count == 25) {
+                _officers.append(document.createElement("br"));
+                _officers.append(document.createElement("br"));
+
+                const batchTitle = document.createElement("h2");
+                batchTitle.textContent = "1st Year Batch Representatives";
+                _officers.append(batchTitle);
+
+                container = document.createElement("div");
+                container.classList = "col-4";
                 _officers.append(container);
             } else if (count == 29) {
                 container = document.createElement("div");
