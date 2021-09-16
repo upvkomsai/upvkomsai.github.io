@@ -695,39 +695,73 @@ const officers = [
         is_dev: true,
     },
     {
-        name: "TBA",
+        name: "Ron Paolo Q. Molejona",
         position: "P.I.O.",
         description:
-        `No description`,
-        email: "tempemail@email.com",
+        `my friend wouldn't give me a raw egg`,
+        email: "rqmolejona@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/Great.Evil.Overlord/",
+            },
+        ],
+        img_path: "resources/img/officers/molejona.jpg",
     },
     {
-        name: "TBA",
+        name: "Chester Ken G. Gallego",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description:
-        `No description`,
-        email: "tempemail@email.com",
+        `Hello, World!`,
+        email: "cggallego2@up.edu.ph",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/chstrkn/",
+            },
+            {
+                name:"linkedin",
+                url: "https://www.linkedin.com/in/chstrkn",
+            },
+            {
+                name:"twitter",
+                url: "https://twitter.com/chstrkn",
+            },
+        ],
+        img_path: "resources/img/officers/gallego.jpg",
     },
     {
-        name: "TBA",
+        name: "Mary Nicolette J. Parcon",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description:
-        `No description`,
-        email: "tempemail@email.com",
+        `sHE'S brOKen`,
+        email: "mjparcon@up.edu.ph ",
+        socials:
+        [
+            {
+                name:"facebook",
+                url: "https://www.facebook.com/nqltt/",
+            },
+        ],
+        img_path: "resources/img/officers/parcon.jpg",
     },
     {
-        name: "TBA",
+        name: "Gabriel Dax P. Agura",
         position: "1st Year Batch Representative for UPV Elektrons",
         description:
-        `No description`,
-        email: "tempemail@email.com",
+        `Tank Class in with DPS build`,
+        email: "gpagura@up.edu.ph",
+        img_path: "resources/img/officers/agura.jpg",
     },
     {
-        name: "TBA",
+        name: "Kristina V. Celis",
         position: "1st Year Batch Representative for UPV Elektrons",
         description:
-        `No description`,
-        email: "tempemail@email.com",
+        `"If you're not a good shot today, don't worry. There are other ways to be useful."`,
+        email: "kvcelis@up.edu.ph",
+        img_path: "resources/img/officers/celis.jpg",
     },
     {
         name: "LLOYD WALLYS M. DELA CRUZ",
