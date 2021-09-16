@@ -695,7 +695,7 @@ const officers = [
         is_dev: true,
     },
     {
-        name: "Ron Paolo Q. Molejona",
+        name: "RON PAOLO Q. MOLEJONA",
         position: "P.I.O.",
         description:
         `my friend wouldn't give me a raw egg`,
@@ -887,7 +887,7 @@ const officers = [
         img_path: "resources/img/officers/junsay.jpg",
     },
     {
-        name: "Chester Ken G. Gallego",
+        name: "CHESTER KEN G. GALLEGO",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description:
         `Hello, World!`,
@@ -910,7 +910,7 @@ const officers = [
         img_path: "resources/img/officers/gallego.jpg",
     },
     {
-        name: "Mary Nicolette J. Parcon",
+        name: "MARY NICOLETTE J. PARCON",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description:
         `sHE'S brOKen`,
@@ -925,7 +925,7 @@ const officers = [
         img_path: "resources/img/officers/parcon.jpg",
     },
     {
-        name: "Gabriel Dax P. Agura",
+        name: "GABRIEL DAX P. AGURA",
         position: "1st Year Batch Representative for UPV Elektrons",
         description:
         `Tank Class in with DPS build`,
@@ -933,7 +933,7 @@ const officers = [
         img_path: "resources/img/officers/agura.jpg",
     },
     {
-        name: "Kristina V. Celis",
+        name: "KRISTINA V. CELIS",
         position: "1st Year Batch Representative for UPV Elektrons",
         description:
         `"If you're not a good shot today, don't worry. There are other ways to be useful."`,
