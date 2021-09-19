@@ -928,7 +928,7 @@ const officers = [
         name: "GABRIEL DAX P. AGURA",
         position: "1st Year Batch Representative for UPV Elektrons",
         description:
-        `Tank Class in with DPS build`,
+        `tank class in a DPS build`,
         email: "gpagura@up.edu.ph",
         img_path: "resources/img/officers/agura.jpg",
     },
