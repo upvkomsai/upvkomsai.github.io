@@ -391,6 +391,34 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai Freshies Orientation 2021",
+        date_shown: "September 18, 2021",
+        description:
+        `What's written on paper isn't already set in stone. 
+        Just like paper roses.
+        Oh, how real those roses seem to be
+        But they're only an imitation
+        Like your imitation love for me 🥺🥺🥺
+        Mareng Jolina, aNg sAkiT kAYa!!?! 😭😭😭
+
+        Good morning, Komsai!!!
+        ( Goooood MorNiiinG, TeAcHEr!!! )
+
+        Before we set your paper hearts in stone, you must learn the basics of being fresh as a notebook. From Jolina's inspirational words "Oh babe, na in-love ako with you", we should know how to express our deepest desires and know what to achieve.
+        Join us on Saturday, September 18, @ 1:00 PM for another chance at amazing deals and prizes. You may enter the exclusive promo using the link below.
+        Hope to see you there, fresh notebooks!!! 💻📒
+
+        #KomsaiFreshies2021
+        #KomsaiAyAyAy
+        #LigtasNaBalikEskwela
+
+        Pub design by: Janley Molina
+        Caption by: Jayvee Castañeda`,
+        img_path: "resources/img/projects/Freshies_Orye_2021.png",
+        url: "https://bit.ly/3tUuNBV",
+        urlText: "Register Now",
+    },
+    {
         name: "Official Website",
         date_shown: "July 2 - August 8, 2021",
         description:
