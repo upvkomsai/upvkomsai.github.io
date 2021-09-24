@@ -472,6 +472,18 @@ nav .closeMenu,
     width: 100%;
 }
 
+.section-video {
+    width: 100%;
+    height: 630px;
+}
+
+@media screen and (max-width: 880px) {
+    .section-video {
+        width: 100%;
+        height: 300px;
+    }
+}
+
 .section-about p {
     width: 100%;
     font: 400 1em "Roboto", sans-serif;
