@@ -524,7 +524,9 @@ const gallery = [
         title: "What Computer Part Are You?",
         date_shown: "October 15, 2020",
         description:
-        `What Computer Part Are You?`,
+        `What Computer Part Are You?
+        
+        Presented by: UPV Komsai.Org`,
         img_path: "resources/img/gallery/WCPAY/Slide1.jpg",
     },
     {
