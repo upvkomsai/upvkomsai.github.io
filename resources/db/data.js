@@ -385,6 +385,162 @@ const gallery = [
         `Team "Op Ja Kaw?" for YEP NICL 2020`,
         img_path: "resources/img/gallery/opjakaw.png",
     },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        BIOS CHIP: The Hiding Helper`,
+        img_path: "resources/img/gallery/WCPAY/Slide16.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        HEADPHONES: The Solo Sound`,
+        img_path: "resources/img/gallery/WCPAY/Slide15.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        FAN: The Mediator`,
+        img_path: "resources/img/gallery/WCPAY/Slide14.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        JOYSTICK: The Controller`,
+        img_path: "resources/img/gallery/WCPAY/Slide13.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        MICROPHONE: The Listener`,
+        img_path: "resources/img/gallery/WCPAY/Slide12.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        RAM: The Lost Memory`,
+        img_path: "resources/img/gallery/WCPAY/Slide11.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        HARD DRIVE: The Keeper`,
+        img_path: "resources/img/gallery/WCPAY/Slide10.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        MOTHERBOARD: The Parent`,
+        img_path: "resources/img/gallery/WCPAY/Slide9.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        SCANNER: The Investigator`,
+        img_path: "resources/img/gallery/WCPAY/Slide8.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        SPEAKER: The Sound`,
+        img_path: "resources/img/gallery/WCPAY/Slide7.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        CPU: The Analytic`,
+        img_path: "resources/img/gallery/WCPAY/Slide6.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        SYSTEM UNIT: The Protector`,
+        img_path: "resources/img/gallery/WCPAY/Slide5.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        KEYBOARD: The Word Master`,
+        img_path: "resources/img/gallery/WCPAY/Slide4.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        MONITOR: The Presenter`,
+        img_path: "resources/img/gallery/WCPAY/Slide3.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?
+        
+        MOUSE: The Navigator`,
+        img_path: "resources/img/gallery/WCPAY/Slide2.jpg",
+    },
+    {
+        title: "What Computer Part Are You?",
+        date_shown: "October 15, 2020",
+        description:
+        `What Computer Part Are You?`,
+        img_path: "resources/img/gallery/WCPAY/Slide1.jpg",
+    },
+    {
+        title: "Komsai Akwe 2019",
+        date_shown: "September 13, 2019",
+        description:
+        `Komsai Batch 2018 and 2019 with Instructors`,
+        img_path: "resources/img/gallery/KomsaiAkwe2019/KomsaiAkwe2.jpg",
+    },
+    {
+        title: "Komsai Akwe 2019",
+        date_shown: "September 13, 2019",
+        description:
+        `Komsai Batch 2018 and 2019`,
+        img_path: "resources/img/gallery/KomsaiAkwe2019/KomsaiAkwe.jpg",
+    },
 ];
 
 const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
