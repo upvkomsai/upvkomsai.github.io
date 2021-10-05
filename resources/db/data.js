@@ -231,21 +231,21 @@ const gallery = [
         date_shown: "September 11, 2021",
         description:
         `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
-        img_path: "resources/img/gallery/KomsaiFreshies2021_1.jpg",
+        img_path: "resources/img/gallery/KomsaiFreshies2021/KomsaiFreshies2021_1.jpg",
     },
     {
         title: "Komsai Freshies Batch 2021",
         date_shown: "September 11, 2021",
         description:
         `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
-        img_path: "resources/img/gallery/KomsaiFreshies2021_2.jpg",
+        img_path: "resources/img/gallery/KomsaiFreshies2021/KomsaiFreshies2021_2.jpg",
     },
     {
         title: "Komsai Freshies Batch 2021",
         date_shown: "September 11, 2021",
         description:
         `Welcome to Elektrons, Komsai Freshies Batch 2021!!!`,
-        img_path: "resources/img/gallery/KomsaiFreshies2021_3.jpg",
+        img_path: "resources/img/gallery/KomsaiFreshies2021/KomsaiFreshies2021_3.jpg",
     },
     {
         title: "Komsai Week 2021 Raffle Draw Winners",
