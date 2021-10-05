@@ -44,8 +44,16 @@ const featured = [
     {
         title: "UPV Komsai.Org",
         content:
+        `Komsai Akwe 2019`,
+        img_path: "resources/img/featured/komsaiakwe2019.jpg",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
+        title: "UPV Komsai.Org",
+        content:
         `Kom-Con 2019`,
-        img_path: "resources/img/featured/komsai2018.jpg",
+        img_path: "resources/img/featured/komcon2019.jpg",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
