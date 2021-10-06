@@ -61,6 +61,23 @@ const featured = [
 
 const news = [
     {
+        title: "HAPPY WORLD TEACHER'S DAY!",
+        date: "October 5, 2021",
+        content:
+        `*insert loading screen*
+        
+        Today we commemorate the wonderful people that have given us their wisdom, kindness, and dedication despite all the triumphs they have to face in the current situation.
+        
+        Happy Teacher's Day to all our hardworking teachers. You have always served as the inspirations that lead us to the right path and inspire us to become better part-time robots by being the programmers that fix the bugs in our system and help us learn from our mistakes.
+        
+        HAPPY TEACHER'S DAY!!!
+        From UPV Komsai.Org
+
+        Pub Design by: Ann Beatrice Destajo
+        Caption by: Jayvee Castañeda`,
+        img_path: "resources/img/news/TeachersDay.png",
+    },
+    {
         title: "Congratulations Team Hackushin Impact!",
         date: "August 29, 2021",
         content:
