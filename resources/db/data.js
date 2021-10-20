@@ -574,6 +574,23 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai General Assembly 2021",
+        date_shown: "October 22, 2021",
+        description:
+        `BREAKING NEWS!!!
+        
+        The latest issue of Komsai Weekly has officially been released.
+        
+        On today's issue, we will be having our first General Assembly this academic year on October 22, 2021 @ 6:00 PM via Zoom.
+        
+        Registration link will be shared privately through our group chats.
+        
+        Thank you and see you there, future robots!!!
+        
+        Pub Design by: Janley Molina`,
+        img_path: "resources/img/projects/GeneralAssembly2122.png",
+    },
+    {
         name: "Komsai Freshies Orientation 2021",
         date_shown: "September 18, 2021",
         description:
