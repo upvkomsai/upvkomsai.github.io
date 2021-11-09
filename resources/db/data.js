@@ -574,6 +574,25 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai Virtual Akwe 2021",
+        date_shown: "October 29, 2021",
+        description:
+        `I wanna be the very best
+        Like no one ever was
+        To catch them is my real test
+        To train them is my cause
+        
+        Welcome to the Battle Arena, Trainers!
+        
+        Let's join forces and UNITE on our first ever KOMSAI VIRTUAL AKWE!!! Strategize and conquer with your team of trainers and defeat the rest to become champion of the Po-Kom-on League.
+        
+        See you on October 29 and 30 for the ultimate surprise of a lifetime! Maybe you'll get a chance to go and catch 'em all!!!
+        
+        Pub Design by: Ann Beatrice Destajo
+        Caption by: Jayvee Castañeda`,
+        img_path: "resources/img/projects/Virtual_Akwe_2021.png",
+    },
+    {
         name: "Komsai General Assembly 2021",
         date_shown: "October 22, 2021",
         description:
