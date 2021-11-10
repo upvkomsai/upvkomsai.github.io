@@ -61,6 +61,39 @@ const featured = [
 
 const news = [
     {
+        title: "Congratulations TEAM FAIRY!",
+        date: "November 4, 2021",
+        content:
+        `With a whopping number 71 points, Congratulations to TEAM FAIRY for garnering the 1st Place Overall for the Komsai Virtual Akwe 2021!!!
+        
+        They have expanded through fantasy and imagination and became extremely MAGICAL in the end.
+
+        Pub Design by: Christian Dale Celestial`,
+        img_path: "resources/img/news/TeamFairy.gif",
+    },
+    {
+        title: "Congratulations TEAM DARK!",
+        date: "November 4, 2021",
+        content:
+        `Garnering a total of 48 points, Congratulations to TEAM DARK for winning 2nd Place Overall for the Komsai Virtual Akwe 2021!!!
+        
+        They have finally found the light in the DARKNESS.
+
+        Pub Design by: Christian Dale Celestial`,
+        img_path: "resources/img/news/TeamDark.gif",
+    },
+    {
+        title: "Congratulations TEAM ICE!",
+        date: "November 4, 2021",
+        content:
+        `Garnering a total of 47 points, Congratulations to TEAM ICE for winning 3rd Place Overall for the Komsai Virtual Akwe 2021!!!
+        
+        You can say that they are COOL about it.
+
+        Pub Design by: Christian Dale Celestial`,
+        img_path: "resources/img/news/TeamIce.gif",
+    },
+    {
         title: "HAPPY WORLD TEACHER'S DAY!",
         date: "October 5, 2021",
         content:
