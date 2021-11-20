@@ -656,7 +656,7 @@ const bindData = () => {
                 _officers.append(document.createElement("br"));
 
                 const batchTitle = document.createElement("h2");
-                batchTitle.textContent = "P.I.O.s";
+                batchTitle.textContent = "PUBLICATIONS COMMITTEE";
                 _officers.append(batchTitle);
 
                 container = document.createElement("div");
