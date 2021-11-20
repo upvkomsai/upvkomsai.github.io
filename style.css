@@ -12,7 +12,7 @@ To use these colors in specific classes, use "var(--varName)" e.g. var(--noScrip
     --cardBorder: #1c2541;
     --subtitleColor: #3a506b;
     --subtitleColor2: #496383;
-    --aboutColor: white;
+    --aboutColor: #ffffff;
 }
 
 /* Error 404 Page */
@@ -442,7 +442,7 @@ nav .closeMenu,
 }
 
 #home-contact h2 {
-    color: var(--headerBackground);
+    color: var(--cardBorder);
 }
 
 #home-contact .section {
