@@ -753,6 +753,8 @@ const about_btn = document.getElementById("about-btn");
 const contact_btn = document.getElementById("contact-btn");
 const help_btn = document.getElementById("help-btn");
 
+const consti_btn = document.getElementById("constitution-link");
+
 const home_more = document.getElementById("home-more");
 const home_more2 = document.getElementById("home-more2");
 const news_more = document.getElementById("news-more");
@@ -858,6 +860,10 @@ const buttons = [
     {
         btn: help_link,
         target: "help",
+    },
+    {
+        btn: consti_btn,
+        target: "constitution",
     },
 ];
 
