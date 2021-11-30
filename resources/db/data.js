@@ -607,6 +607,40 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai Game Night: GA GAME LANG KAMI",
+        date_shown: "December 2021 - April 2022",
+        description:
+        `📣 𝐀𝐍𝐍𝐎𝐔𝐍𝐂𝐄𝐌𝐄𝐍𝐓 ❗❗❗
+
+        Gather your 𝐜𝐨𝐢𝐧𝐬 🪙
+        Mark your 𝐜𝐚𝐥𝐞𝐧𝐝𝐚𝐫𝐬 📆
+        And prepare 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐯𝐞𝐬 🤖
+
+        ...For the first-ever 𝐊𝐎𝐌𝐒𝐀𝐈 𝐆𝐀𝐌𝐄 𝐍𝐈𝐆𝐇𝐓S 🌃 🎮 to be held every month on these dates:
+
+        1.0 🔻 December □
+        2.0 🔻January □□
+        3.0 🔻February □□
+        4.0 🔻March □□
+        5.0 🔻April □□
+
+        Quintuple the fun 💥 and quintuple the surprises 🤯
+
+        Compete against each other 🎯 and make memories like no other 👽
+
+        Kun mangkuton kita ano naubra, ano isabat?
+
+        "𝐆𝐀 𝐆𝐀𝐌𝐄 𝐋𝐀𝐍𝐆 𝐊𝐀𝐌𝐈!"
+
+        Kaya gani, 𝙆𝙊𝙈𝙎𝘼𝙄, 𝙂𝘼𝙈𝙀 𝙆𝘼 𝙉𝘼 𝘽𝘼? See you there!
+
+        Caption by: Russel Jade Tumanon
+        Pub Mats by: Ann Beatrice Destajo and Christian Dale Celestial
+
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/projects/Komsai_Game_Night.gif",
+    },
+    {
         name: "Komsai Virtual Akwe 2021",
         date_shown: "October 29, 2021",
         description:
