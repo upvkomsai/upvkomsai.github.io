@@ -12,7 +12,7 @@ const featured = [
         date: "February 7, 2022",
         content:
         `Congratulations on Finishing the Semester`,
-        img_path: "resources/img/featured/firstsemend.png",
+        img_path: "resources/img/featured/firstsemend2.png",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -60,6 +60,28 @@ const featured = [
 ]
 
 const news = [
+    {
+        title: "Congratulations on Finishing the Semester",
+        date: "February 7, 2022",
+        content:
+        `𝓒𝓸𝓸𝓵 𝓵𝓪𝓷𝓰 𝓫𝓪 𝓴𝓪𝔂𝓸 𝓭𝓲𝔂𝓪𝓷?
+
+        *Alexa play "Cool Ka Lang"* 
+
+        UPV Komsai.Org would like to congratulate everyone who has survived and finally completed this First Semester of AY 2021 - 2022.
+
+        For our Komsai Freshies, we hope the First semester wasn't as hard and troublesome for you. We hope that UPV was the swimming pool you wish to swim on ... hopefully NOT forever.
+        
+        Although it was not an easy sem for everyone with all the tragedies and struggles you all have faced, still, you all managed to give a lot of effort and pursue despite all the challenges you all faced.
+        
+        The UPV Komsai.Org community is here with you and we hope you are as exhausted ... we mean excited as we are. Thank you for your efforts and have a great new semester ahead.
+        
+        Caption by: Jayvee Castañeda
+        Pub Mat by: Ron Paolo Molejona`,
+        img_path: "resources/img/featured/firstsemend.png",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
     {
         title: "Congratulations TEAM FAIRY!",
         date: "November 4, 2021",
