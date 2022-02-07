@@ -8,11 +8,11 @@ const PLACEHOLDER_IMAGE = {
 
 const featured = [
     {
-        title: "Welcome to UPV",
-        date: "September 13, 2021",
+        title: "Congratulations on Finishing the Semester",
+        date: "February 7, 2022",
         content:
-        `Welcome to UPV`,
-        img_path: "resources/img/featured/welcome.gif",
+        `Congratulations on Finishing the Semester`,
+        img_path: "resources/img/featured/firstsemend.png",
         url: "https://upv.komsai.org",
         urlText: "Go to Official Website",
     },
@@ -109,6 +109,33 @@ const news = [
         Pub Design by: Ann Beatrice Destajo
         Caption by: Jayvee Castañeda`,
         img_path: "resources/img/news/TeachersDay.png",
+    },
+    {
+        title: "Welcome to UPV! Happy First Day!",
+        date: "September 13, 2021",
+        content:
+        `Oh Em Gee!!!
+
+        Heaven! Nasa heaven na tayo!
+
+        The new academic year has officially started. New and returning students have yet to face another semester of ups and downs, challenges, experiences, and comebacks. An inspirational quote from Ms. Jolina Magdangal once said "Chuva choo choo, chuva choo choo", which means we should all aspire to be the best that we can be, because Baby langit na 'to.
+        
+        UPV Komsai.Org welcomes the newest batch of students of A.Y. 2021 - 2022 as they start their journey in UPV with positivity, growth and happiness. As we also mark the third full semester of remote learning, let us not forget to put our health as a priority before our academic requirements.
+        
+        Welcome to UPV, Batch 2021!!!
+        Loves namin kayo forever, and we will love you!
+        
+        You can now officially change your school to the University of the Philippines Visayas. PADAYON!!!
+        
+        #KomsaiFreshies2021
+        #KomsaiAyAyAy
+        #LigtasNaBalikEskwela
+        
+        Pub Design by: Jayvee Castañeda and Christian Dale Celestial
+        Caption by: Jayvee Castañeda
+        
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/featured/welcome.gif",
     },
     {
         title: "Congratulations Team Hackushin Impact!",
@@ -618,9 +645,9 @@ const projectsDone = [
 
         ...For the first-ever 𝐊𝐎𝐌𝐒𝐀𝐈 𝐆𝐀𝐌𝐄 𝐍𝐈𝐆𝐇𝐓S 🌃 🎮 to be held every month on these dates:
 
-        1.0 🔻 December □
-        2.0 🔻January □□
-        3.0 🔻February □□
+        1.0 🔻 December 4
+        2.0 🔻January 22
+        3.0 🔻February 2□
         4.0 🔻March □□
         5.0 🔻April □□
 
