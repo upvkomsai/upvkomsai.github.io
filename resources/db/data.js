@@ -1074,21 +1074,17 @@ const officers = [
         img_path: "resources/img/officers/arceño.jpg",
     },
     {
-        name: "JAN KRISTINE A. MOSONG",
+        name: "ABIGAIL DAWN P. DAVOCOL",
         position: "3rd Year Batch Representative for UPV Elektrons",
-        description: `3rd Year Batch Representative`,
-        email: "jamosong@up.edu.ph",
+        description: `Jesus take the wheel ~`,
+        email: "apdavocol@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/JanKristineMosong",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/jankristinemosong",
+                url: "https://www.facebook.com/Abigaildavocol",
             },
         ],
-        img_path: "resources/img/officers/mosong.jpg",
+        img_path: "resources/img/officers/davocol.jpg",
     },
     {
         name: "NHILBERT JAY E. VALENTE",
