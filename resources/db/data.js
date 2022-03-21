@@ -624,6 +624,63 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai E-Tournament 2022",
+        date_shown: "March 2022 - April 2022",
+        description: `[ɪɴɪᴛɪᴀʟɪᴢɪɴɢ 𝐊𝐨𝐦𝐬𝐚𝐢 𝐄-𝐓𝐨𝐮𝐫𝐧𝐚𝐦𝐞𝐧𝐭 𝟚𝟘𝟚𝟚...]
+        
+        [ɢᴇɴᴇʀᴀᴛɪɴɢ ᴍᴇꜱꜱᴀɢᴇ...]
+        <Greetings beyond the Screen! Get your phones and PCs ready as we venture into the Internet, a journey of 9 days, jumping through different Worlds through online games. 
+        Join this competitive E-Sports tournament where teams from different organizations finger their phones and intensely click their mouse(s) as they battle each other to showcase their video gaming skills in [[𝗩𝗮𝗹𝗼𝗿𝗮𝗻𝘁]], [[𝗟𝗲𝗮𝗴𝘂𝗲 𝗼𝗳 𝗟𝗲𝗴𝗲𝗻𝗱𝘀]], [[𝗖𝗮𝗹𝗹 𝗢𝗳 𝗗𝘂𝘁𝘆: 𝗠𝗼𝗯𝗶𝗹𝗲]], 𝗮𝗻𝗱 [[𝗠𝗼𝗯𝗶𝗹𝗲 𝗟𝗲𝗴𝗲𝗻𝗱𝘀: 𝗕𝗮𝗻𝗴 𝗕𝗮𝗻𝗴]]
+        𝐊𝐨𝐦𝐬𝐚𝐢 𝐄-𝐓𝐨𝐮𝐫𝐧𝐚𝐦𝐞𝐧𝐭 𝟚𝟘𝟚𝟚, Let the games begin!">
+        
+        [ɢᴇɴᴇʀᴀᴛɪɴɢ ᴅᴀᴛᴇꜱ...]
+        •𝗠𝗮𝗿𝗰𝗵 𝟮𝟱, 𝟮𝟬𝟮𝟮  (Friday) – OPENING OF THE E-TOURNAMENT
+        
+        <ꜰɪʀꜱᴛ ᴇʟɪᴍɪɴᴀᴛɪᴏɴꜱ>
+        • 𝐌𝐚𝐫𝐜𝐡 𝟐𝟔, 𝟐𝟎𝟐𝟐 (Saturday) – 10 AM onwards 
+        • 𝐌𝐚𝐫𝐜𝐡 𝟐𝟕, 𝟐𝟎𝟐𝟐 (Sunday) – 10 AM onwards 
+        • 𝐀𝐩𝐫𝐢𝐥 𝟏, 𝟐𝟎𝟐𝟐 (Friday) – 6 PM onwards 
+        
+        <ꜱᴇᴍɪ-ꜰɪɴᴀʟꜱ>
+        • 𝐀𝐩𝐫𝐢𝐥 𝟐, 𝟐𝟎𝟐𝟐 (Saturday) – 10 AM onwards 
+        • 𝐀𝐩𝐫𝐢𝐥 𝟑, 𝟐𝟎𝟐𝟐 (Sunday) – 10 AM onwards 
+        • 𝐀𝐩𝐫𝐢𝐥 𝟖, 𝟐𝟎𝟐𝟐 (Friday) – 6 PM onwards 
+        
+        <ꜰɪɴᴀʟꜱ>
+        • 𝐀𝐩𝐫𝐢𝐥 𝟗, 𝟐𝟎𝟐𝟐 (Saturday) – 10 AM onwards 
+        • 𝐀𝐩𝐫𝐢𝐥 𝟏𝟎, 𝟐𝟎𝟐𝟐 (Sunday) – POSTING OF RESULTS
+       
+        [ɢᴇɴᴇʀᴀᴛɪɴɢ ᴘᴀʀᴛɴᴇʀꜱ/ꜱᴘᴏɴꜱᴏʀꜱ]
+        ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ:
+        UPV Komsai.Org
+        CAS Student Council
+        
+        ɪɴ ᴄᴏʟʟᴀʙᴏʀᴀᴛɪᴏɴ ᴡɪᴛʜ:
+        UPV Elektrons
+        UP SILAK Brotherhood
+        
+        ᴀʟꜱᴏ ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ:
+        UPV SCINTILLA JVRIS Fraternity
+        
+        ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ:
+        UPV Kamaragtas
+        UPV Chemistry Society
+        UP Ichthyophilic Society
+        PISAY Org
+        UPV University Student Council
+        
+        Stay online and spectate as we stream via the official Facebook Page of our organization: https://www.facebook.com/UPVKomsai.Org/
+        
+        Join us on YouTube as well when we stream the event LIVE through the official YouTube Channel of our organization: upv.komsai.org/youtube
+        
+        ʟᴇᴛ'ꜱ ɢᴏ!
+        
+        Caption by: Russel Jade Tumanon
+        Pub Mat by: Ann Beatrice Destajo
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/projects/Komsai_ETournament.gif",
+    },
+    {
         name: "Komsai Game Night: GA GAME LANG KAMI",
         date_shown: "December 2021 - April 2022",
         description: `📣 𝐀𝐍𝐍𝐎𝐔𝐍𝐂𝐄𝐌𝐄𝐍𝐓 ❗❗❗
