@@ -8,6 +8,14 @@ const PLACEHOLDER_IMAGE = {
 
 const featured = [
     {
+        title: "Komsai E-Tournament 2022",
+        date: "March 25, 2022",
+        content: `Komsai E-Tournament 2022`,
+        img_path: "resources/img/featured/tournament2022.png",
+        url: "https://upv.komsai.org",
+        urlText: "Go to Official Website",
+    },
+    {
         title: "Congratulations on Finishing the Semester",
         date: "February 7, 2022",
         content: `Congratulations on Finishing the Semester`,
