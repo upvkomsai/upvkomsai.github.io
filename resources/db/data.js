@@ -63,6 +63,55 @@ const featured = [
 
 const news = [
     {
+        title: "Pride Of Komsai - Alan Turing",
+        date: "June 23, 2022",
+        content: `On June 23, 1912, Alan Turing, an English computer scientist was born in London. In his early days, Turing was known to be a mathematical prodigy. He persisted in honing his outstanding abilities and passion for mathematics despite experiencing criticism at school. He subsequently proceeded to graduate from Cambridge. Here, he had the inspiration to build on the already-built computers and create the notorious "Turing Machine." He enrolled at Princeton University in the United States to pursue a Ph.D. after finishing college. After finishing his Ph.D., he went back to his own country and enlisted in the government code and cipher school.
+        
+        During World War II, the German Enigma machine allowed the Germans to encrypt even a simple message two-letter word in a billion different ways. The Germans themselves could not manually decipher it despite understanding its working mechanism. Without Atlantic shipping, British and Russian forces would have run out of ammunition and other supplies needed to continue the war. British Intelligence and their group of code-breakers kept trying various manual strategies to decipher and interpret the German messages, only to hit a roadblock every single time. After months of sleepless nights, Alan Turing unveiled the "Bombe", a powerful predecessor of the present-day computers. The primary goal for which Enigma was created was outpaced and vanquished by the Bombe. This basically allowed the Allied forces to listen in on every German radio communication and foresee future events. The Bombe was considered to be one of the most crucial game-changing events of World War II.
+       
+        However, after the war ended, all of Turing's accomplishments were taken away from him, and British Intelligence dishonorably discharged him. Officials from British Intelligence stated that it was against their tradition to accept a homosexual as a member of their organization. In 1952, criminal charges were pressed against him under the Homosexual Act. Following the trial, the courts found him guilty and either handed down a harsh prison term or ordered chemical castration. Alan opted for the latter option to avoid going to jail. Turing was deeply embarrassed and ashamed of himself after the event. Upon his conviction, Turing was barred from performing any more official duties, and his security clearance was revoked.
+        
+        On June 8th, 1952, Turing was found dead in his home. It was found that he died through cyanide poisoning resulting from suicide. Most of Turing's participation in the wars was kept hidden until the 1970s, despite being essential to breaking the Enigma code. Turing made sure that his legacy endures by establishing the groundwork for artificial intelligence in his research papers and the Turing machine, despite all attempts by the then-government authorities to keep his narrative hidden from commoners.
+        
+        This June, we are celebrating Pride Month. This is to honor and support our LGBTQIA+ community. In honor of the father of computer science and artificial intelligence, let us celebrate Alan Turing's 110th birthday and all of his contributions to the world.
+        
+        We at UPV Komsai.Org promote camaraderie, equality, and acceptance for all its members. The organization continues to support the rights of every member of the LGBTQIA+ community. We echo our call for recognition and just treatment of every individual, regardless of gender. There should be no boundaries in Leadership, Friendship, and Service.
+        
+        Happy Pride Month everyone!!!
+        
+        Pub Mat by: Christian Dale Celestial
+        
+        #KomsaiPride
+        #PrideMonth2022
+        #ShareWithPride
+        #SOGIEEqualityNow`,
+        img_path: "resources/img/news/KomsaiPride2022.png",
+    },
+    {
+        title: "Project Exhibit 2022",
+        date: "May 3, 2022",
+        content: `Beep Boop! 👾
+        Hey, you! 👋 Yes, YOU.
+        You are invited to a 𝓹𝓻𝓸𝓳𝓮𝓬𝓽 𝓮𝔁𝓱𝓲𝓫𝓲𝓽𝓲𝓸𝓷 that will surely blow your mind 🤯🧠
+        Hmm 🤔… what is it all about ❓ //𝘽𝙞𝙩𝙚𝙨 𝙢𝙮 𝙡𝙤𝙬𝙚𝙧 𝙡𝙞𝙥 
+        Mark your calendars 📅 and save the date to find out. 👇 
+        |￣￣￣￣￣￣￣￣￣￣￣￣￣￣ |
+        |                𝐌𝐚𝐲 𝟑, 𝟐𝟎𝟐𝟐                |       
+        |               𝟏𝟎 𝐀𝐌 - 𝟒 𝐏𝐌              |
+        |＿＿＿＿＿＿＿＿＿＿＿＿＿＿ |
+                            \ (•◡•) /
+                            \       /
+        Learn from the best 💯, be inspired 🤩 to innovate, and be able to create your own apps 📱, websites 🌐, softwares ⚙️ or games 🎮.
+        Who knows? Maybe your project will be featured in next year’s Project Exhibit. //𝙒𝙞𝙣𝙠𝙨
+        Kitakits! 👀
+
+        Caption by: Alyssa Alexandra Lee
+        Pub Mat by: Aron Miles Samson
+
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/news/ProjectExhibit2022.png",
+        },
+    {
         title: "Congratulations to the winners of the PSC 2021 Regional Pitching Competition - Students Category - Region 6!",
         date: "February 28, 2022",
         content: `
