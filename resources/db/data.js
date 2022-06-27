@@ -632,6 +632,63 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai Week 2022",
+        date_shown: "May 2 - 7, 2022",
+        description: `Nakailang kape na ba kayo this semester? ☕
+        Ilang patak ng luha na ba ang dumanak sa inyong mga mukha? 💧
+        Kumusta na ang ating mga marangal na Iskolar ng Bayan? Nakaaahon pa rin ba? 🏊
+        Well, why don’t you loosen up even just for a while and partake in this year’s 𝐊𝐨𝐦𝐬𝐚𝐢 𝐖𝐞𝐞𝐤! 
+
+        Take the time off by engaging in our ganaps from May 2-7, 2022. You won’t only get to enjoy and bask in the fun atmosphere of the Komsai culture, but also get to plan out your potential future careers too!
+        Be the 𝓕𝓲𝓵𝓲𝓹𝓲𝓷𝓸𝓼 𝓲𝓷 𝓣𝓮𝓬𝓱 our country needs. Take the single step into the journey of a thousand miles by participating in this semester’s Komsai festivities.
+        Ito na ang exciting part na hinahanap niyo. 
+
+        Eyes Here! ⬇️
+
+        May 2: Komsai Fun Day
+        May 3: Project Exhibit
+        May 4: Company Talks
+        May 5: Job Fair
+        May 6: Kom E-Con 2022
+        May 7: Announcement Of Results
+
+        Kaya what are you waiting for? 
+        Let CS make IT happen!
+
+        Everyone's joining 𝐊𝐨𝐦𝐬𝐚𝐢 𝐖𝐞𝐞𝐤 𝟐𝟎𝟐𝟐! Et tu?
+
+        Special thanks to our wonderful sponsors:
+
+        GOLD SPONSORS
+        - Mr. SuhWoong Kang
+        - Mr. Nikko Gabriel Hismaña
+        - Mr. Harley Davidson Regua
+        - Mr. Renmar Lescano
+        - Mr. Paul Decierdo & Ms. April Mae Feliscuzo
+
+        SILVER SPONSORS
+        - Meep de Wrapper
+        - Mr. Rean Neil Luces
+        - Mr. Joel Panizales
+        - Prof. Ara Abigail Ambita
+        - Mr & Mrs. Domingo and Marily Faeldonea
+
+        BRONZE SPONSORS
+        - Hey Crushé
+        - Ms. Relyn Dela Cruz
+        - Ms. Ann Beatrice Destajo
+        - Mr. Allen Solomon Tam
+        - Mr. Jayvee Castañeda
+        - Ms. Kristen Ann Joy Luciano
+        - Mr. Mark Anthony Occeña
+
+        Caption by: Sophia Feona Cantiller and Russel Jade Tumanon
+        Pub Mat by: Ann Beatrice Destajo
+
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/projects/KomsaiWeek2022.png",
+    },
+    {
         name: "Komsai E-Tournament 2022",
         date_shown: "March 2022 - April 2022",
         description: `[ɪɴɪᴛɪᴀʟɪᴢɪɴɢ 𝐊𝐨𝐦𝐬𝐚𝐢 𝐄-𝐓𝐨𝐮𝐫𝐧𝐚𝐦𝐞𝐧𝐭 𝟚𝟘𝟚𝟚...]
@@ -687,6 +744,26 @@ const projectsDone = [
         Pub Mat by: Ann Beatrice Destajo
         Visit us at: upv.komsai.org`,
         img_path: "resources/img/projects/Komsai_ETournament.gif",
+    },
+    {
+        name: "Komsai Chill Night 2022",
+        date_shown: "February 24, 2022",
+        description: `𝐒𝐭𝐫𝐞𝐬𝐬𝐞𝐝 ka na ba? 𝐂𝐇𝐈𝐋𝐋𝐀𝐗....
+        mag 𝐊𝐨𝐦𝐬𝐚𝐢 𝐂𝐡𝐢𝐥𝐥 𝐍𝐢𝐠𝐡𝐭 ka muna~
+
+        Kumusta ka na lods? Eguls ba sa dami ng activities? Day 1 palang pero pang last Day na yung muka? Don't worry, may pa event tayo jan!
+
+        Gather 'round the online campfire as we Kumbaya and shoo the stress away! Join us in front of your laptops (For Online) and by the shore (For Mia) for an online get-together this 𝙁𝙚𝙗𝙧𝙪𝙖𝙧𝙮 24 (𝙏𝙝𝙪𝙧𝙨𝙙𝙖𝙮) @ 8:00 𝙋𝙈.
+        
+        Nothing to do but have fun! Kaya let's go a ram sam sam guli guli ram sam sam!
+        
+        Kitakits!
+
+        Caption by: Russel Jade Tumanon
+        Pub Mat by: Christian Dale Celestial
+
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/projects/ChillNight2022.gif",
     },
     {
         name: "Komsai Game Night: GA GAME LANG KAMI",
