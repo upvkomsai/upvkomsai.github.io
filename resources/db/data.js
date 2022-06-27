@@ -681,6 +681,32 @@ const homeGallery = [gallery[0], gallery[1], gallery[2], gallery[3]];
 
 const projectsDone = [
     {
+        name: "Komsai General Assembly 2022",
+        date_shown: "June 17, 2022",
+        description: `Rah, rah-ah-ah-ah
+        Roma, roma-ma
+        GAGA, ooh-la-la
+        Ay guys, may GAGA?
+        
+        Hola, soy GAGA! This is it, why izzit?!
+        
+        Join the General Assembly General Attendance, or in other words, ang GAGA ngayong semester.
+        
+        Catch the GAGA on Friday, June 17, at 8:00 PM and reminisce on our previous events, socialize with your peers, elect your newfound officers, and of course, have fun.
+        
+        The General Assembly attendance is required as members of this organization to generate a fruitful evaluation of this academic year and provide general updates on each other.
+        
+        If may GAGA, of course, may GAGO (General Assembly, Getting Over)
+        
+        Kitakits! Go, go, GAGA!
+        
+        Caption by: Russel Jade Tumanon and Jayvee Castañeda
+        Pub Mat by: Ann Beatrice Destajo
+        
+        Visit us at: upv.komsai.org`,
+        img_path: "resources/img/projects/GeneralAssembly2122_2.png",
+    },
+    {
         name: "Komsai Week 2022",
         date_shown: "May 2 - 7, 2022",
         description: `Nakailang kape na ba kayo this semester? ☕
@@ -879,7 +905,7 @@ const projectsDone = [
         Thank you and see you there, future robots!!!
         
         Pub Design by: Janley Molina`,
-        img_path: "resources/img/projects/GeneralAssembly2122.png",
+        img_path: "resources/img/projects/GeneralAssembly2122_1.png",
     },
     {
         name: "Komsai Freshies Orientation 2021",
