@@ -109,7 +109,7 @@ const news = [
         Pub Mat by: Aron Miles Samson
 
         Visit us at: upv.komsai.org`,
-        img_path: "resources/img/news/ProjectExhibit2022.png",
+        img_path: "resources/img/news/ProjectExhibit2022.jpg",
         },
     {
         title: "Congratulations to the winners of the PSC 2021 Regional Pitching Competition - Students Category - Region 6!",
