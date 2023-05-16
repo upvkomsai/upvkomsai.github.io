@@ -662,7 +662,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 15) {
+            } else if (count == 14) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -672,9 +672,8 @@ const bindData = () => {
 
                 container = document.createElement("div");
                 container.classList = "col-4";
-                container.append(document.createElement("div"));
                 _officers.append(container);
-            } else if (count == 17) {
+            } else if (count == 18) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -685,7 +684,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 21) {
+            } else if (count == 22) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -696,7 +695,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 25) {
+            } else if (count == 24) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 

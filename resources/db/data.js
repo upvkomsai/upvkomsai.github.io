@@ -12,7 +12,7 @@ const featured = [
         date: "March 25, 2022",
         content: `Komsai E-Tournament 2022`,
         img_path: "resources/img/featured/tournament2022.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
@@ -20,7 +20,7 @@ const featured = [
         date: "February 7, 2022",
         content: `Congratulations on Finishing the Semester`,
         img_path: "resources/img/featured/firstsemend2.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
@@ -28,35 +28,35 @@ const featured = [
         date: "August 11, 2021",
         content: `Website Launch`,
         img_path: "resources/img/featured/weblaunch.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
         title: "Graduates",
         content: `Komsai.Org Graduates`,
         img_path: "resources/img/featured/grad.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
         title: "UPV Komsai.Org",
         content: `Komsai 2018 & 2019`,
         img_path: "resources/img/featured/komsaiorg.jpg",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
         title: "UPV Komsai.Org",
         content: `Komsai Akwe 2019`,
         img_path: "resources/img/featured/komsaiakwe2019.jpg",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
         title: "UPV Komsai.Org",
         content: `Kom-Con 2019`,
         img_path: "resources/img/featured/komcon2019.jpg",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
 ];
@@ -151,7 +151,7 @@ const news = [
         Caption by: Jayvee Castañeda
         Pub Mat by: Ron Paolo Molejona`,
         img_path: "resources/img/featured/firstsemend.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
@@ -282,7 +282,7 @@ const news = [
         "Huo hehe 🙂"
         
         Check out our official website by going to "upv.komsai.org".`,
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
         img_path: "resources/img/news/WebsiteLaunch.png",
     },
@@ -945,7 +945,7 @@ const projectsDone = [
         
         You may visit the website by typing "upv.komsai.org" on your browser or by clicking the link below.`,
         img_path: "resources/img/featured/weblaunch.png",
-        url: "https://upv.komsai.org",
+        url: "https://upvkomsai.org",
         urlText: "Go to Official Website",
     },
     {
@@ -1000,67 +1000,39 @@ const homeProjects = [
 
 const officers = [
     {
-        name: "JAYVEE B. CASTAÑEDA",
-        position: "President",
-        description: `Derived from the Lost Equation...
-        where Chaos must stay chaotic
-        
-        Things come and go...`,
-        email: "jbcastaneda@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/DJJayveeeeee/",
-            },
-            {
-                name: "youtube",
-                url: "https://www.youtube.com/channel/UC1E8Lzwmd0BptX1Ld4MLh8g",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/jayvee-casta%C3%B1eda-677529216/",
-            },
-        ],
-        img_path: "resources/img/officers/castañeda.jpg",
-        is_dev: true,
-    },
-    {
         name: "BRETHREN ACE D. DE LA GENTE",
-        position: "Vice President for Internal Affairs",
-        description: `50% human, 50% unsure`,
+        position: "President",
+        description: `50% human, 100% unsure...`,
         email: "bddelagente@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/CodexStarlight",
+                url: "https://www.facebook.com/CodexStarlight/",
             },
         ],
         img_path: "resources/img/officers/delagente.jpg",
+        is_dev: true,
     },
     {
-        name: "CANDYL JOHN F. FAELDONEA",
+        name: "LLOYD WALLYS DELA CRUZ",
+        position: "Vice President for Internal Affairs",
+        description: `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
+        email: "lmdelacruz4@up.edu.ph",
+        img_path: "resources/img/officers/delacruz.jpg",
+        is_dev: true,
+    },
+    {
+        name: "RUSSEL JADE F. TUMANON",
         position: "Vice President for External Affairs",
-        description: `Part-time computer science student. Wanna join [other] orgs?
-        
-        SKL, hindi applicable sa akin ang mga komsai stereotypes, bakit kaya?`,
-        email: "cjfaeldonea@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/kenfaeldonea",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/cjfaeldonea/",
-            },
-        ],
-        img_path: "resources/img/officers/faeldonea.jpg",
+        description: `Team Free Will 2.0`,
+        email: "rftumanon@up.edu.ph",
+        img_path: "resources/img/officers/tumanon.png",
         is_dev: true,
     },
     {
         name: "JOHANNA MARIE P. QUITOVIERA",
         position: "Secretary",
-        description: `A third year student at the University of the Philippines Visayas na patuloy lumalaban emz`,
+        description: `A fourth year student at the University of the Philippines Visayas na patuloy lumalaban emz`,
         email: "jpquitoviera@up.edu.ph",
         socials: [
             {
@@ -1079,32 +1051,15 @@ const officers = [
         img_path: "resources/img/officers/quitoviera.jpg",
     },
     {
-        name: "GRACIELOU L. JOMOC",
+        name: "GIO CARLO A. CIUDADANO",
         position: "Assistant Secretary",
-        description: `Drinks coffee and takes photographs of food (and does a bit with learning technologies too).`,
-        email: "gljomoc@up.edu.ph",
-        img_path: "resources/img/officers/jomoc.jpg",
-    },
-    {
-        name: "MICHAEL VINCENT DOSADO",
-        position: "Treasurer",
-        description: `ESFJ`,
-        email: "mcdosado@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/michael.dosado",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/mchl.dsdo/",
-            },
-        ],
-        img_path: "resources/img/officers/dosado.jpg",
+        description: `[]`,
+        email: "gaciudadano@up.edu.ph",
+        img_path: "resources/img/officers/ciudadano.jpg",
     },
     {
         name: "RICA EUNICE L. DORDAS",
-        position: "Assistant Treasurer",
+        position: "Treasurer",
         description: `Hi. I make crochet products. Follow me on FB and IG: @heycrushe`,
         email: "rldordas@up.edu.ph",
         socials: [
@@ -1117,32 +1072,81 @@ const officers = [
                 url: "https://www.instagram.com/heycrushe/",
             },
         ],
-        img_path: "resources/img/officers/dordas.jpg",
+        img_path: "resources/img/officers/dordas.png",    },
+    {
+        name: "JEWYNAH MAE H. JARONAY",
+        position: "Assistant Treasurer",
+        description: `____`,
+        email: "jhjaronay@up.edu.ph",
+        img_path: "resources/img/officers/jaronay.png",
     },
     {
-        name: "KRISTEN ANN JOY F. LUCIANO",
+        name: "ABIGIAL DAWN P. DAVOCOL",
         position: "Business Manager",
-        description: `INTP`,
-        email: "kfluciano@up.edu.ph",
+        description: `____`,
+        email: "apdavocol@up.edu.ph",
+        img_path: "resources/img/officers/davocol.jpg",
+    },
+    {
+        name: "CHARISSE C. CAMARISTA",
+        position: "Assistant Business Manager",
+        description: `____`,
+        email: "cccamarista@up.edu.ph",
+        img_path: "resources/img/officers/camarista.jpg",
+    },
+    {
+        name: "MICHAEL VINCENT P. DOSADO",
+        position: "Auditor",
+        description: `ENFJ`,
+        email: "mcdosado@up.edu.ph",
+        img_path: "resources/img/officers/dosado.jpg",
+    },
+    {
+        name: "RHEYMART G. TUGADO",
+        position: "Assistant Auditor",
+        description: `My name is Barnuts.`,
+        email: "rgtugado@up.edu.ph",
+        img_path: "resources/img/officers/tugado.jpg",
+    },
+    {
+        name: "KRISTINA V. CELIS",
+        position: "P.I.O.",
+        description: `If you're not a good shot today, don't worry. There are other ways to be useful.`,
+        email: "kvcelis@up.edu.ph",
+        img_path: "resources/img/officers/celis.png",
+        is_dev: true,
+    },
+    {
+        name: "ANN BEATRICE L. DESTAJO",
+        position: "P.I.O.",
+        description: `No description.`,
+        email: "aldestajo@up.edu.ph",
         socials: [
             {
-                name: "linkedin",
-                url: "www.linkedin.com/in/kristen-luciano-2021",
+                name: "facebook",
+                url: "https://www.facebook.com/annd20",
             },
         ],
-        img_path: "resources/img/officers/luciano.jpg",
+        img_path: "resources/img/officers/destajo.png",
+        is_dev: true,
     },
     {
-        name: "RUSSEL JADE F. TUMANON",
-        position: "Assistant Business Manager",
-        description: `Team Free Will 2.0`,
-        email: "rftumanon@up.edu.ph",
-        img_path: "resources/img/officers/tumanon.jpg",
+        name: "RON PAOLO Q. MOLEJONA",
+        position: "P.I.O.",
+        description: `my friend wouldn't give me a raw egg`,
+        email: "rqmolejona@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/Great.Evil.Overlord/",
+            },
+        ],
+        img_path: "resources/img/officers/molejona.png",
     },
     {
         name: "ALYSSA ALEXANDRA S. LEE",
-        position: "Auditor",
-        description: `Demonstrates time management, decision making, and leadership skills`,
+        position: "4th Year Batch Representative for UPV Komsai.Org",
+        description: `Demonstrates time management, decision making, and leadership skills `,
         email: "aslee2@up.edu.ph",
         socials: [
             {
@@ -1158,275 +1162,104 @@ const officers = [
                 url: "https://twitter.com/alyssuhlee",
             },
         ],
-        img_path: "resources/img/officers/lee.jpg",
+        img_path: "resources/img/officers/lee.png",
     },
     {
-        name: "JOHN GABRIEL P. CABATU-AN",
-        position: "Assistant Auditor",
-        description: `I always pick the mage role.`,
-        email: "jpcabatuan@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/JGCabatuan",
-            },
-        ],
-        img_path: "resources/img/officers/cabatu-an.jpg",
-    },
-    {
-        name: "JANLEY R. MOLINA",
-        position: "P.I.O.",
-        description: `No description.`,
-        email: "jrmolina2@up.edu.ph",
-        socials: [
-            {
-                name: "github",
-                url: "https://www.github.com/Stick1000",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/janley-molina",
-            },
-        ],
-        img_path: "resources/img/officers/molina.jpg",
-        is_dev: true,
-    },
-    {
-        name: "CHRISTIAN DALE P. CELESTIAL",
-        position: "P.I.O.",
-        description: `A minimalist.`,
-        email: "cpcelestial@up.edu.ph",
-        img_path: "resources/img/officers/celestial.jpg",
-        is_dev: true,
-    },
-    {
-        name: "ANN BEATRICE L. DESTAJO",
-        position: "P.I.O.",
-        description: `No description.`,
-        email: "aldestajo@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/annd20",
-            },
-        ],
-        img_path: "resources/img/officers/destajo.jpg",
-        is_dev: true,
-    },
-    {
-        name: "RON PAOLO Q. MOLEJONA",
-        position: "P.I.O.",
-        description: `my friend wouldn't give me a raw egg`,
-        email: "rqmolejona@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/Great.Evil.Overlord/",
-            },
-        ],
-        img_path: "resources/img/officers/molejona.jpg",
-    },
-    {
-        name: "RENZEL E. BUATAG",
-        position: "4th Year Batch Representative for UPV Komsai.Org",
-        description: `ngeee. idunno. `,
-        email: "rebuatag@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/rnzlbtg/",
-            },
-            {
-                name: "linkedin",
-                url: "www.linkedin.com/in/renzel-buatag",
-            },
-        ],
-        img_path: "resources/img/officers/buatag.jpg",
-    },
-    {
-        name: "JOECEL EMAN I. CARPIO",
+        name: "EARL JAMES Q. RENTILLO",
         position: "4th Year Batch Representative for UPV Elektrons",
-        description: `"Pero ma, kahit gaga at pasaway ako, gusto ko lang naman maging proud ka sa'kin eh. Kaya nga inaayos ko 'yung buhay ko ngayon eh." - Alex on The Confrontation scene
-
-        "Don't give comments about my personal life because I don't give comments about yours!" - Alex to Bobbie on their confrontation about their ex-boyfriend.`,
-        email: "jicarpio1@up.edu.ph",
-        img_path: "resources/img/officers/carpio.jpg",
+        description: `____`,
+        email: "eqrentillo@up.edu.ph",
+        img_path: "resources/img/officers/rentillo.png",
     },
     {
-        name: "ERRU G. TORCULAS",
+        name: "RENMAR M. LESCANO",
+        position: "4th Year Batch Representative for UPV Elektrons",
+        description: `____`,
+        email: "rmlescano2@up.edu.ph",
+        img_path: "resources/img/officers/lescano.jpg",
+    },
+    {
+        name: "MARIEFHER GRACE Z. VILLANUEVA",
+        position: "4th Year Batch Representative for UPV Elektrons",
+        description: `____`,
+        email: "mzvillanueva1@up.edu.ph",
+        img_path: "resources/img/officers/villanueva.jpg",
+    },
+    {
+        name: "MYRTLLE GEM L. ORANO",
         position: "3rd Year Batch Representative for UPV Komsai.Org",
-        description: `*insert inspiring quote* just a small town boi, living in a lonely world. Just crating illustrations to keep me sane. `,
-        email: "egtorculas@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/errutorculas",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/errutorculas",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/errutorculas",
-            },
-        ],
-        img_path: "resources/img/officers/torculas.jpg",
+        description: `____`,
+        email: "mlorano@up.edu.ph",
+        img_path: "resources/img/officers/orano.jpg",
     },
     {
-        name: "HANNAH BELLA C. ARCEÑO",
+        name: "JV RENZ C. CIMAFRANCA",
         position: "3rd Year Batch Representative for UPV Komsai.Org",
-        description: `perpetually in pursuit of learning and experience`,
-        email: "hcarceno@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/sumasaiyohb",
-            },
-            {
-                name: "twitter",
-                url: "https://www.twitter.com/sumasaiyo__",
-            },
-        ],
-        img_path: "resources/img/officers/arceño.jpg",
+        description: `____`,
+        email: "jccimafranca1@up.edu.ph",
+        img_path: "resources/img/officers/cimafranca.jpg",
     },
     {
-        name: "ABIGAIL DAWN P. DAVOCOL",
+        name: "ALDRICH M. TORERES",
         position: "3rd Year Batch Representative for UPV Elektrons",
-        description: `Jesus take the wheel ~`,
-        email: "apdavocol@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/Abigaildavocol",
-            },
-        ],
-        img_path: "resources/img/officers/davocol.jpg",
+        description: `___`,
+        email: "amtoreres@up.edu.ph",
+        img_path: "resources/img/officers/toreres.jpg",
     },
     {
-        name: "NHILBERT JAY E. VALENTE",
+        name: "GABRIEL VENZ V. BADILLES",
         position: "3rd Year Batch Representative for UPV Elektrons",
-        description: `:)`,
-        email: "nevalente@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/timepause904/",
-            },
-        ],
-        img_path: "resources/img/officers/valente.jpg",
+        description: ``,
+        email: "gvbadilles@up.edu.ph",
+        img_path: "resources/img/officers/valencia.jpg",
     },
     {
-        name: "LLOYD WALLYS M. DELA CRUZ",
+        name: "PALMSDALE KEVIN D. CORDERO",
         position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description: `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
-        email: "lmdelacruz4@up.edu.ph",
-        socials: [
-            {
-                name: "twitter",
-                url: "https://www.twitter.com/lunch_plus",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/lunchplus.art",
-            },
-            {
-                name: "website",
-                url: "https://lunchplus.bio.link",
-            },
-        ],
-        img_path: "resources/img/officers/delacruz.jpg",
+        description: `____`,
+        email: "pdcordero@up.edu.ph",
+        img_path: "resources/img/officers/cordero.png",
     },
     {
-        name: "RHEYMART G. TUGADO",
+        name: "JEFF ROUZEL A. BAT-OG",
         position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description: `Ngi?`,
-        email: "rgtugado@up.edu.ph",
-        img_path: "resources/img/officers/tugado.jpg",
+        description: `___`,
+        email: "jabatog@up.edu.ph",
+        img_path: "resources/img/officers/bat-og.jpg",
     },
     {
-        name: "SOPHIA FEONA O. CANTILLER",
-        position: "2nd Year Batch Representative for UPV Elektrons",
-        description: `Brimming creativity is the fuel that keeps me going. I'm a freelance content writer and graphic artist, both in traditional and digital mediums.
-        I live for the arts and literary, and everything in between—with my love for computers squeezed in. `,
-        email: "socantiller@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/sphcntllr",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/sophiacantiller/",
-            },
-        ],
-        img_path: "resources/img/officers/cantiller.jpg",
-    },
-    {
-        name: "JOHN KYLE N. JUNSAY",
-        position: "2nd Year Batch Representative for UPV Elektrons",
-        description: `I'm into photography and cinematography. My favorite music is the sound of the ocean waves clashing into the shore. 
-
-        I always believe that we make our own reality so I try to look through the brighter side of everything.`,
-        email: "jnjunsay@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/johnkyle.junsay",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/itskylejunsay/",
-            },
-        ],
-        img_path: "resources/img/officers/junsay.jpg",
-    },
-    {
-        name: "CHESTER KEN G. GALLEGO",
+        name: "JALA B. AGUIRRE",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description: `Hello, World!`,
-        email: "cggallego2@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/chstrkn/",
-            },
-            {
-                name: "linkedin",
-                url: "https://www.linkedin.com/in/chstrkn",
-            },
-            {
-                name: "twitter",
-                url: "https://twitter.com/chstrkn",
-            },
-        ],
-        img_path: "resources/img/officers/gallego.jpg",
+        email: "jbaguirre@up.edu.ph",
+        img_path: "resources/img/officers/aguirre.png",
     },
     {
-        name: "MARY NICOLETTE J. PARCON",
+        name: "YVONNE A. LIN",
         position: "1st Year Batch Representative for UPV Komsai.Org",
         description: `sHE'S brOKen`,
-        email: "mjparcon@up.edu.ph ",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/nqltt/",
-            },
-        ],
-        img_path: "resources/img/officers/parcon.jpg",
+        email: "yalin@up.edu.ph ",
+        img_path: "resources/img/officers/lin.jpg",
     },
     {
-        name: "GABRIEL DAX P. AGURA",
+        name: "JOHN ROMSON E. ERAZO",
         position: "1st Year Batch Representative for UPV Elektrons",
-        description: `tank class in a DPS build`,
-        email: "gpagura@up.edu.ph",
-        img_path: "resources/img/officers/agura.jpg",
+        description: `Apong Time!`,
+        email: "jerazo@up.edu.ph",
+        img_path: "resources/img/officers/erazo.png",
     },
     {
-        name: "KRISTINA V. CELIS",
+        name: "RJ MICHELLE NAFFIZA C. JAYME",
         position: "1st Year Batch Representative for UPV Elektrons",
-        description: `"If you're not a good shot today, don't worry. There are other ways to be useful."`,
-        email: "kvcelis@up.edu.ph",
-        img_path: "resources/img/officers/celis.jpg",
+        description: `Pasok!`,
+        email: "rcjayme?@up.edu.ph",
+        img_path: "resources/img/officers/jayme.jpg",
+    },
+    {
+        name: "RIAN LUIS C. MABAIT",
+        position: "1st Year Batch Representative for UPV Elektrons",
+        description: `Rian Time!`,
+        email: "rcmabait@up.edu.ph",
+        img_path: "resources/img/officers/mabait.jpg",
     },
 ];
