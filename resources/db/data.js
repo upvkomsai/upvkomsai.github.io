@@ -1092,7 +1092,7 @@ const officers = [
         position: "Assistant Business Manager",
         description: `____`,
         email: "cccamarista@up.edu.ph",
-        img_path: "resources/img/officers/camarista.jpg",
+        img_path: "resources/img/officers/camarista.JPG",
     },
     {
         name: "MICHAEL VINCENT P. DOSADO",
@@ -1260,6 +1260,6 @@ const officers = [
         position: "1st Year Batch Representative for UPV Elektrons",
         description: `Rian Time!`,
         email: "rcmabait@up.edu.ph",
-        img_path: "resources/img/officers/mabait.jpg",
+        img_path: "resources/img/officers/mabait.JPG",
     },
 ];
