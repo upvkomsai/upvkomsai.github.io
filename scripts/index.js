@@ -660,7 +660,8 @@ const bindData = () => {
                 _officers.append(batchTitle);
 
                 container = document.createElement("div");
-                container.classList = "col-4";
+                container.classList = "col-3";
+                container.append(document.createElement("div"));
                 _officers.append(container);
             } else if (count == 14) {
                 _officers.append(document.createElement("br"));
@@ -694,6 +695,7 @@ const bindData = () => {
 
                 container = document.createElement("div");
                 container.classList = "col-4";
+                container.append(document.createElement("div"));
                 _officers.append(container);
             } else if (count == 24) {
                 _officers.append(document.createElement("br"));
