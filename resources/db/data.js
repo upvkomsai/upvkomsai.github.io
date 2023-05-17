@@ -1032,7 +1032,7 @@ const officers = [
     {
         name: "JOHANNA MARIE P. QUITOVIERA",
         position: "Secretary",
-        description: `A fourth year student at the University of the Philippines Visayas na patuloy lumalaban emz`,
+        description: `auqunah accla`,
         email: "jpquitoviera@up.edu.ph",
         socials: [
             {
