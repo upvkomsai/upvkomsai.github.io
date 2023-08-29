@@ -695,7 +695,6 @@ const bindData = () => {
 
                 container = document.createElement("div");
                 container.classList = "col-4";
-                container.append(document.createElement("div"));
                 _officers.append(container);
             } else if (count == 26) {
                 _officers.append(document.createElement("br"));
