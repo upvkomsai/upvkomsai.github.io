@@ -1015,7 +1015,7 @@ const officers = [
     {
         name: "JEWYNAH MAE H. JARONAY",
         position: "Vice President for Internal Affairs",
-        description: `Basta ang code gagana, gagana nana. Indi na ko pagpamangkuta kung ngaa.`,
+        description: `Basta cute ko🌻`,
         email: "jhjaronay@up.edu.ph",
         socials: [
             {
