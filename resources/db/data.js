@@ -1307,6 +1307,13 @@ const officers = [
     },
     {
         name: "NAME",
+        position: "2nd Year Batch Representative",
+        description: ``,
+        email: "",
+        img_path: "resources/img/officers/empty.png",
+    },
+    {
+        name: "NAME",
         position: "1st Year Batch Representative",
         description: ``,
         email: "",
