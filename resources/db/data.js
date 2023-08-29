@@ -1002,7 +1002,7 @@ const officers = [
     {
         name: "PALMSDALE KEVIN D. CORDERO",
         position: "President",
-        description: `50% human, 100% unsure...`,
+        description: `My motto is Moto Moto - Big and Chunky (full song)`,
         email: "pdcordero@up.edu.ph",
         socials: [
             {
@@ -1016,36 +1016,38 @@ const officers = [
     {
         name: "RHEYMART G. TUGADO",
         position: "Vice President for Internal Affairs",
-        description: `I am an Isko who enjoys calculus and programming. Also, I am a casual gamer, an illustrator and a concept artist.`,
-        email: "lmdelacruz4@up.edu.ph",
+        description: `indi nako.`,
+        email: "rgtugado@up.edu.ph",
         img_path: "resources/img/officers/delacruz.jpg",
         is_dev: true,
     },
     {
         name: "KRISTINA V. CELIS",
         position: "Vice President for External Affairs",
-        description: `Team Free Will 2.0`,
-        email: "rftumanon@up.edu.ph",
+        description: `When nothing goes right...go left.`,
+        email: "kvcelis@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/kristina.v.celis?mibextid=LQQJ4d",
+            },
+        ],
         img_path: "resources/img/officers/tumanon.png",
-        is_dev: true,
+        is_dev: false,
     },
     {
         name: "JALA B. AGUIRRE",
         position: "Secretary",
-        description: `auqunah accla`,
-        email: "jpquitoviera@up.edu.ph",
+        description: `laban-laban o bawi-bawi 🤪`,
+        email: "jbaguirre1@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/johannaquitoviera",
+                url: "https://www.facebook.com/jala.aguirre/",
             },
             {
                 name: "instagram",
-                url: "https://www.instagram.com/hittoooww",
-            },
-            {
-                name: "twitter",
-                url: "https://twitter.com/hittoooww",
+                url: "https://www.instagram.com/halaagire/",
             },
         ],
         img_path: "resources/img/officers/quitoviera.jpg",
@@ -1054,51 +1056,83 @@ const officers = [
         name: "NAME",
         position: "Assistant Secretary",
         description: `[]`,
-        email: "gaciudadano@up.edu.ph",
+        email: "example@up.edu.ph",
         img_path: "resources/img/officers/ciudadano.jpg",
     },
     {
         name: "KATE D. CAPADOCIA",
         position: "Treasurer",
-        description: `Hi. I make crochet products. Follow me on FB and IG: @heycrushe`,
-        email: "rldordas@up.edu.ph",
+        description: `Behind the smile, there's a teeth`,
+        email: "kdcapadocia@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/ricaxeunice/",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/heycrushe/",
+                url: "https://www.facebook.com/profile.php?id=100008889641510",
             },
         ],
         img_path: "resources/img/officers/dordas.png",    },
     {
         name: "APONG ERAZO",
         position: "Assistant Treasurer",
-        description: `____`,
-        email: "jhjaronay@up.edu.ph",
+        description: `[]`,
+        email: "example@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/johnromson.erazo?mibextid=2JQ9oc",
+            },
+        ],
         img_path: "resources/img/officers/jaronay.png",
     },
     {
         name: "MYRTLLE GEM L. ORAÑO",
         position: "Business Manager",
-        description: `____`,
-        email: "apdavocol@up.edu.ph",
+        description: `What doesn't kill you makes you stronger ✨`,
+        email: "mlorano@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/myrtllegem.orano?mibextid=ZbWKwL",
+            },
+        ],
         img_path: "resources/img/officers/davocol.jpg",
     },
     {
         name: "JEWYNAH MAE H. JARONAY",
         position: "Assistant Business Manager",
-        description: `____`,
-        email: "cccamarista@up.edu.ph",
+        description: `Basta ang code gagana, gagana nana. Indi na ko pagpamangkuta kung ngaa.`,
+        email: "jhjaronay@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/jewynah/",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/jewy_nah/",
+            },
+            {
+                name: "twitter",
+                url: "https://twitter.com/Jewjew4546",
+            },
+        ],
         img_path: "resources/img/officers/camarista.JPG",
     },
     {
         name: "LEANNE MARIE P. DELA PEÑA",
         position: "Auditor",
-        description: `ENFJ`,
-        email: "mcdosado@up.edu.ph",
+        description: `papipopeta`,
+        email: "lpdelapena@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/leannemariedelapena?mibextid=D4KYlr",
+            },
+            {
+                name: "instagram",
+                url: "https://instagram.com/daleannedan?igshid=OGQ5ZDc2ODk2ZA==",
+            },
+        ],
         img_path: "resources/img/officers/dosado.jpg",
     },
     {
@@ -1111,24 +1145,30 @@ const officers = [
     {
         name: "REI JANSEN B. BUEROM",
         position: "P.I.O.",
-        description: `If you're not a good shot today, don't worry. There are other ways to be useful.`,
-        email: "kvcelis@up.edu.ph",
+        description: `Kape now, Kape latur`,
+        email: "rbbuerom@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/reijansen.buerom?mibextid=LQQJ4d",
+            },
+        ],
         img_path: "resources/img/officers/celis.png",
         is_dev: true,
     },
     {
         name: "RIAN LUIS C. MABAIT",
         position: "P.I.O.",
-        description: `No description.`,
-        email: "aldestajo@up.edu.ph",
+        description: `TARA UNLI WINGS!!!`,
+        email: "rcmabait@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/annd20",
+                url: "https://www.facebook.com/profile.php?id=100006355621426&mibextid=LQQJ4d",
             },
         ],
         img_path: "resources/img/officers/destajo.png",
-        is_dev: true,
+        is_dev: false,
     },
     {
         name: "NAME",
@@ -1146,8 +1186,8 @@ const officers = [
     {
         name: "ALDRICH M. TORERES",
         position: "4th Year Batch Representative for UPV Komsai.Org",
-        description: `Demonstrates time management, decision making, and leadership skills `,
-        email: "aslee2@up.edu.ph",
+        description: `There's no such thing as free lunch.`,
+        email: "amtoreres@up.edu.ph",
         socials: [
             {
                 name: "facebook",
@@ -1167,36 +1207,64 @@ const officers = [
     {
         name: "GABRIEL VENZ V. BADILLES",
         position: "4th Year Batch Representative for UPV Elektrons",
-        description: `____`,
-        email: "eqrentillo@up.edu.ph",
+        description: `If kaya mo, good for you.`,
+        email: "gvbadilles@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://web.facebook.com/GabrielVenz",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/gabbvenz/",
+            },
+        ],
         img_path: "resources/img/officers/rentillo.png",
     },
     {
         name: "JV RENZ CIMAFRANCA",
         position: "4th Year Batch Representative for UPV Elektrons",
-        description: `____`,
-        email: "rmlescano2@up.edu.ph",
+        description: `Whatever will be, will be`,
+        email: "jccimafranca1@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/jvrenz.cimafranca/",
+            },
+        ],
         img_path: "resources/img/officers/lescano.jpg",
     },
     {
         name: "KRISTAN JAY T. GABAY",
         position: "4th Year Batch Representative for UPV Elektrons",
-        description: `____`,
-        email: "mzvillanueva1@up.edu.ph",
+        description: `If you're tired, then rest`,
+        email: "ktgabay@up.edu.ph",
         img_path: "resources/img/officers/villanueva.jpg",
     },
     {
         name: "JEFF ROUZEL A. BAT-OG",
         position: "3rd Year Batch Representative for UPV Komsai.Org",
-        description: `____`,
-        email: "mlorano@up.edu.ph",
+        description: `Kita ko lang to "my favorite exercise is a cross between lunge and a crunch... call it lunch."`,
+        email: "jabatog@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/kitonaru.kuromasho?mibextid=2JQ9oc",
+            },
+        ],
         img_path: "resources/img/officers/orano.jpg",
     },
     {
         name: "SHARAH MICHELLE M. TUANDO",
         position: "3rd Year Batch Representative for UPV Komsai.Org",
-        description: `____`,
-        email: "jccimafranca1@up.edu.ph",
+        description: `miss na kita`,
+        email: "smtuando@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/sharahmichelletuando?mibextid=ZbWKwL",
+            },
+        ],
         img_path: "resources/img/officers/cimafranca.jpg",
     },
     {
@@ -1216,22 +1284,40 @@ const officers = [
     {
         name: "AIMEE RAE F. BAYLE",
         position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description: `____`,
-        email: "pdcordero@up.edu.ph",
+        description: `"Do what you can, with what you have, where you are" - Theodore Roosevelt`,
+        email: "afbayle@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/aimeerae.bayle.1",
+            },
+        ],
         img_path: "resources/img/officers/cordero.png",
     },
     {
         name: "RJ MICHELLE NAFFIZA C. JAYME",
         position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description: `___`,
-        email: "jabatog@up.edu.ph",
+        description: `One shall not limit oneself.`,
+        email: "rcjayme@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/michellenaffiza?mibextid=LQQJ4d",
+            },
+        ],
         img_path: "resources/img/officers/bat-og.jpg",
     },
     {
         name: "YVONNE A. LIN",
         position: "2nd Year Batch Representative for UPV Komsai.Org",
-        description: `___`,
-        email: "jabatog@up.edu.ph",
+        description: `do everything out of pure spite❤️`,
+        email: "yalin@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/aimeerae.bayle.1",
+            },
+        ],
         img_path: "resources/img/officers/bat-og.jpg",
     },
     {
