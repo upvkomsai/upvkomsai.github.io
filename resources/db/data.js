@@ -1011,15 +1011,27 @@ const officers = [
             },
         ],
         img_path: "resources/img/officers/cordero.png",
-        is_dev: true,
     },
     {
-        name: "RHEYMART G. TUGADO",
+        name: "JEWYNAH MAE H. JARONAY",
         position: "Vice President for Internal Affairs",
-        description: `indi nako.`,
-        email: "rgtugado@up.edu.ph",
-        img_path: "resources/img/officers/delacruz.jpg",
-        is_dev: true,
+        description: `Basta ang code gagana, gagana nana. Indi na ko pagpamangkuta kung ngaa.`,
+        email: "jhjaronay@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/jewynah/",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/jewy_nah/",
+            },
+            {
+                name: "twitter",
+                url: "https://twitter.com/Jewjew4546",
+            },
+        ],
+        img_path: "resources/img/officers/jaronay.jpeg",
     },
     {
         name: "KRISTINA V. CELIS",
@@ -1033,7 +1045,6 @@ const officers = [
             },
         ],
         img_path: "resources/img/officers/celis.jpg",
-        is_dev: false,
     },
     {
         name: "JALA B. AGUIRRE",
@@ -1055,8 +1066,8 @@ const officers = [
     {
         name: "NAME",
         position: "Assistant Secretary",
-        description: `[]`,
-        email: "example@up.edu.ph",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
@@ -1074,8 +1085,8 @@ const officers = [
     {
         name: "APONG ERAZO",
         position: "Assistant Treasurer",
-        description: `[]`,
-        email: "example@up.edu.ph",
+        description: `Rise and grind daily`,
+        email: "jeerazo@up.edu.ph",
         socials: [
             {
                 name: "facebook",
@@ -1098,25 +1109,11 @@ const officers = [
         img_path: "resources/img/officers/oraño.jpeg",
     },
     {
-        name: "JEWYNAH MAE H. JARONAY",
+        name: "NAME",
         position: "Assistant Business Manager",
-        description: `Basta ang code gagana, gagana nana. Indi na ko pagpamangkuta kung ngaa.`,
-        email: "jhjaronay@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/jewynah/",
-            },
-            {
-                name: "instagram",
-                url: "https://www.instagram.com/jewy_nah/",
-            },
-            {
-                name: "twitter",
-                url: "https://twitter.com/Jewjew4546",
-            },
-        ],
-        img_path: "resources/img/officers/jaronay.jpeg",
+        description: ``,
+        email: "",
+        img_path: "resources/img/officers/empty.png",
     },
     {
         name: "LEANNE MARIE P. DELA PEÑA",
@@ -1138,8 +1135,8 @@ const officers = [
     {
         name: "NAME",
         position: "Assistant Auditor",
-        description: `My name is Barnuts.`,
-        email: "rgtugado@up.edu.ph",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
@@ -1154,7 +1151,6 @@ const officers = [
             },
         ],
         img_path: "resources/img/officers/buerom.jpeg",
-        is_dev: true,
     },
     {
         name: "RIAN LUIS C. MABAIT",
@@ -1168,45 +1164,34 @@ const officers = [
             },
         ],
         img_path: "resources/img/officers/mabait.JPG",
-        is_dev: false,
     },
     {
         name: "NAME",
         position: "P.I.O.",
-        description: `my friend wouldn't give me a raw egg`,
-        email: "rqmolejona@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "https://www.facebook.com/Great.Evil.Overlord/",
-            },
-        ],
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "ALDRICH M. TORERES",
-        position: "4th Year Batch Representative for UPV Komsai.Org",
+        position: "4th Year External Batch Representative",
         description: `There's no such thing as free lunch.`,
         email: "amtoreres@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "https://www.facebook.com/abscyssa/",
+                url: "https://www.facebook.com/aldrich.toreres.5",
             },
             {
                 name: "instagram",
-                url: "https://www.instagram.com/alyssuhlee/",
-            },
-            {
-                name: "twitter",
-                url: "https://twitter.com/alyssuhlee",
+                url: "https://www.instagram.com/drichology/",
             },
         ],
         img_path: "resources/img/officers/toreres.jpg",
     },
     {
         name: "GABRIEL VENZ V. BADILLES",
-        position: "4th Year Batch Representative for UPV Elektrons",
+        position: "4th Year External Batch Representative",
         description: `If kaya mo, good for you.`,
         email: "gvbadilles@up.edu.ph",
         socials: [
@@ -1223,7 +1208,7 @@ const officers = [
     },
     {
         name: "JV RENZ CIMAFRANCA",
-        position: "4th Year Batch Representative for UPV Elektrons",
+        position: "4th Year Internal Batch Representative",
         description: `Whatever will be, will be`,
         email: "jccimafranca1@up.edu.ph",
         socials: [
@@ -1236,14 +1221,14 @@ const officers = [
     },
     {
         name: "KRISTAN JAY T. GABAY",
-        position: "4th Year Batch Representative for UPV Elektrons",
+        position: "4th Year Internal Batch Representative",
         description: `If you're tired, then rest`,
         email: "ktgabay@up.edu.ph",
         img_path: "resources/img/officers/gabay.jpg",
     },
     {
         name: "JEFF ROUZEL A. BAT-OG",
-        position: "3rd Year Batch Representative for UPV Komsai.Org",
+        position: "3rd Year Batch Representative",
         description: `Kita ko lang to "my favorite exercise is a cross between lunge and a crunch... call it lunch."`,
         email: "jabatog@up.edu.ph",
         socials: [
@@ -1256,7 +1241,7 @@ const officers = [
     },
     {
         name: "SHARAH MICHELLE M. TUANDO",
-        position: "3rd Year Batch Representative for UPV Komsai.Org",
+        position: "3rd Year Batch Representative",
         description: `miss na kita`,
         email: "smtuando@up.edu.ph",
         socials: [
@@ -1269,21 +1254,21 @@ const officers = [
     },
     {
         name: "NAME",
-        position: "3rd Year Batch Representative for UPV Elektrons",
-        description: `___`,
-        email: "amtoreres@up.edu.ph",
+        position: "3rd Year Batch Representative",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "NAME",
-        position: "3rd Year Batch Representative for UPV Elektrons",
+        position: "3rd Year Batch Representative",
         description: ``,
-        email: "gvbadilles@up.edu.ph",
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "AIMEE RAE F. BAYLE",
-        position: "2nd Year Batch Representative for UPV Komsai.Org",
+        position: "2nd Year Batch Representative",
         description: `"Do what you can, with what you have, where you are" - Theodore Roosevelt`,
         email: "afbayle@up.edu.ph",
         socials: [
@@ -1296,7 +1281,7 @@ const officers = [
     },
     {
         name: "RJ MICHELLE NAFFIZA C. JAYME",
-        position: "2nd Year Batch Representative for UPV Komsai.Org",
+        position: "2nd Year Batch Representative",
         description: `One shall not limit oneself.`,
         email: "rcjayme@up.edu.ph",
         socials: [
@@ -1309,7 +1294,7 @@ const officers = [
     },
     {
         name: "YVONNE A. LIN",
-        position: "2nd Year Batch Representative for UPV Komsai.Org",
+        position: "2nd Year Batch Representative",
         description: `do everything out of pure spite❤️`,
         email: "yalin@up.edu.ph",
         socials: [
@@ -1322,37 +1307,30 @@ const officers = [
     },
     {
         name: "NAME",
-        position: "1st Year Batch Representative for UPV Komsai.Org",
-        description: `Hello, World!`,
-        email: "jbaguirre@up.edu.ph",
+        position: "1st Year Batch Representative",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "NAME",
-        position: "1st Year Batch Representative for UPV Komsai.Org",
-        description: `sHE'S brOKen`,
-        email: "yalin@up.edu.ph ",
+        position: "1st Year Batch Representative",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "NAME",
-        position: "1st Year Batch Representative for UPV Elektrons",
-        description: `Apong Time!`,
-        email: "jerazo@up.edu.ph",
+        position: "1st Year Batch Representative",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
     {
         name: "NAME",
-        position: "1st Year Batch Representative for UPV Elektrons",
-        description: `Pasok!`,
-        email: "rcjayme?@up.edu.ph",
-        img_path: "resources/img/officers/empty.png",
-    },
-    {
-        name: "NAME",
-        position: "1st Year Batch Representative for UPV Elektrons",
-        description: `Rian Time!`,
-        email: "rcmabait@up.edu.ph",
+        position: "1st Year Batch Representative",
+        description: ``,
+        email: "",
         img_path: "resources/img/officers/empty.png",
     },
 ];
