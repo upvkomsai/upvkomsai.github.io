@@ -883,7 +883,7 @@ const bindButtons = (buttons) => {
 };
 
 bindButtons(buttons);
-// This is a new line because yes
+// Changed file
 
 var acc = document.getElementsByClassName("question");
 var i;
