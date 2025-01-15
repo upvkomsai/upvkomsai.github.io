@@ -660,10 +660,23 @@ const bindData = () => {
                 _officers.append(batchTitle);
 
                 container = document.createElement("div");
+                container.classList = "col-4";
+                _officers.append(container);
+                
+            } else if (count == 16) {
+                _officers.append(document.createElement("br"));
+                _officers.append(document.createElement("br"));
+
+                const batchTitle = document.createElement("h2");
+                batchTitle.textContent = "Nth Year Batch Representatives";
+                _officers.append(batchTitle);
+
+                container = document.createElement("div");
+                
                 container.classList = "col-3";
                 container.append(document.createElement("div"));
                 _officers.append(container);
-            } else if (count == 14) {
+            } else if (count == 19) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -674,7 +687,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 18) {
+            } else if (count == 23) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -685,7 +698,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 22) {
+            } else if (count == 27) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
@@ -696,7 +709,7 @@ const bindData = () => {
                 container = document.createElement("div");
                 container.classList = "col-4";
                 _officers.append(container);
-            } else if (count == 26) {
+            } else if (count == 31) {
                 _officers.append(document.createElement("br"));
                 _officers.append(document.createElement("br"));
 
