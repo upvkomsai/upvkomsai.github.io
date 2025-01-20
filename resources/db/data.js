@@ -1010,12 +1010,12 @@ const officers = [
                 url: "",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Aimee Rae F. Bayle",
         position: "Vice President for Internal Affairs",
-        description: ``,
+        description: `If there's a will, there's a way`,
         email: "afbayle@up.edu.ph",
         socials: [
             {
@@ -1023,369 +1023,321 @@ const officers = [
                 url: "https://www.facebook.com/aimeerae.bayle.1",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/bayle.jpg",
     },
     {
         name: "Kate D. Capadocia",
         position: "Vice President for External Affairs",
-        description: ``,
+        description: `Sa bundok, grades don’t matter—adventure does.`,
         email: "kdcapadocia@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/share/15qSEf2tnU/",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/capadocia.jpg",
     },
     {
         name: "Yvonne A. Lin",
         position: "Secretary",
-        description: ``,
+        description: `ui i ai o uu ii a i`,
         email: "yalin@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
-            },
-            {
-                name: "instagram",
-                url: "",
+                url: "https://www.facebook.com/share/14oJ4JiLnC/?mibextid=wwXIfr",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/lin.jpg",
     },
     {
         name: "Hansen Maeve C. Quindao",
         position: "Assistant Secretary",
-        description: ``,
+        description: `ᓚᘏᗢ`,
         email: "hcquindao@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/hmquindao/",
             }
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/quindao.jpg",
     },
     {
         name: "Maria Pilar Isabel S. Aguirre",
         position: "Treasurer",
-        description: ``,
+        description: `Do it scared`,
         email: "msaguirre@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",    },
+        img_path: "resources/img/logo.png",
+    },
     {
         name: "Julo A. Bretaña",
         position: "Assistant Treasurer",
-        description: ``,
+        description: `ge lang auh`,
         email: "jabretana1@up.edu.ph",
         socials: [
             {
-                name: "facebook",
-                url: "",
+                name: "instagram",
+                url: "instagram.com/bretanajulo",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/bretana.jpg",
     },
     {
         name: "Christine Jean M. Pagunsan",
         position: "Business Manager",
         description: ``,
         email: "cmpagunsan@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/pagunsan.jpg",
     },
     {
         name: "-",
         position: "Assistant Business Manager",
         description: ``,
         email: "",
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Shaina Marie D. Talisay",
         position: "Auditor",
         description: ``,
         email: "sdtalisay@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/talisay.jpg",
     },
     {
         name: "RJ Michelle Naffiza C. Jayme",
         position: "Assistant Auditor",
-        description: ``,
+        description: `One shall not limit oneself.`,
         email: "rcjayme@up.edu.ph",
-        img_path: "resources/img/officers/empty.png",
+        socials:[
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/michellenaffiza",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/rrjjj_michelle/",
+            },
+            {
+                name: "linkedin",
+                url: "https://www.linkedin.com/in/rj-michelle-naffiza-jayme-9893892a4/",
+            }
+        ],
+        img_path: "resources/img/officers/24-25/jayme.jpeg",
     },
     {
         name: "Ron Paolo Q. Molejona",
         position: "Publications Committee Head",
         description: ``,
         email: "rqmolejona@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Gerianne Gayle A. Burgos",
         position: "Publications Committee",
         description: ``,
         email: "gaburgos@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Gabriel Dominic A. Dicar",
         position: "Publications Committee",
         description: ``,
         email: "gadicar@up.edu.ph",
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Leanne Marie P. Dela Peña",
         position: "Publications Committee",
         description: ``,
         email: "lpdelapena@up.edu.ph",
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Keith Ashly M. Domingo",
         position: "Publications Committee",
         description: ``,
         email: "kmdomingo1@up.edu.ph",
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/domingo.jpg",
     },
     {
         name: "Michael Patrick Pelegrino",
         position: "Nth Year Batch Representative",
         description: ``,
         email: "mpelegrino@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Christian Dale P. Celestial",
         position: "Nth Year Batch Representative",
         description: ``,
         email: "cpcelestial@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/celestial.jpg",
     },
     {
         name: "Kristan Jay T. Gabay",
         position: "Nth Year Batch Representative",
         description: ``,
         email: "@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/gabay.jpg",
     },
     {
         name: "Jeff Rouzel A. Bat-og",
         position: "4th Year Batch Representative",
-        description: ``,
+        description: `The water flows by the river with a shallow stream that always flows past the rock  -some chinese guy maybe`,
         email: "jabatog@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/kitonaru.kuromasho/",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/jrouzb_13/",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/batog.jpg",
     },
     {
         name: "Michael Rainiken O. Trifalgar",
         position: "4th Year Batch Representative",
         description: ``,
         email: "motrifalgar@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Sean Alexander P. Porras",
         position: "4th Year Batch Representative",
-        description: ``,
+        description: `Teach a man to cook and he can't fish but teach a man to fish and he feeds himself and cooks.`,
         email: "spporras@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/Fishtacosftw ",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/porras.jpg",
     },
     {
         name: "Rainer T. Mayagma",
         position: "4th Year Batch Representative",
-        description: ``,
+        description: `Be the very best like no one ever was`,
         email: "rtmayagma@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/rtmygm?mibextid=ZbWKwL",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/mayagma.jpg",
     },
     {
         name: "Emmanuel Ian A. Albeza",
         position: "3rd Year Batch Representative",
         description: ``,
         email: "eaalbeza@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Darah Via D. Moscoso",
         position: "3rd Year Batch Representative",
         description: ``,
         email: "ddmoscoso@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/logo.png",
     },
     {
         name: "Earl Sheldon F. Pabua",
         position: "3rd Year Batch Representative",
-        description: ``,
+        description: `wat hafen vella? why u croying egen?`,
         email: "efpabua1@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/pabua.jpg",
     },
     {
         name: "Christalie H. Pategara",
         position: "3rd Year Batch Representative",
-        description: ``,
+        description: `Seek Discomfort`,
         email: "chpategara@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/profile.php?id=100083993989394",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/pategara.jpg",
     },
     {
         name: "Julia Louise M. Contreras",
         position: "2nd Year Batch Representative",
-        description: ``,
+        description: `Everything happens for a reason.`,
         email: "jmcontreras3@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
+                url: "https://www.facebook.com/share/1XNLbbG2NL/?mibextid=wwXIfr",
             },
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/contreras.jpg",
     },
     {
         name: "Nina Claudia E. Del Rosario",
         position: "2nd Year Batch Representative",
-        description: ``,
+        description: `i u u a `,
         email: "nedelrosario@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/delrosario.jpg",
     },
     {
         name: "Angel May B. Janiola",
         position: "2nd Year Batch Representative",
         description: ``,
         email: "abjaniola@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/janiola.jpg",
     },
     {
         name: "Edmundo Jr M. Tolentino",
         position: "2nd Year Batch Representative",
-        description: ``,
+        description: `It is what is it`,
         email: "emtolentino2@up.edu.ph",
-        socials: [
-            {
-                name: "facebook",
-                url: "",
-            },
-        ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/tolentino.jpeg",
     },
     {
-        name: "",
+        name: "Eusef Karl O. Blancada",
         position: "1st Year Batch Representative",
-        description: ``,
-        email: "@up.edu.ph",
+        description: `Ad Astra Abyssosque`,
+        email: "eoblancada@up.edu.ph",
+        img_path: "resources/img/officers/24-25/blancada.jpg",
+    },
+    {
+        name: "Marie Toney Fay S. Gelvezon",
+        position: "1st Year Batch Representative",
+        description: `Everything you lose is a step you take`,
+        email: "msgelvezon@up.edu.ph",
+        socials: [
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/fay_riee?igsh=c2FxazkwZTZ2MGh0&utm_source=qr",
+            }
+        ],
+        img_path: "resources/img/officers/24-25/gelvezon.jpg",
+    },
+    {
+        name: "Rose Antonette S. Kaindoy",
+        position: "1st Year Batch Representative",
+        description: `it is what it is`,
+        email: "rskaindoy@up.edu.ph",
         socials: [
             {
                 name: "facebook",
-                url: "",
-            },
+                url: "https://www.facebook.com/rosekaindoy?mibextid=ZbWKwL",
+            }
         ],
-        img_path: "resources/img/officers/empty.png",
+        img_path: "resources/img/officers/24-25/kaindoy.jpg",
     },
+    {
+        name: "Cloyd Somosa",
+        position: "1st Year Batch Representative",
+        description: ``,
+        email: "",
+        img_path: "resources/img/logo.png",
+    }
 ];
