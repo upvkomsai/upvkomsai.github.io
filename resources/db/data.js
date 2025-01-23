@@ -1002,15 +1002,15 @@ const officers = [
     {
         name: "Jala B. Aguirre",
         position: "President",
-        description: ``,
-        email: "",
+        description: `youth is now!`,
+        email: "jbaguirre1@up.edu.ph",
         socials: [
             {
-                name: "facebook",
-                url: "",
+                name: "instagram",
+                url: "https://www.instagram.com/halaagire?igsh=MWJjZGlwbG55dGJrdQ%3D%3D&utm_source=qr",
             },
         ],
-        img_path: "resources/img/logo.png",
+        img_path: "resources/img/officers/24-25/aguirrej.jpg",
     },
     {
         name: "Aimee Rae F. Bayle",
@@ -1067,9 +1067,9 @@ const officers = [
     {
         name: "Maria Pilar Isabel S. Aguirre",
         position: "Treasurer",
-        description: `Do it scared`,
+        description: `If you can't beat the fear, just do it scared - Glennon Doyle`,
         email: "msaguirre@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        img_path: "resources/img/officers/24-25/aguirrem.jpg",
     },
     {
         name: "Julo A. Bretaña",
@@ -1164,9 +1164,23 @@ const officers = [
     {
         name: "Michael Patrick Pelegrino",
         position: "Nth Year Batch Representative",
-        description: ``,
+        description: `"Find what you love and let it kill you" - Charles Bukowski`,
         email: "mpelegrino@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        socials: [
+            {
+                name: 'facebook',
+                url: 'https://www.facebook.com/patrick.pelegrino.9',
+            },
+            {
+                name: 'github',
+                url: 'https://github.com/IAmMichaelP'
+            },
+            {
+                name: 'linkedin',
+                url: 'https://www.linkedin.com/in/patrick-pelegrino/'
+            }
+        ],
+        img_path: "resources/img/officers/24-25/pelegrino.jpg",
     },
     {
         name: "Christian Dale P. Celestial",
@@ -1178,8 +1192,14 @@ const officers = [
     {
         name: "Kristan Jay T. Gabay",
         position: "Nth Year Batch Representative",
-        description: ``,
-        email: "@up.edu.ph",
+        description: `I am the master of my fate, I am the captain of my soul`,
+        email: "ktgabay@up.edu.ph",
+        socials: [
+            {
+                name: 'github',
+                url: 'https://github.com/Gaberzzz',
+            }
+        ],
         img_path: "resources/img/officers/24-25/gabay.jpg",
     },
     {
