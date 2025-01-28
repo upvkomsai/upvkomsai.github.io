@@ -1129,15 +1129,39 @@ const officers = [
     {
         name: "Ron Paolo Q. Molejona",
         position: "Publications Committee Head",
-        description: ``,
+        description: `Heyyy, What Is Up My Guy?`,
         email: "rqmolejona@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        socials:[
+            {
+                name: "behance",
+                url: "https://www.behance.net/paolomolejona",
+            },
+            {
+                name: "instagram",
+                url: "https://www.instagram.com/kazpaolo_",
+            },
+        ],
+        img_path: "resources/img/officers/24-25/molejona.jpg",
     },
     {
         name: "Gerianne Gayle A. Burgos",
         position: "Publications Committee",
-        description: ``,
+        description: `"You cannot give your life more time, but you can give your time more life."`,
         email: "gaburgos@up.edu.ph",
+        socials: [
+            {
+                name: "facebook",
+                url: "facebook.com/gerianne.burgos"
+            },
+            {
+                name: "instagram",
+                url: "instagram.com/@gerianne_burgos"
+            },
+            {
+                name: "x",
+                url: "x.com/@gerianne_burgos"
+            }
+        ],
         img_path: "resources/img/logo.png",
     },
     {
@@ -1150,15 +1174,27 @@ const officers = [
     {
         name: "Leanne Marie P. Dela Peña",
         position: "Publications Committee",
-        description: ``,
+        description: `faith over fear`,
         email: "lpdelapena@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        socials:[
+            {
+                name: "instagram",
+                url: "http://instagram.com/@daleannedan"
+            }
+        ],
+        img_path: "resources/img/officers/24-25/delapena.jpg",
     },
     {
         name: "Keith Ashly M. Domingo",
         position: "Publications Committee",
-        description: ``,
+        description: `"If you had the courage to start something, have the drive to get all achievements and 100% it."`,
         email: "kmdomingo1@up.edu.ph",
+        socials:[
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/AshDiamondFlames.is.me.23/"
+            }
+        ],
         img_path: "resources/img/officers/24-25/domingo.jpg",
     },
     {
@@ -1224,7 +1260,13 @@ const officers = [
         position: "4th Year Batch Representative",
         description: ``,
         email: "motrifalgar@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        socials:[
+            {
+                name: "facebook",
+                url: "https://www.facebook.com/michaelrainiken.trifalgar"
+            }
+        ],
+        img_path: "resources/img/officers/24-25/trifalgar.jpg",
     },
     {
         name: "Sean Alexander P. Porras",
@@ -1255,9 +1297,9 @@ const officers = [
     {
         name: "Emmanuel Ian A. Albeza",
         position: "3rd Year Batch Representative",
-        description: ``,
+        description: `kapoy ang life so mangatug nalang ta`,
         email: "eaalbeza@up.edu.ph",
-        img_path: "resources/img/logo.png",
+        img_path: "resources/img/officers/24-25/albeza.jpg",
     },
     {
         name: "Darah Via D. Moscoso",
