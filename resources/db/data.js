@@ -1162,7 +1162,7 @@ const officers = [
                 url: "x.com/@gerianne_burgos"
             }
         ],
-        img_path: "resources/img/logo.png",
+        img_path: "resources/img/officers/24-25/burgos.jpg",
     },
     {
         name: "Gabriel Dominic A. Dicar",
@@ -1258,7 +1258,7 @@ const officers = [
     {
         name: "Michael Rainiken O. Trifalgar",
         position: "4th Year Batch Representative",
-        description: ``,
+        description: `Giving up is an insult to your past selves who ne`,
         email: "motrifalgar@up.edu.ph",
         socials:[
             {
