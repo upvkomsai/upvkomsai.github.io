@@ -1010,7 +1010,7 @@ const officers = [
                 url: "https://www.instagram.com/halaagire?igsh=MWJjZGlwbG55dGJrdQ%3D%3D&utm_source=qr",
             },
         ],
-        img_path: "resources/img/officers/24-25/aguirrej.jpg",
+        img_path: "resources/img/officers/24-25/aguirrej.JPG",
     },
     {
         name: "Aimee Rae F. Bayle",
@@ -1023,7 +1023,7 @@ const officers = [
                 url: "https://www.facebook.com/aimeerae.bayle.1",
             },
         ],
-        img_path: "resources/img/officers/24-25/bayle.jpg",
+        img_path: "resources/img/officers/24-25/bayle.JPG",
     },
     {
         name: "Kate D. Capadocia",
@@ -1062,14 +1062,14 @@ const officers = [
                 url: "https://www.facebook.com/hmquindao/",
             }
         ],
-        img_path: "resources/img/officers/24-25/quindao.jpg",
+        img_path: "resources/img/officers/24-25/quindao.JPG",
     },
     {
         name: "Maria Pilar Isabel S. Aguirre",
         position: "Treasurer",
         description: `If you can't beat the fear, just do it scared - Glennon Doyle`,
         email: "msaguirre@up.edu.ph",
-        img_path: "resources/img/officers/24-25/aguirrem.jpg",
+        img_path: "resources/img/officers/24-25/aguirrem.JPG",
     },
     {
         name: "Julo A. Bretaña",
@@ -1082,14 +1082,14 @@ const officers = [
                 url: "instagram.com/bretanajulo",
             },
         ],
-        img_path: "resources/img/officers/24-25/bretana.jpg",
+        img_path: "resources/img/officers/24-25/bretana.JPG",
     },
     {
         name: "Christine Jean M. Pagunsan",
         position: "Business Manager",
         description: ``,
         email: "cmpagunsan@up.edu.ph",
-        img_path: "resources/img/officers/24-25/pagunsan.jpg",
+        img_path: "resources/img/officers/24-25/pagunsan.JPG",
     },
     {
         name: "-",
@@ -1103,7 +1103,7 @@ const officers = [
         position: "Auditor",
         description: ``,
         email: "sdtalisay@up.edu.ph",
-        img_path: "resources/img/officers/24-25/talisay.jpg",
+        img_path: "resources/img/officers/24-25/talisay.JPG",
     },
     {
         name: "RJ Michelle Naffiza C. Jayme",
@@ -1124,7 +1124,7 @@ const officers = [
                 url: "https://www.linkedin.com/in/rj-michelle-naffiza-jayme-9893892a4/",
             }
         ],
-        img_path: "resources/img/officers/24-25/jayme.jpeg",
+        img_path: "resources/img/officers/24-25/jayme.JPEG",
     },
     {
         name: "Ron Paolo Q. Molejona",
@@ -1141,7 +1141,7 @@ const officers = [
                 url: "https://www.instagram.com/kazpaolo_",
             },
         ],
-        img_path: "resources/img/officers/24-25/molejona.jpg",
+        img_path: "resources/img/officers/24-25/molejona.JPG",
     },
     {
         name: "Gerianne Gayle A. Burgos",
@@ -1162,7 +1162,7 @@ const officers = [
                 url: "x.com/@gerianne_burgos"
             }
         ],
-        img_path: "resources/img/officers/24-25/burgos.jpg",
+        img_path: "resources/img/officers/24-25/burgos.JPG",
     },
     {
         name: "Gabriel Dominic A. Dicar",
@@ -1182,7 +1182,7 @@ const officers = [
                 url: "http://instagram.com/@daleannedan"
             }
         ],
-        img_path: "resources/img/officers/24-25/delapena.jpg",
+        img_path: "resources/img/officers/24-25/delapena.JPG",
     },
     {
         name: "Keith Ashly M. Domingo",
@@ -1195,7 +1195,7 @@ const officers = [
                 url: "https://www.facebook.com/AshDiamondFlames.is.me.23/"
             }
         ],
-        img_path: "resources/img/officers/24-25/domingo.jpg",
+        img_path: "resources/img/officers/24-25/domingo.JPG",
     },
     {
         name: "Michael Patrick Pelegrino",
@@ -1216,14 +1216,14 @@ const officers = [
                 url: 'https://www.linkedin.com/in/patrick-pelegrino/'
             }
         ],
-        img_path: "resources/img/officers/24-25/pelegrino.jpg",
+        img_path: "resources/img/officers/24-25/pelegrino.JPG",
     },
     {
         name: "Christian Dale P. Celestial",
         position: "Nth Year Batch Representative",
         description: ``,
         email: "cpcelestial@up.edu.ph",
-        img_path: "resources/img/officers/24-25/celestial.jpg",
+        img_path: "resources/img/officers/24-25/celestial.JPG",
     },
     {
         name: "Kristan Jay T. Gabay",
@@ -1236,7 +1236,7 @@ const officers = [
                 url: 'https://github.com/Gaberzzz',
             }
         ],
-        img_path: "resources/img/officers/24-25/gabay.jpg",
+        img_path: "resources/img/officers/24-25/gabay.JPG",
     },
     {
         name: "Jeff Rouzel A. Bat-og",
@@ -1253,7 +1253,7 @@ const officers = [
                 url: "https://www.instagram.com/jrouzb_13/",
             },
         ],
-        img_path: "resources/img/officers/24-25/batog.jpg",
+        img_path: "resources/img/officers/24-25/batog.JPG",
     },
     {
         name: "Michael Rainiken O. Trifalgar",
@@ -1266,7 +1266,7 @@ const officers = [
                 url: "https://www.facebook.com/michaelrainiken.trifalgar"
             }
         ],
-        img_path: "resources/img/officers/24-25/trifalgar.jpg",
+        img_path: "resources/img/officers/24-25/trifalgar.JPG",
     },
     {
         name: "Sean Alexander P. Porras",
@@ -1279,7 +1279,7 @@ const officers = [
                 url: "https://www.facebook.com/Fishtacosftw ",
             },
         ],
-        img_path: "resources/img/officers/24-25/porras.jpg",
+        img_path: "resources/img/officers/24-25/porras.JPG",
     },
     {
         name: "Rainer T. Mayagma",
@@ -1292,14 +1292,14 @@ const officers = [
                 url: "https://www.facebook.com/rtmygm?mibextid=ZbWKwL",
             },
         ],
-        img_path: "resources/img/officers/24-25/mayagma.jpg",
+        img_path: "resources/img/officers/24-25/mayagma.JPG",
     },
     {
         name: "Emmanuel Ian A. Albeza",
         position: "3rd Year Batch Representative",
         description: `kapoy ang life so mangatug nalang ta`,
         email: "eaalbeza@up.edu.ph",
-        img_path: "resources/img/officers/24-25/albeza.jpg",
+        img_path: "resources/img/officers/24-25/albeza.JPG",
     },
     {
         name: "Darah Via D. Moscoso",
@@ -1313,7 +1313,7 @@ const officers = [
         position: "3rd Year Batch Representative",
         description: `wat hafen vella? why u croying egen?`,
         email: "efpabua1@up.edu.ph",
-        img_path: "resources/img/officers/24-25/pabua.jpg",
+        img_path: "resources/img/officers/24-25/pabua.JPG",
     },
     {
         name: "Christalie H. Pategara",
@@ -1326,7 +1326,7 @@ const officers = [
                 url: "https://www.facebook.com/profile.php?id=100083993989394",
             },
         ],
-        img_path: "resources/img/officers/24-25/pategara.jpg",
+        img_path: "resources/img/officers/24-25/pategara.JPG",
     },
     {
         name: "Julia Louise M. Contreras",
@@ -1339,21 +1339,21 @@ const officers = [
                 url: "https://www.facebook.com/share/1XNLbbG2NL/?mibextid=wwXIfr",
             },
         ],
-        img_path: "resources/img/officers/24-25/contreras.jpg",
+        img_path: "resources/img/officers/24-25/contreras.JPG",
     },
     {
         name: "Nina Claudia E. Del Rosario",
         position: "2nd Year Batch Representative",
         description: `i u u a `,
         email: "nedelrosario@up.edu.ph",
-        img_path: "resources/img/officers/24-25/delrosario.jpg",
+        img_path: "resources/img/officers/24-25/delrosario.JPG",
     },
     {
         name: "Angel May B. Janiola",
         position: "2nd Year Batch Representative",
         description: ``,
         email: "abjaniola@up.edu.ph",
-        img_path: "resources/img/officers/24-25/janiola.jpg",
+        img_path: "resources/img/officers/24-25/janiola.JPG",
     },
     {
         name: "Edmundo Jr M. Tolentino",
@@ -1367,7 +1367,7 @@ const officers = [
         position: "1st Year Batch Representative",
         description: `Ad Astra Abyssosque`,
         email: "eoblancada@up.edu.ph",
-        img_path: "resources/img/officers/24-25/blancada.jpg",
+        img_path: "resources/img/officers/24-25/blancada.JPG",
     },
     {
         name: "Marie Toney Fay S. Gelvezon",
@@ -1380,7 +1380,7 @@ const officers = [
                 url: "https://www.instagram.com/fay_riee?igsh=c2FxazkwZTZ2MGh0&utm_source=qr",
             }
         ],
-        img_path: "resources/img/officers/24-25/gelvezon.jpg",
+        img_path: "resources/img/officers/24-25/gelvezon.JPG",
     },
     {
         name: "Rose Antonette S. Kaindoy",
@@ -1393,7 +1393,7 @@ const officers = [
                 url: "https://www.facebook.com/rosekaindoy?mibextid=ZbWKwL",
             }
         ],
-        img_path: "resources/img/officers/24-25/kaindoy.jpg",
+        img_path: "resources/img/officers/24-25/kaindoy.JPG",
     },
     {
         name: "Cloyd Somosa",
